@@ -8,4 +8,7 @@
 
 TAILS[在地翻譯指示操作文件：Translate Tails and its website using Git](https://tails.boum.org/contribute/how/translate/with_Git/)
 
+PS. 本項目剛剛起步，歡迎參與（正體中文化同步進行）。TODO / Guidelines 見：https://github.com/twngo/tails/projects/1
+
+
 forked on 2016-06-19
