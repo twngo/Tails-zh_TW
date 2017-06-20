@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails l10n Team\n"
+"POT-Creation-Date: 2017-05-27 23:41+0800\n"
+"PO-Revision-Date: 2017-05-28 12:20+0800\n"
+"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
+"Language-Team: Tails Translators <tails-l10n@boum.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: zh\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"download button\">\n"
+"  [[<span class=\"download\">Install</span>\n"
+"    <span class=\"tails\">Tails [[!inline pages=\"inc/stable_i386_version\" raw=\"yes\" sort=\"age\"]]</span>\n"
+"    <span class=\"date\">[[!inline pages=\"inc/stable_i386_date\" raw=\"yes\" sort=\"age\"]]</span>|install]]\n"
+"</div>\n"
+msgstr ""
+"<div class=\"download button\">\n"
+"  [[<span class=\"download\">安裝</span>\n"
+"    <span class=\"tails\">Tails [[!inline pages=\"inc/stable_i386_version\" raw=\"yes\" sort=\"age\"]]</span>\n"
+"    <span class=\"date\">[[!inline pages=\"inc/stable_i386_date\" raw=\"yes\" sort=\"age\"]]</span>|install]]\n"
+"</div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"links\">\n"
+"  <ul>\n"
+"    <li>[[About|about]]</li>\n"
+"    <li>[[Getting started…|getting started]]</li>\n"
+"    <li>[[Documentation|doc]]</li>\n"
+"    <li>[[Help &amp; Support|support]]</li>\n"
+"    <li>[[Contribute]]</li>\n"
+"    <li>[[News|news]]</li>\n"
+"  </ul>\n"
+"</div>\n"
+msgstr ""
+"<div class=\"links\">\n"
+"  <ul>\n"
+"    <li>[[關於 Tails|about]]</li>\n"
+"    <li>[[準備開始…|getting started]]</li>\n"
+"    <li>[[文件|doc]]</li>\n"
+"    <li>[[求助 &amp; 支援|support]]</li>\n"
+"    <li>[[Contribute]]</li>\n"
+"    <li>[[最新消息|news]]</li>\n"
+"  </ul>\n"
+"</div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"donate button\">\n"
+"\t[[Donate|donate#sidebar]]\n"
+"</div>\n"
+msgstr ""
+"<div class=\"donate button\">\n"
+"\t[[捐款|donate#sidebar]]\n"
+"</div>\n"
