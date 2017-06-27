@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: Tails l10n Team\n"
 "POT-Creation-Date: 2017-02-15 19:43+0100\n"
 "PO-Revision-Date: 2017-05-28 11:14+0800\n"
-"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
+"Last-Translator: mdrights\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
-"Language: zh\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Features and included software\"]]\n"
-msgstr "[[!meta title=\"特色功能與包含的軟體\"]]\n"
+msgstr "[[!meta title=\"特色功能与包含的软体\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -28,12 +28,12 @@ msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
 msgid "Tails is based on [[Debian|https://www.debian.org/]] 8 (Jessie)."
-msgstr "Tails 是基於[Debian|https://www.debian.org/]] 8 (Jessie)."
+msgstr "Tails 是基于[Debian|https://www.debian.org/]] 8 (Jessie)."
 
 #. type: Title =
 #, no-wrap
 msgid "Included software\n"
-msgstr "包括的軟體\n"
+msgstr "包括的软体\n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -47,7 +47,7 @@ msgstr ""
 #. type: Title -
 #, no-wrap
 msgid "Networking\n"
-msgstr "網路\n"
+msgstr "网路\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -149,19 +149,19 @@ msgid ""
 "[Gimp](http://www.gimp.org/) and [Inkscape](https://inkscape.org/) to edit "
 "images ([[More...|doc/sensitive_documents/graphics]])"
 msgstr ""
-"[Gimp](http://www.gimp.org/) 與 [Inkscape](https://inkscape.org/de/) 來編輯圖"
+"[Gimp](http://www.gimp.org/) 与 [Inkscape](https://inkscape.org/de/) 来编辑图"
 "片 ([[了解更多...|doc/sensitive_documents/graphics]])"
 
 #. type: Bullet: '* '
 msgid "[Scribus](http://www.scribus.net) for page layout"
-msgstr "[Scribus](http://www.scribus.net) 頁面版型編輯軟體"
+msgstr "[Scribus](http://www.scribus.net) 页面版型编辑软体"
 
 #. type: Bullet: '* '
 msgid ""
 "[Audacity](http://audacity.sourceforge.net/) for recording and editing "
 "sounds ([[More...|doc/sensitive_documents/sound_and_video]])"
 msgstr ""
-"[Audacity](http://audacity.sourceforge.net/) 可用來錄音和編輯音軌 ([[了解更"
+"[Audacity](http://audacity.sourceforge.net/) 可用来录音和编辑音轨 ([[了解更"
 "多...|doc/sensitive_documents/sound_and_video]])"
 
 #. type: Bullet: '* '
@@ -169,12 +169,12 @@ msgid ""
 "[PiTiVi](http://www.pitivi.org/) for non-linear audio/video editing "
 "([[More...|doc/sensitive_documents/sound_and_video]])"
 msgstr ""
-"[PiTiVi](http://www.pitivi.org/) 是一套非線性的聲音/影片編輯軟體 ([[了解更"
+"[PiTiVi](http://www.pitivi.org/) 是一套非线性的声音/影片编辑软体 ([[了解更"
 "多...|doc/sensitive_documents/sound_and_video]])"
 
 #. type: Bullet: '* '
 msgid "[Poedit](http://poedit.sourceforge.net/) to edit .po files"
-msgstr "[Poedit](http://poedit.sourceforge.net/) 用來編輯 .po 檔案"
+msgstr "[Poedit](http://poedit.sourceforge.net/) 用来编辑 .po 档案"
 
 #. type: Bullet: '* '
 msgid ""
@@ -182,29 +182,29 @@ msgid ""
 "project.org/) for scanner support"
 msgstr ""
 "[Simple Scan](https://launchpad.net/simple-scan) 和 [SANE](http://www.sane-"
-"project.org/) 可支援掃描器"
+"project.org/) 可支援扫描器"
 
 #. type: Bullet: '* '
 msgid "[Brasero](http://projects.gnome.org/brasero/) to burn CD/DVDs"
-msgstr "[Brasero](http://projects.gnome.org/brasero/) 用來燒錄CD/DVDs"
+msgstr "[Brasero](http://projects.gnome.org/brasero/) 用来烧录CD/DVDs"
 
 #. type: Bullet: '* '
 msgid ""
 "[Sound Juicer](http://burtonini.com/blog/computers/sound-juicer) to rip "
 "audio CDs"
 msgstr ""
-"[Sound Juicer](http://burtonini.com/blog/computers/sound-juicer) 用來截取CD "
-"的音檔"
+"[Sound Juicer](http://burtonini.com/blog/computers/sound-juicer) 用来截取CD "
+"的音档"
 
 #. type: Bullet: '* '
 msgid ""
 "[Traverso](http://traverso-daw.org/) a multi-track audio recorder and editor"
-msgstr "[Traverso](http://traverso-daw.org/) 可以進行多音軌的錄音與編輯。"
+msgstr "[Traverso](http://traverso-daw.org/) 可以进行多音轨的录音与编辑。"
 
 #. type: Title -
 #, no-wrap
 msgid "Encryption and privacy\n"
-msgstr "加密與隱私\n"
+msgstr "加密与隐私\n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -213,7 +213,7 @@ msgid ""
 "sticks ([[More...|doc/encryption_and_privacy/encrypted_volumes]])"
 msgstr ""
 "[[!wikipedia_de Linux_Unified_Key_Setup desc=\"LUKS\"]] 和[[!wikipedia "
-"GNOME_Disks]]要安裝用來加密儲存設備, 例如外接的USB隨身碟([[詳情...|doc/"
+"GNOME_Disks]]要安装用来加密储存设备, 例如外接的USB随身碟([[详情...|doc/"
 "encryption_and_privacy/encrypted_volumes]])"
 
 #. type: Bullet: '* '
@@ -221,7 +221,7 @@ msgid ""
 "[GnuPG](http://gnupg.org/), the GNU implementation of OpenPGP for email and "
 "data encyption and signing"
 msgstr ""
-"[GnuPG](http://gnupg.org/), OpenPGP 的 GNU 版本，用於電子郵件和資料的加密與簽"
+"[GnuPG](http://gnupg.org/), OpenPGP 的 GNU 版本，用于电子邮件和资料的加密与签"
 "署。"
 
 #. type: Bullet: '* '
@@ -229,12 +229,12 @@ msgid ""
 "[Monkeysign](http://web.monkeysphere.info/monkeysign), a tool for OpenPGP "
 "key signing and exchange"
 msgstr ""
-"[Monkeysign](http://web.monkeysphere.info/monkeysign), 一套用來作OpenPGP 金鑰"
-"的簽署與交換的工具"
+"[Monkeysign](http://web.monkeysphere.info/monkeysign), 一套用来作OpenPGP 金钥"
+"的签署与交换的工具"
 
 #. type: Bullet: '* '
 msgid "[PWGen](http://pwgen-win.sourceforge.net/), a strong password generator"
-msgstr "[PWGen](http://pwgen-win.sourceforge.net/), 一個可産生高強度密碼的工具"
+msgstr "[PWGen](http://pwgen-win.sourceforge.net/), 一个可产生高强度密码的工具"
 
 #. type: Bullet: '* '
 msgid ""
@@ -244,7 +244,7 @@ msgid ""
 msgstr ""
 "[Shamir's Secret Sharing](http://en.wikipedia.org/wiki/Shamir"
 "%27s_Secret_Sharing) 使用 [gfshare](http://www.digital-scurf.org/software/"
-"libgfshare) 與 [ssss](http://point-at-infinity.org/ssss/)"
+"libgfshare) 与 [ssss](http://point-at-infinity.org/ssss/)"
 
 #. type: Bullet: '* '
 msgid ""
@@ -252,20 +252,20 @@ msgid ""
 "countermeasure against hardware [keyloggers](http://en.wikipedia.org/wiki/"
 "Keylogger) ([[More...|doc/encryption_and_privacy/virtual_keyboard]])"
 msgstr ""
-"[Florence](http://florence.sourceforge.net/) 是一套虛擬鍵盤工具來對付硬體設備"
-"上的-[[!wikipedia_zh desc=\"鍵盤記錄Keylogger\" Keylogger]]監控 ([[詳情...|"
+"[Florence](http://florence.sourceforge.net/) 是一套虚拟键盘工具来对付硬体设备"
+"上的-[[!wikipedia_zh desc=\"键盘记录Keylogger\" Keylogger]]监控 ([[详情...|"
 "doc/encryption_and_privacy/virtual_keyboard]])"
 
 #. type: Bullet: '* '
 msgid "[MAT](https://mat.boum.org/) to anonymize metadata in files"
-msgstr "[MAT](https://mat.boum.org/) 匿名化檔案上的元數據"
+msgstr "[MAT](https://mat.boum.org/) 匿名化档案上的元数据"
 
 #. type: Bullet: '* '
 msgid ""
 "[KeePassX](http://www.keepassx.org/) password manager ([[More...|doc/"
 "encryption_and_privacy/manage_passwords]])"
 msgstr ""
-"[KeePassX](http://www.keepassx.org/) 密碼管理工具 ([[詳細介紹...|doc/"
+"[KeePassX](http://www.keepassx.org/) 密码管理工具 ([[详细介绍...|doc/"
 "encryption_and_privacy/manage_passwords]])"
 
 #. type: Bullet: '* '
@@ -273,7 +273,7 @@ msgid ""
 "[GtkHash](http://gtkhash.sourceforge.net/) to calculate checksums ([[More...|"
 "doc/encryption_and_privacy/checksums]])"
 msgstr ""
-"[GtkHash](http://gtkhash.sourceforge.net/)用來計算校驗和 ([[進一步了解...|"
+"[GtkHash](http://gtkhash.sourceforge.net/)用来计算校验和 ([[进一步了解...|"
 "doc/encryption_and_privacy/checksums]])"
 
 #. type: Bullet: '* '
@@ -281,8 +281,8 @@ msgid ""
 "[Keyringer](https://keyringer.pw/), a command line tool to encrypt secrets "
 "shared through Git ([[More...|doc/encryption_and_privacy/keyringer]])"
 msgstr ""
-"[Keyringer](https://keyringer.pw/), 一個命令列工具用於透過Git分享的加密資料 "
-"([[進一步了解...|doc/encryption_and_privacy/keyringer]])"
+"[Keyringer](https://keyringer.pw/), 一个命令列工具用于透过Git分享的加密资料 "
+"([[进一步了解...|doc/encryption_and_privacy/keyringer]])"
 
 #. type: Bullet: '* '
 msgid ""
@@ -290,8 +290,8 @@ msgid ""
 "tool to back up OpenPGP secret keys on paper ([[More...|doc/advanced_topics/"
 "paperkey]])"
 msgstr ""
-"[Paperkey](http://www.jabberwocky.com/software/paperkey/) 是一個文字命令列工"
-"具用把OpenPGP密鑰備分到紙上([[了解更多...|doc/advanced_topics/paperkey]])"
+"[Paperkey](http://www.jabberwocky.com/software/paperkey/) 是一个文字命令列工"
+"具用把OpenPGP密钥备分到纸上([[了解更多...|doc/advanced_topics/paperkey]])"
 
 #. type: Plain text
 msgid ""
@@ -299,13 +299,13 @@ msgid ""
 "directory](https://tails.boum.org/torrents/files/) (look for files with the "
 "`.packages` extension)."
 msgstr ""
-"完整的軟體包清單可在 [BitTorrent下載目錄](https://tails.boum.org/torrents/"
-"files/) 找到 (請透過 `.packages`附加檔名來尋找)"
+"完整的软体包清单可在 [BitTorrent下载目录](https://tails.boum.org/torrents/"
+"files/) 找到 (请透过 `.packages`附加档名来寻找)"
 
 #. type: Title =
 #, no-wrap
 msgid "Additional software\n"
-msgstr "其餘的軟體\n"
+msgstr "其余的软体\n"
 
 #. type: Plain text
 msgid ""
@@ -313,26 +313,26 @@ msgid ""
 "additional_software]] in Tails: all software packaged for Debian is "
 "installable in Tails."
 msgstr ""
-"用戶可在Tails [[安裝其它的軟體|doc/advanced_topics/additional_software]]:所有"
-"適用於Debian的軟體包可以同樣地安裝在 Tails 環境下。"
+"用户可在Tails [[安装其它的软体|doc/advanced_topics/additional_software]]:所有"
+"适用于Debian的软体包可以同样地安装在 Tails 环境下。"
 
 #. type: Title =
 #, no-wrap
 msgid "Additional features\n"
-msgstr "其餘功能\n"
+msgstr "其余功能\n"
 
 #. type: Bullet: '* '
 msgid ""
 "automatic mechanism to [[upgrade a USB stick or a SD card|doc/first_steps/"
 "upgrade]] to newer versions"
-msgstr "自動利用 [[USB隨身碟或SD卡|doc/first_steps/upgrade]]來進行新版本升級"
+msgstr "自动利用 [[USB随身碟或SD卡|doc/first_steps/upgrade]]来进行新版本升级"
 
 #. type: Bullet: '* '
 msgid ""
 "can be run as a virtualized guest inside [VirtualBox](http://www.virtualbox."
 "org/) ([[More...|doc/advanced_topics/virtualization]])"
 msgstr ""
-"用戶可利用 [VirtualBox](http://www.virtualbox.org/)的虛擬訪客功能來執行 ([[進"
+"用户可利用 [VirtualBox](http://www.virtualbox.org/)的虚拟访客功能来执行 ([[进"
 "一步了解...|doc/advanced_topics/virtualization]])"
 
 #. type: Bullet: '* '
@@ -341,15 +341,15 @@ msgid ""
 "software) is relatively easy: one may [[contribute/build]] a custom Amnesic "
 "Incognito Live System in about one hour on a modern desktop computer"
 msgstr ""
-"[[自定化|contribute/customize]] (例如新增一個缺少的軟體) 在Tails是很容易的: "
-"用戶可以[[貢獻|contribute/build]] 在自己的桌面環境下快速地於一小時內完成自定"
-"化的失憶隱身自生系統。"
+"[[自定化|contribute/customize]] (例如新增一个缺少的软体) 在Tails是很容易的: "
+"用户可以[[贡献|contribute/build]] 在自己的桌面环境下快速地于一小时内完成自定"
+"化的失忆隐身自生系统。"
 
 #. type: Bullet: '* '
 msgid ""
 "64-bit PAE-enabled kernel with NX-bit and SMP support on hardware that "
 "supports it"
-msgstr "64位元的 PAE效能 Kernel NX-bit 與 SMP支援的硬體可以執行"
+msgstr "64位元的 PAE效能 Kernel NX-bit 与 SMP支援的硬体可以执行"
 
 #. type: Bullet: '* '
 msgid "Some basic [[doc/first_steps/accessibility]] features"
@@ -357,20 +357,20 @@ msgstr "一些 [[基本的 |doc/first_steps/accessibility]]功能"
 
 #. type: Bullet: '* '
 msgid "Some [[contribute/design/application_isolation]] with AppArmor"
-msgstr "透過AppArmor [[提交貢獻|contribute/design/application_isolation]] "
+msgstr "透过AppArmor [[提交贡献|contribute/design/application_isolation]] "
 
 #. type: Bullet: '* '
 msgid ""
 "To prevent cold-boot attacks and various memory forensics, Tails erases "
 "memory on shutdown and when the boot media is physically removed."
 msgstr ""
-"為了防止冷開機攻擊與各種記憶鑑定，Tails在關機後以及移除啟動開機的媒介後，會自"
-"行刪除記憶。"
+"为了防止冷开机攻击与各种记忆鉴定，Tails在关机后以及移除启动开机的媒介后，会自"
+"行删除记忆。"
 
 #. type: Title =
 #, no-wrap
 msgid "Multilingual support\n"
-msgstr "多語系支援\n"
+msgstr "多语系支援\n"
 
 #. type: Plain text
 msgid ""
@@ -381,15 +381,15 @@ msgid ""
 "Portuguese, Russian, Slovak, Slovene, Albanian, Serbian, Swedish, Turkish, "
 "Ukrainian, and Chinese."
 msgstr ""
-"當啟動Tails 時，用戶有許多語言可以選擇，包括：阿拉伯語、亞塞拜然語、加泰隆尼"
-"亞語、捷克語、威爾斯語、丹麥語、德語、希臘語、英語、西班牙語、法語、克羅埃西"
-"亞語、匈牙利語、印尼語、義大利語、日語、高棉語、韓語、拉托維亞語、挪威語、荷"
-"語、波蘭語、俄語、斯洛伐克語、斯洛文尼亞語、阿爾巴尼亞語、塞爾維亞語、瑞典"
-"語、土耳其語、烏克蘭語和中文。"
+"当启动Tails 时，用户有许多语言可以选择，包括：阿拉伯语、亚塞拜然语、加泰隆尼"
+"亚语、捷克语、威尔斯语、丹麦语、德语、希腊语、英语、西班牙语、法语、克罗埃西"
+"亚语、匈牙利语、印尼语、义大利语、日语、高棉语、韩语、拉托维亚语、挪威语、荷"
+"语、波兰语、俄语、斯洛伐克语、斯洛文尼亚语、阿尔巴尼亚语、塞尔维亚语、瑞典"
+"语、土耳其语、乌克兰语和中文。"
 
 #. type: Plain text
 msgid "The required keyboard input system is automatically enabled."
-msgstr "所要求的鍵盤輸入系統會自動啟用"
+msgstr "所要求的键盘输入系统会自动启用"
 
 #. type: Plain text
 msgid ""
@@ -398,16 +398,16 @@ msgid ""
 "supported languages, don't hesitate to [[tell us about it|support]]. E.g. "
 "Tails probably lacks some non-Latin fonts or input systems."
 msgstr ""
-"有些語言尚未完整地測試而我們也不會說世界上的每一種語言。如果你在使用某個支援"
-"的語系上發現有問題，請不要猶豫[[立即告訴我們|support]]。例如Tails可能尚缺少某"
-"些拉丁字形支援或是沒有輸入法系統。"
+"有些语言尚未完整地测试而我们也不会说世界上的每一种语言。如果你在使用某个支援"
+"的语系上发现有问题，请不要犹豫[[立即告诉我们|support]]。例如Tails可能尚缺少某"
+"些拉丁字形支援或是没有输入法系统。"
 
 #. type: Plain text
 msgid ""
 "If you wish to make it easier to use Tails for your language speakers, see "
 "the [[translators guidelines|contribute/how/translate]]."
 msgstr ""
-"如果你希望能協助與你相同語言使用者更方便地使用Tails，可參考[[翻譯指引文件|"
+"如果你希望能协助与你相同语言使用者更方便地使用Tails，可参考[[翻译指引文件|"
 "contribute/how/translate]]."
 
 #~ msgid "One can choose at boot time between a big number of languages."

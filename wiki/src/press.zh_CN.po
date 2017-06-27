@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: Tails l10n Team\n"
 "POT-Creation-Date: 2017-05-28 00:10+0800\n"
 "PO-Revision-Date: 2017-05-28 11:54+0800\n"
-"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
+"Last-Translator: mdrights\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
-"Language: zh\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,7 +29,7 @@ msgstr "[[!toc levels=1]]\n"
 #. type: Title =
 #, no-wrap
 msgid "Announcements and press releases\n"
-msgstr "官方宣佈與新聞稿\n"
+msgstr "官方宣布与新闻稿\n"
 
 #. type: Plain text
 msgid ""
@@ -37,8 +37,8 @@ msgid ""
 "email or by RSS feed on [[Tails News|news]].  They are mainly meant for "
 "Tails users."
 msgstr ""
-"一般的宣佈事項我們會透過電子郵件或官網RSS 推送[[Tails 消息|news]]。它們主要是"
-"為了用戶而整理的資訊。"
+"一般的宣布事项我们会透过电子邮件或官网RSS 推送[[Tails 消息|news]]。它们主要是"
+"为了用户而整理的资讯。"
 
 #. type: Plain text
 msgid ""
@@ -47,8 +47,8 @@ msgid ""
 "press]] if you want to receive future press releases, or if you have a press "
 "inquiry."
 msgstr ""
-"我們會不定時地發佈新聞稿，但它們並未好好在整理在網站上。如果你有任何媒體詢問"
-"或是希望收到未來的新聞稿，請寄信到 [[tails-press@boum.org|about/"
+"我们会不定时地发布新闻稿，但它们并未好好在整理在网站上。如果你有任何媒体询问"
+"或是希望收到未来的新闻稿，请寄信到 [[tails-press@boum.org|about/"
 "contact#tails-press]]"
 
 #. type: Plain text
@@ -56,7 +56,7 @@ msgid ""
 "You can also send press articles about Tails to this address, so we can add "
 "them to this page."
 msgstr ""
-"你也可以利用這個電子郵件地址寄給我們有關Tails 文章，我們可以把它們加入到本頁"
+"你也可以利用这个电子邮件地址寄给我们有关Tails 文章，我们可以把它们加入到本页"
 "上。"
 
 #. type: Plain text
@@ -73,8 +73,8 @@ msgid ""
 "</p>\n"
 msgstr ""
 "<p>\n"
-"提醒你最好加密你的新聞詢問，利用 [[我們的 OpenPGP\n"
-"公開金鑰|doc/about/openpgp_keys#press]].\n"
+"提醒你最好加密你的新闻询问，利用 [[我们的 OpenPGP\n"
+"公开金钥|doc/about/openpgp_keys#press]].\n"
 "</p>\n"
 
 #. type: Plain text
@@ -85,38 +85,38 @@ msgstr "</div>\n"
 #. type: Title =
 #, no-wrap
 msgid "Quick links to better understand Tails\n"
-msgstr "更佳了解Tails的快速連結\n"
+msgstr "更佳了解Tails的快速连结\n"
 
 #. type: Bullet: '* '
 msgid "[[About Tails|about]] for a quick overview"
-msgstr "[[關於 Tails|about]] 快速全覽"
+msgstr "[[关于 Tails|about]] 快速全览"
 
 #. type: Bullet: '* '
 msgid "[Tor overview](https://www.torproject.org/about/overview.html.en)"
-msgstr "[Tor 總覽](https://www.torproject.org/about/overview.html.en)"
+msgstr "[Tor 总览](https://www.torproject.org/about/overview.html.en)"
 
 #. type: Bullet: '* '
 msgid ""
 "More details about the [[features and software|doc/about/features]] included "
 "in Tails"
-msgstr "更多關於 Tails的 [[功能與軟體|doc/about/features]]"
+msgstr "更多关于 Tails的 [[功能与软体|doc/about/features]]"
 
 #. type: Bullet: '* '
 msgid ""
 "Our [[design document|contribute/design]] about Tails specification, threat "
 "model and implementation"
 msgstr ""
-"我們的 [[設計文件|contribute/design]] 說明 Tails 的特色、威脅模型和執行等資"
+"我们的 [[设计文件|contribute/design]] 说明 Tails 的特色、威胁模型和执行等资"
 "料。"
 
 #. type: Bullet: '* '
 msgid "Our [[documentation|doc]] explaining in details how to use Tails"
-msgstr "我們的 [[文件|doc]] 詳細地解釋了如何使用Tails"
+msgstr "我们的 [[文件|doc]] 详细地解释了如何使用Tails"
 
 #. type: Title =
 #, no-wrap
 msgid "Media appearances\n"
-msgstr "媒體露出\n"
+msgstr "媒体露出\n"
 
 #. type: Plain text
 msgid ""
@@ -124,8 +124,8 @@ msgid ""
 "is not comprehensive, but illustrates some of the significant articles that "
 "have been published about Tails."
 msgstr ""
-"Tails常出現在新聞媒體或是研究報告中，以下這份清單是不完整的整理，但可以看出有"
-"些重量級的文章中對於Tails的介紹。"
+"Tails常出现在新闻媒体或是研究报告中，以下这份清单是不完整的整理，但可以看出有"
+"些重量级的文章中对于Tails的介绍。"
 
 #. type: Title -
 #, no-wrap
@@ -143,7 +143,7 @@ msgid ""
 "Older media appearances\n"
 "----------------------\n"
 msgstr ""
-"更早期的媒體露出整理\n"
+"更早期的媒体露出整理\n"
 "----------------------\n"
 
 #. type: Bullet: '* '
@@ -293,7 +293,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Awards\n"
-msgstr "獲獎\n"
+msgstr "获奖\n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -330,7 +330,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Conferences\n"
-msgstr "會議\n"
+msgstr "会议\n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -396,7 +396,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Films and videos\n"
-msgstr "電影和影像 \n"
+msgstr "电影和影像 \n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -429,7 +429,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Books, booklets, and guide\n"
-msgstr "書, 書簡,和相關指南 \n"
+msgstr "书, 书简,和相关指南 \n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -503,9 +503,9 @@ msgid ""
 "[We Fight Censorship](http://www.wefightcensorship.org/article/tails-amnesic-"
 "incognito-live-systemhtml.html)  from Reporters Without Borders."
 msgstr ""
-"無邊界記者組織的[We Fight Censorship](http://www.wefightcensorship.org/"
+"无边界记者组织的[We Fight Censorship](http://www.wefightcensorship.org/"
 "article/tails-amnesic-incognito-live-systemhtml.html)  "
 
 #. type: Bullet: '* '
 msgid "[CryptoParty handbook](https://www.cryptoparty.in/tails)."
-msgstr "[CryptoParty 手冊](https://www.cryptoparty.in/tails)."
+msgstr "[CryptoParty 手册](https://www.cryptoparty.in/tails)."

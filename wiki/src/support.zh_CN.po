@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: Tails l10n Teams\n"
 "POT-Creation-Date: 2017-05-27 23:41+0800\n"
 "PO-Revision-Date: 2017-05-28 12:37+0800\n"
-"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
+"Last-Translator: mdrights\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
-"Language: zh\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,23 +24,23 @@ msgstr "[[!meta title=\"Support\"]]\n"
 #. type: Title =
 #, no-wrap
 msgid "Search the documentation\n"
-msgstr "搜尋文件\n"
+msgstr "搜寻文件\n"
 
 #. type: Plain text
 msgid ""
 "Read the [[official documentation|doc]] to learn more about how Tails works "
 "and maybe start answering your questions. It contains:"
 msgstr ""
-"看 [[官方文件|doc]] 以了解 Tails 的運作，它也許能回答你的問題，其包括了："
+"看 [[官方文件|doc]] 以了解 Tails 的运作，它也许能回答你的问题，其包括了："
 
 #. type: Bullet: '  - '
 msgid "General information about what Tails is"
-msgstr "Tails 的一般資訊"
+msgstr "Tails 的一般资讯"
 
 #. type: Bullet: '  - '
 msgid ""
 "Information to understand how it can help you and what its limitations are"
-msgstr "了解它如何能協助你以及其限制"
+msgstr "了解它如何能协助你以及其限制"
 
 #. type: Bullet: '  - '
 msgid "Guides covering typical uses of Tails"
@@ -53,7 +53,7 @@ msgstr "[[Visit Tails documentation|doc]]"
 #. type: Title =
 #, no-wrap
 msgid "Learn how to use Tails\n"
-msgstr "學習如何使用 Tails\n"
+msgstr "学习如何使用 Tails\n"
 
 #. type: Plain text
 #, no-wrap
@@ -63,27 +63,27 @@ msgstr "[[!inline pages=\"support/learn/intro.inline\" raw=\"yes\" sort=\"age\"]
 #. type: Title =
 #, no-wrap
 msgid "Frequently asked questions\n"
-msgstr "常見問答集\n"
+msgstr "常见问答集\n"
 
 #. type: Plain text
 msgid "Search our list of [[frequently asked questions|faq]]."
-msgstr "找找看我們的 [[問答集|faq]]列表。"
+msgstr "找找看我们的 [[问答集|faq]]列表。"
 
 #. type: Title =
 #, no-wrap
 msgid "Upgrade\n"
-msgstr "昇級\n"
+msgstr "升级\n"
 
 #. type: Plain text
 msgid ""
 "Make sure you are using the latest version, as [[upgrading|doc/first_steps/"
 "upgrade]] might solve your problem."
-msgstr "確認使用最新版本， [[昇級|doc/first_steps/upgrade]] 或可解決你的問題。"
+msgstr "确认使用最新版本， [[升级|doc/first_steps/upgrade]] 或可解决你的问题。"
 
 #. type: Title =
 #, no-wrap
 msgid "Check if the problem is already known\n"
-msgstr "檢查看看這個問題是否已被知道了\n"
+msgstr "检查看看这个问题是否已被知道了\n"
 
 #. type: Plain text
 msgid "You can have a look at:"
@@ -91,14 +91,14 @@ msgstr "你可以看看:"
 
 #. type: Bullet: '  - '
 msgid "The [[list of known issues|support/known_issues]]"
-msgstr " [[已知的問題列表|support/known_issues]]"
+msgstr " [[已知的问题列表|support/known_issues]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "The [list of things that will be in the next release](https://labs.riseup."
 "net/code/projects/tails/issues?query_id=111)"
 msgstr ""
-" [下個發佈版本中會處理的事件清單](https://labs.riseup.net/code/projects/"
+" [下个发布版本中会处理的事件清单](https://labs.riseup.net/code/projects/"
 "tails/issues?query_id=111)"
 
 #. type: Bullet: '  - '
@@ -118,7 +118,7 @@ msgstr "<div id=\"bugs\">\n"
 #. type: Plain text
 #, no-wrap
 msgid "  <h1>Report an error</h1>\n"
-msgstr "  <h1>回報錯誤</h1>\n"
+msgstr "  <h1>回报错误</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -126,8 +126,8 @@ msgid ""
 "  <p>If you are facing an error in Tails, please follow the [[bug reporting\n"
 "  guidelines|doc/first_steps/bug_reporting]].</p>\n"
 msgstr ""
-"  <p>如果你發現Tails出錯, 請依照 [[程式臭蟲回報\n"
-"  指示|doc/first_steps/bug_reporting]]來做。</p>\n"
+"  <p>如果你发现Tails出错, 请依照 [[程式臭虫回报\n"
+"  指示|doc/first_steps/bug_reporting]]来做。</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -135,8 +135,8 @@ msgid ""
 "  <p>If Tails does not start, please see our specific\n"
 "  [[reporting guidelines|doc/first_steps/bug_reporting#does_not_start]].</p>\n"
 msgstr ""
-"  <p>如果Tails 沒有啟動, 請見特別的\n"
-"  [[回報指南|doc/first_steps/bug_reporting#does_not_start]]。</p>\n"
+"  <p>如果Tails 没有启动, 请见特别的\n"
+"  [[回报指南|doc/first_steps/bug_reporting#does_not_start]]。</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -151,7 +151,7 @@ msgstr "<div id=\"wishlist\">\n"
 #. type: Plain text
 #, no-wrap
 msgid "  <h1>Request a feature</h1>\n"
-msgstr "  <h1>建議新功能</h1>\n"
+msgstr "  <h1>建议新功能</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -161,8 +161,8 @@ msgid ""
 "  and file a new ticket in there if no existing one matches your needs.\n"
 msgstr ""
 "如果你希望 Tails有新功能,\n"
-"先找找 [[!tails_redmine desc=\"open tickets in Redmine\"]] 是否已有人提過\n"
-" 如果沒有符合你的需求，再於此提出請求。\n"
+"先找找 [[!tails_redmine desc=\"open tickets in Redmine\"]] 是否已有人提过\n"
+" 如果没有符合你的需求，再于此提出请求。\n"
 
 #. type: Plain text
 #, no-wrap
@@ -182,7 +182,7 @@ msgstr "<div id=\"talk\">\n"
 #. type: Plain text
 #, no-wrap
 msgid "  <h1>Get in touch with us</h1>\n"
-msgstr "  <h1>保持聯絡</h1>\n"
+msgstr "  <h1>保持联络</h1>\n"
 
 #. type: Plain text
 #, no-wrap

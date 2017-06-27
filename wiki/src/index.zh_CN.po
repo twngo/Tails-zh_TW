@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: Tails l10n Team\n"
 "POT-Creation-Date: 2017-02-09 18:52+0100\n"
 "PO-Revision-Date: 2017-05-28 11:23+0800\n"
-"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
+"Last-Translator: mdrights\n"
 "Language-Team: Tails Translators <tails@boum.org>\n"
-"Language: zh\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,51 +18,51 @@ msgstr ""
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!meta title=\"Privacy for anyone anywhere\"]]"
-msgstr "[[!meta title=\"隨時隨地保護任何人的隱私\"]]"
+msgstr "[[!meta title=\"随时随地保护任何人的隐私\"]]"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "Tails is a [[!wikipedia desc=\"live operating system\" Live_USB]] that you "
 "can start on almost any computer from a DVD, USB stick, or SD card."
 msgstr ""
-"Tails 是一種 [[!wikipedia_zh desc=\"自生作業系統\" Live_USB]], 它可以讓用戶透"
-"過DVD, USB 碟或是 SD 卡在任何大多數的電腦上開機作業。"
+"Tails 是一种 [[!wikipedia_zh desc=\"自生作业系统\" Live_USB]], 它可以让用户透"
+"过DVD, USB 碟或是 SD 卡在任何大多数的电脑上开机作业。"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "It aims at preserving your <strong>privacy</strong> and <strong>anonymity</"
 "strong>, and helps you to:"
 msgstr ""
-" 它旨在保留你的<strong>隱私</strong> 以及 <strong>網路匿名</strong> 並且可以"
+" 它旨在保留你的<strong>隐私</strong> 以及 <strong>网路匿名</strong> 并且可以"
 "助你："
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
 "<strong>use the Internet anonymously</strong> and <strong>circumvent "
 "censorship</strong>;"
-msgstr "<strong>匿名地瀏覽網際網路</strong> 和<strong>規避網路審查</strong>;"
+msgstr "<strong>匿名地浏览网际网路</strong> 和<strong>规避网路审查</strong>;"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
 "all connections to the Internet are forced to go through [[the Tor network|"
 "https://www.torproject.org/]];"
 msgstr ""
-"所有欲連到網際網路的連線都會透過 [[Tor Netzwerk|https://www.torproject."
-"org/]] 系統；"
+"所有欲连到网际网路的连线都会透过 [[Tor Netzwerk|https://www.torproject."
+"org/]] 系统；"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
 "<strong>leave no trace</strong> on the computer you are using unless you ask "
 "it explicitly;"
 msgstr ""
-"在使用的電腦上 <strong>不會留下㾗跡記錄</strong>, 除非用戶刻意這麼要求。"
+"在使用的电脑上 <strong>不会留下㾗迹记录</strong>, 除非用户刻意这么要求。"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
 "<strong>use state-of-the-art cryptographic tools</strong> to encrypt your "
 "files, emails and instant messaging."
 msgstr ""
-"<strong>使用最先進的密碼學工具</strong> 來加密檔案、電子郵件以及即時訊息。"
+"<strong>使用最先进的密码学工具</strong> 来加密档案、电子邮件以及即时讯息。"
 
 #. type: Content of: <div><div><p>
 msgid "[[Learn more about Tails.|about]]"
@@ -84,7 +84,7 @@ msgstr ""
 
 #. type: Content of: <div><div><p>
 msgid "See [[News]] for more."
-msgstr "請參見 [[最新消息|News]]."
+msgstr "请参见 [[最新消息|News]]."
 
 #. type: Content of: <div><div><h1>
 msgid "Security"
@@ -102,7 +102,7 @@ msgstr ""
 
 #. type: Content of: <div><div><p>
 msgid "See [[Security]] for more."
-msgstr "請進一步參見 [[安全|Security]]"
+msgstr "请进一步参见 [[安全|Security]]"
 
 #. type: Content of: <div><div>
 msgid ""
@@ -115,8 +115,8 @@ msgstr ""
 #. type: Content of: <div><div><p>
 msgid "Tails is built upon <a href=\"https://www.debian.org/\">Debian</a>."
 msgstr ""
-"Tails 仍基於 <a href=\"https://www.debian.org/index.de.html\">Debian</a>系"
-"統。"
+"Tails 仍基于 <a href=\"https://www.debian.org/index.de.html\">Debian</a>系"
+"统。"
 
 #. type: Content of: <div><div>
 msgid "[[!img lib/free-software.png link=\"doc/about/license\"]]"
@@ -124,7 +124,7 @@ msgstr "[[!img lib/free-software.png link=\"doc/about/license\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "Tails is [[Free Software|doc/about/license]]."
-msgstr "Tails 為 [[自由軟體|doc/about/license]]."
+msgstr "Tails 为 [[自由软体|doc/about/license]]."
 
 #. type: Content of: <div><div>
 msgid ""
@@ -137,7 +137,7 @@ msgstr ""
 #. type: Content of: <div><div><p>
 msgid ""
 "Tails sends its traffic through <a href=\"https://torproject.org/\">Tor</a>."
-msgstr "Tails 透過<a href=\"https://torproject.org/\">Tor</a>傳送其連線。"
+msgstr "Tails 透过<a href=\"https://torproject.org/\">Tor</a>传送其连线。"
 
 #~ msgid "[[!inline pages=\"news/who_are_you_helping/include\" raw=\"yes\"]]"
 #~ msgstr ""

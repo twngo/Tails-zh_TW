@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: Tails l10n Team\n"
 "POT-Creation-Date: 2017-05-28 00:10+0800\n"
 "PO-Revision-Date: 2017-05-28 14:44+0800\n"
-"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
+"Last-Translator: mdrights\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
-"Language: zh\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"About\"]]\n"
-msgstr "[[!meta title=\"關於Tails\"]]\n"
+msgstr "[[!meta title=\"关于Tails\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -27,8 +27,8 @@ msgid ""
 "> **amnesia**, *noun*:<br/>\n"
 "> forgetfulness; loss of long-term memory.\n"
 msgstr ""
-"> **失憶**, *名詞*:<br/>\n"
-"> 遺忘; 失去長期記憶.\n"
+"> **失忆**, *名词*:<br/>\n"
+"> 遗忘; 失去长期记忆.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -36,8 +36,8 @@ msgid ""
 "> **incognito**, *adjective & adverb*:<br/>\n"
 "> (of a person) having one's true identity concealed.\n"
 msgstr ""
-"> **隱身**, *形容詞*:<br/>\n"
-">一個人隱藏起自己真正的身份。\n"
+"> **隐身**, *形容词*:<br/>\n"
+">一个人隐藏起自己真正的身份。\n"
 
 #. type: Plain text
 msgid ""
@@ -46,9 +46,9 @@ msgid ""
 "anywhere you go and on any computer but leaving no trace unless you ask it "
 "to explicitly."
 msgstr ""
-"Tails是一個自生系統，其目的是為了保護用戶的隱私和匿名。除非使用者刻意更改設"
-"定，否則它可以協助用戶隨處使用任何一部電腦匿名上網和躲避審查，且不會留下㾗"
-"跡。"
+"Tails是一个自生系统，其目的是为了保护用户的隐私和匿名。除非使用者刻意更改设"
+"定，否则它可以协助用户随处使用任何一部电脑匿名上网和躲避审查，且不会留下㾗"
+"迹。"
 
 #. type: Plain text
 msgid ""
@@ -57,9 +57,9 @@ msgid ""
 "[[Free Software|doc/about/license]] and based on [[Debian GNU/Linux|https://"
 "www.debian.org/]]."
 msgstr ""
-"Tails　是一個完整的作業系統，其設計可從  DVD, USB 隨身碟, 或 SD 卡來使用，完"
-"全不依賴電腦本身原有的作業系統，它是一套 [[自由免費軟體|doc/about/license]] "
-"其基礎是來自 [[Debian GNU/Linux|https://www.debian.org/]]."
+"Tails　是一个完整的作业系统，其设计可从  DVD, USB 随身碟, 或 SD 卡来使用，完"
+"全不依赖电脑本身原有的作业系统，它是一套 [[自由免费软体|doc/about/license]] "
+"其基础是来自 [[Debian GNU/Linux|https://www.debian.org/]]."
 
 #. type: Plain text
 msgid ""
@@ -67,8 +67,8 @@ msgid ""
 "in mind: web browser, instant messaging client, email client, office suite, "
 "image and sound editor, etc."
 msgstr ""
-"Tails 包含了一些應用程式，其原始設定皆以安全為優先，如：網頁瀏覽器、即時通訊"
-"軟體、電子郵件軟體、辦公室軟體、圖片和音效編輯軟體等。"
+"Tails 包含了一些应用程式，其原始设定皆以安全为优先，如：网页浏览器、即时通讯"
+"软体、电子邮件软体、办公室软体、图片和音效编辑软体等。"
 
 #. type: Plain text
 #, no-wrap
@@ -83,7 +83,7 @@ msgstr "<a id=\"tor\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Online anonymity and censorship circumvention\n"
-msgstr "線上匿名與審查規避\n"
+msgstr "线上匿名与审查规避\n"
 
 #. type: Plain text
 #, no-wrap
@@ -97,18 +97,18 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Tails relies on the Tor anonymity network to protect your privacy online:"
-msgstr "Tails　依靠 Tor　的匿名網路來保護用戶線上隱私安全"
+msgstr "Tails　依靠 Tor　的匿名网路来保护用户线上隐私安全"
 
 #. type: Bullet: '  - '
 msgid "all software is configured to connect to the Internet through Tor"
-msgstr "所有軟體已設定要透過 Tor 連上互聯網"
+msgstr "所有软体已设定要透过 Tor 连上互联网"
 
 #. type: Bullet: '  - '
 msgid ""
 "if an application tries to connect to the Internet directly, the connection "
 "is automatically blocked for security."
 msgstr ""
-"如何某個應用程式想要直接地連上互聯網，此連線會因安全考量而自動地封鎖掉。"
+"如何某个应用程式想要直接地连上互联网，此连线会因安全考量而自动地封锁掉。"
 
 #. type: Plain text
 msgid ""
@@ -117,8 +117,8 @@ msgid ""
 "privacy, confidential business activities and relationships, and state "
 "security."
 msgstr ""
-"Tor　是一個開放分散的網路，協助抵禦流量分析，它是一種網路監控的方式，其威脅了"
-"個人的自由和隱私、防礙機密的商業活動、關係和國家安全。"
+"Tor　是一个开放分散的网路，协助抵御流量分析，它是一种网路监控的方式，其威胁了"
+"个人的自由和隐私、防碍机密的商业活动、关系和国家安全。"
 
 #. type: Plain text
 msgid ""
@@ -127,27 +127,27 @@ msgid ""
 "Internet connection from learning what sites you visit, and it prevents the "
 "sites you visit from learning your physical location."
 msgstr ""
-"Tor 利用全球各地志願者所運行的中繼站跳接來傳輸網路通訊：它可預防有人透過知道"
-"用戶訪問了哪些網站來進行監視，也防止所訪問過的網站會知道用戶的實際位置。"
+"Tor 利用全球各地志愿者所运行的中继站跳接来传输网路通讯：它可预防有人透过知道"
+"用户访问了哪些网站来进行监视，也防止所访问过的网站会知道用户的实际位置。"
 
 #. type: Plain text
 msgid "Using Tor you can:"
-msgstr "使用Tor可讓你:"
+msgstr "使用Tor可让你:"
 
 #. type: Bullet: '  - '
 msgid "be anonymous online by hiding your location,"
-msgstr "透過隱藏用戶位置以實現線上匿名"
+msgstr "透过隐藏用户位置以实现线上匿名"
 
 #. type: Bullet: '  - '
 msgid "connect to services that would be censored otherwise;"
-msgstr "連結上可能已被審查禁止的服務"
+msgstr "连结上可能已被审查禁止的服务"
 
 #. type: Bullet: '  - '
 msgid ""
 "resist attacks that block the usage of Tor using circumvention tools such as "
 "[[bridges|doc/first_steps/startup_options/bridge_mode]]."
 msgstr ""
-"使用Tor作為規避工具來抵抗封鎖攻擊，例如[[Tor-橋接|doc/first_steps/"
+"使用Tor作为规避工具来抵抗封锁攻击，例如[[Tor-桥接|doc/first_steps/"
 "startup_options/bridge_mode]] 。"
 
 #. type: Plain text
@@ -155,15 +155,15 @@ msgid ""
 "To learn more about Tor, see the official [Tor website](https://www."
 "torproject.org/), particularly the following pages:"
 msgstr ""
-"進一步了解 Tor，請到 [ Tor 官網](https://www.torproject.org), 尤其是參考以下"
-"頁面："
+"进一步了解 Tor，请到 [ Tor 官网](https://www.torproject.org), 尤其是参考以下"
+"页面："
 
 #. type: Bullet: '- '
 msgid ""
 "[Tor overview: Why we need Tor](https://www.torproject.org/about/overview."
 "html.en#whyweneedtor)"
 msgstr ""
-"[ Tor 瀏覽器總覽：為何需使用 Tor ](https://www.torproject.org/about/overview."
+"[ Tor 浏览器总览：为何需使用 Tor ](https://www.torproject.org/about/overview."
 "html.en#whyweneedtor) (auf Englisch)"
 
 #. type: Bullet: '- '
@@ -171,20 +171,20 @@ msgid ""
 "[Tor overview: How does Tor work](https://www.torproject.org/about/overview."
 "html.en#thesolution)"
 msgstr ""
-"[ Tor 瀏覽器總覽：它的運作原理](https://www.torproject.org/about/overview."
+"[ Tor 浏览器总览：它的运作原理](https://www.torproject.org/about/overview."
 "html.en#thesolution)"
 
 #. type: Bullet: '- '
 msgid "[Who uses Tor?](https://www.torproject.org/about/torusers.html.en)"
 msgstr ""
-"哪些人使用 Tor 瀏覽器](https://www.torproject.org/about/torusers.html.en)"
+"哪些人使用 Tor 浏览器](https://www.torproject.org/about/torusers.html.en)"
 
 #. type: Bullet: '- '
 msgid ""
 "[Understanding and Using Tor — An Introduction for the Layman](https://trac."
 "torproject.org/projects/tor/wiki/doc/TorALaymansGuide)"
 msgstr ""
-"[了解和使用Tor— 給外行人的入門介紹](https://trac.torproject.org/projects/tor/"
+"[了解和使用Tor— 给外行人的入门介绍](https://trac.torproject.org/projects/tor/"
 "wiki/doc/TorALaymansGuide) (英文)"
 
 #. type: Plain text
@@ -192,7 +192,7 @@ msgid ""
 "To learn more about how Tails ensures all its network connections use Tor, "
 "see our [[design document|contribute/design/Tor_enforcement]]."
 msgstr ""
-"進一步了解 Tails　如何確保其透過 Tor 連結互聯網，請見 [[設計文件|contribute/"
+"进一步了解 Tails　如何确保其透过 Tor 连结互联网，请见 [[设计文件|contribute/"
 "design/Tor_enforcement]]."
 
 #. type: Plain text
@@ -203,7 +203,7 @@ msgstr "<a id=\"amnesia\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Use anywhere but leave no trace\n"
-msgstr "可隨處使用而不留下㾗跡\n"
+msgstr "可随处使用而不留下㾗迹\n"
 
 #. type: Plain text
 msgid ""
@@ -212,9 +212,9 @@ msgid ""
 "friend's computer, or one at your local library. After shutting down Tails, "
 "the computer will start again with its usual operating system."
 msgstr ""
-"在任何一部電腦上使用 Tails　並不會改變或得依賴其原本安裝的作業系統。同樣地，"
-"用戶也可以在自己的電腦、朋友的電腦或是圖書館裏的公用電腦使用Tails。關閉 Tails"
-"　之後，電腦就會自動以原本的作業系統開機使用。"
+"在任何一部电脑上使用 Tails　并不会改变或得依赖其原本安装的作业系统。同样地，"
+"用户也可以在自己的电脑、朋友的电脑或是图书馆里的公用电脑使用Tails。关闭 Tails"
+"　之后，电脑就会自动以原本的作业系统开机使用。"
 
 #. type: Plain text
 msgid ""
@@ -224,10 +224,10 @@ msgid ""
 "So you won't leave any trace on the computer either of the Tails system "
 "itself or what you used it for. That's why we call Tails \"amnesic\"."
 msgstr ""
-"Tails 透過特別小心的設定以不會使用到電腦的硬碟，即便有人刻意想要交換二者的空"
-"間。Tails唯一會使用到的儲存空間是快取記憶體 (RAM), 當電腦關機時它就會自動地消"
-"除。因此用戶不會在電腦上留下任何Tails 的使用㾗跡。這就是為何我們稱Tails為 "
-"\"失憶\" (amnesic)."
+"Tails 透过特别小心的设定以不会使用到电脑的硬碟，即便有人刻意想要交换二者的空"
+"间。Tails唯一会使用到的储存空间是快取记忆体 (RAM), 当电脑关机时它就会自动地消"
+"除。因此用户不会在电脑上留下任何Tails 的使用㾗迹。这就是为何我们称Tails为 "
+"\"失忆\" (amnesic)."
 
 #. type: Plain text
 msgid ""
@@ -236,8 +236,8 @@ msgid ""
 "explicitly save specific documents to another USB stick or external hard-"
 "disk and take them away for future use."
 msgstr ""
-"這讓人可以在任何一台電腦上使用敏感的文件預防避免關機後資料的恢復。當然，用戶"
-"仍然可將文件儲存在另一支USB隨身碟或外接式硬磁上，以隨時攜帶它們以備未來之需。"
+"这让人可以在任何一台电脑上使用敏感的文件预防避免关机后资料的恢复。当然，用户"
+"仍然可将文件储存在另一支USB随身碟或外接式硬磁上，以随时携带它们以备未来之需。"
 
 #. type: Plain text
 #, no-wrap
@@ -247,13 +247,13 @@ msgstr "<a id=\"cryptography\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "State-of-the-art cryptographic tools\n"
-msgstr "最先進的密碼學工具\n"
+msgstr "最先进的密码学工具\n"
 
 #. type: Plain text
 msgid ""
 "Tails also comes with a selection of tools to protect your data using strong "
 "encryption:"
-msgstr "Tails 也預載了一些工具選項以利用強大的加密功能來保護用戶的資料:"
+msgstr "Tails 也预载了一些工具选项以利用强大的加密功能来保护用户的资料:"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -261,9 +261,9 @@ msgid ""
 "encrypted_volumes]] using <span class=\"definition\">[[!wikipedia LUKS]]</"
 "span>, the Linux standard for disk-encryption."
 msgstr ""
-"[[加密USB隨身碟或是外接硬碟|doc/encryption_and_privacy/encrypted_volumes]] 可"
+"[[加密USB随身碟或是外接硬碟|doc/encryption_and_privacy/encrypted_volumes]] 可"
 "使用 <span class=\"definition\">[[!wikipedia　LUKS]]</span>, 它是Linux上的磁"
-"區加密標準。"
+"区加密标准。"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -272,9 +272,9 @@ msgid ""
 "everywhere), a Firefox extension developed by the [Electronic Frontier "
 "Foundation](https://www.eff.org)."
 msgstr ""
-"自動地採用[HTTPS Everywhere](https://www.eff.org/https-everywhere)來加密上網"
-"瀏覽的通訊. HTTPS Everywhere 是Firefox的外加元件，其由[電子前鋒基金會 "
-"Electronic Frontier Foundation](https://www.eff.org) 所開發。"
+"自动地采用[HTTPS Everywhere](https://www.eff.org/https-everywhere)来加密上网"
+"浏览的通讯. HTTPS Everywhere 是Firefox的外加元件，其由[电子前锋基金会 "
+"Electronic Frontier Foundation](https://www.eff.org) 所开发。"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -282,9 +282,9 @@ msgid ""
 "<span class=\"definition\">[[!wikipedia OpenPGP]]</span> either from Tails "
 "email client, text editor or file browser."
 msgstr ""
-"使用*實質* 標準的 <span class=\"definition\">[[!wikipedia_de OpenPGP]]</span>"
-"來加密和簽署電子郵件和文檔,不管是透過Tails上面的E-Mail客戶端軟體, 文件編輯程"
-"式或是檔案管理員程式."
+"使用*实质* 标准的 <span class=\"definition\">[[!wikipedia_de OpenPGP]]</span>"
+"来加密和签署电子邮件和文档,不管是透过Tails上面的E-Mail客户端软体, 文件编辑程"
+"式或是档案管理员程式."
 
 #. type: Bullet: '  - '
 msgid ""
@@ -292,9 +292,9 @@ msgid ""
 "\">[[!wikipedia Off-the-Record_Messaging desc=\"OTR\"]]</span>, a "
 "cryptographic tool that provides encryption, authentication and deniability."
 msgstr ""
-"保護網路即時通訊的交談內容，請使用 <span class=\"definition\">[[!"
-"wikipedia_de Off-the-Record_Messaging desc=\"OTR\"]]</span> -它是一種密碼學工"
-"具可以用來加密、認證與否決。"
+"保护网路即时通讯的交谈内容，请使用 <span class=\"definition\">[[!"
+"wikipedia_de Off-the-Record_Messaging desc=\"OTR\"]]</span> -它是一种密码学工"
+"具可以用来加密、认证与否决。"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -302,92 +302,92 @@ msgid ""
 "and clean your diskspace using [[Nautilus Wipe|http://wipetools.tuxfamily."
 "org/nautilus-wipe.html]]."
 msgstr ""
-"[[安全地刪除你的檔案|doc/encryption_and_privacy/secure_deletion]] 以及利用"
-"[[Nautilus Wipe|http://wipetools.tuxfamily.org/nautilus-wipe.html]]來清理磁"
+"[[安全地删除你的档案|doc/encryption_and_privacy/secure_deletion]] 以及利用"
+"[[Nautilus Wipe|http://wipetools.tuxfamily.org/nautilus-wipe.html]]来清理磁"
 "碟 ."
 
 #. type: Plain text
 msgid ""
 "[[Read more about those tools in the documentation.|doc/"
 "encryption_and_privacy]]"
-msgstr "[[從文檔中進一步了解這些工具.|doc/encryption_and_privacy]]"
+msgstr "[[从文档中进一步了解这些工具.|doc/encryption_and_privacy]]"
 
 #. type: Title =
 #, no-wrap
 msgid "What's next?\n"
-msgstr "接下來是什麼?\n"
+msgstr "接下来是什么?\n"
 
 #. type: Plain text
 msgid "To continue discovering Tails, you can now read:"
-msgstr "繼續探索Tails的好用之處, 你可以讀讀:"
+msgstr "继续探索Tails的好用之处, 你可以读读:"
 
 #. type: Bullet: '  - '
 msgid ""
 "the [[warning page|doc/about/warning]] to better understand the security "
 "limitations of Tails and Tor,"
-msgstr "這個 [[警告頁|doc/about/warning]], 可讓人更了解Tails與Tor的安全限制,"
+msgstr "这个 [[警告页|doc/about/warning]], 可让人更了解Tails与Tor的安全限制,"
 
 #. type: Bullet: '  - '
 msgid ""
 "more details about the [[features and software|doc/about/features]] included "
 "in Tails,"
-msgstr "更多詳細的[[特色和軟體|doc/about/features]], 其已內鍵於Tails之中,"
+msgstr "更多详细的[[特色和软体|doc/about/features]], 其已内键于Tails之中,"
 
 #. type: Bullet: '  - '
 msgid ""
 "our [[installation instructions|install]] to download and install Tails,"
-msgstr "我們有 [[安裝指示|install]] 來下載和安裝Tails,"
+msgstr "我们有 [[安装指示|install]] 来下载和安装Tails,"
 
 #. type: Bullet: '  - '
 msgid "our [[documentation|doc]] explaining in detail how to use Tails,"
-msgstr "我們的 [[文件檔案|doc]], 詳細地說明了如何使用Tails,"
+msgstr "我们的 [[文件档案|doc]], 详细地说明了如何使用Tails,"
 
 #. type: Bullet: '  - '
 msgid "some hints on why [[you should trust Tails|doc/about/trust]],"
-msgstr "有些小提示關於為何 [[你應該使用Tails|doc/about/trust]]."
+msgstr "有些小提示关于为何 [[你应该使用Tails|doc/about/trust]]."
 
 #. type: Bullet: '  - '
 msgid ""
 "our [[design document|contribute/design]] laying out Tails specification, "
 "threat model and implementation,"
 msgstr ""
-"我們的 [[設計文檔|contribute/design]]介紹了Tails的特殊性、威脅模型與執行."
+"我们的 [[设计文档|contribute/design]]介绍了Tails的特殊性、威胁模型与执行."
 
 #. type: Bullet: '  - '
 msgid ""
 "the [[calendar|contribute/calendar]] that holds our release dates, meetings "
 "and other events."
-msgstr " [[行事曆|contribute/calendar]]上有新版本發佈日期、會議與其它活動宣佈"
+msgstr " [[行事历|contribute/calendar]]上有新版本发布日期、会议与其它活动宣布"
 
 #. type: Title =
 #, no-wrap
 msgid "Press and media\n"
-msgstr "新聞與媒體\n"
+msgstr "新闻与媒体\n"
 
 #. type: Plain text
 msgid "See [[Press and media information|press]]."
-msgstr "請見[[新聞與媒體資訊|press]]."
+msgstr "请见[[新闻与媒体资讯|press]]."
 
 #. type: Title =
 #, no-wrap
 msgid "Acknowledgments and similar projects\n"
-msgstr "致謝與相類似的專案\n"
+msgstr "致谢与相类似的专案\n"
 
 #. type: Plain text
 msgid ""
 "See [[Acknowledgments and similar projects|doc/about/"
 "acknowledgments_and_similar_projects]]."
 msgstr ""
-"請見 [[致謝與相類似專案|doc/about/acknowledgments_and_similar_projects]]."
+"请见 [[致谢与相类似专案|doc/about/acknowledgments_and_similar_projects]]."
 
 #. type: Title =
 #, no-wrap
 msgid "Contact\n"
-msgstr "聯絡\n"
+msgstr "联络\n"
 
 #. type: Plain text
 msgid "See the [[contact page|about/contact]]."
-msgstr "請參見[[聯絡頁面|about/contact]]."
+msgstr "请参见[[联络页面|about/contact]]."
 
 #~ msgid ""
 #~ "I2P\n"
@@ -400,16 +400,16 @@ msgstr "請參見[[聯絡頁面|about/contact]]."
 #~ "You can also use Tails to access [I2P](https://geti2p.net) which is an "
 #~ "anonymity network different from Tor."
 #~ msgstr ""
-#~ "用戶可透過Tails 來使用 [I2P](https://geti2p.net), 它是一個和Tor不一樣的匿"
-#~ "名網路。"
+#~ "用户可透过Tails 来使用 [I2P](https://geti2p.net), 它是一个和Tor不一样的匿"
+#~ "名网路。"
 
 #~ msgid ""
 #~ "[[Learn how to use I2P in Tails in the documentation.|doc/"
 #~ "anonymous_internet/i2p]]"
-#~ msgstr "[[了解如何在Tails 底下運行 I2P|doc/anonymous_internet/i2p]]"
+#~ msgstr "[[了解如何在Tails 底下运行 I2P|doc/anonymous_internet/i2p]]"
 
 #~ msgid ""
 #~ "To know how I2P is implemented in Tails, see our [[design document|"
 #~ "contribute/design/I2P]]."
 #~ msgstr ""
-#~ "要了解如何在Tails 底下運行 I2P，請見 [[設計文件|contribute/design/I2P]]."
+#~ "要了解如何在Tails 底下运行 I2P，请见 [[设计文件|contribute/design/I2P]]."
