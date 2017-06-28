@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n Team\n"
 "POT-Creation-Date: 2017-05-28 00:10+0800\n"
-"PO-Revision-Date: 2017-05-28 11:54+0800\n"
+"PO-Revision-Date: 2017-06-28 14:07+0000\n"
 "Last-Translator: mdrights\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 2.0.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -29,7 +29,7 @@ msgstr "[[!toc levels=1]]\n"
 #. type: Title =
 #, no-wrap
 msgid "Announcements and press releases\n"
-msgstr "官方宣布与新闻稿\n"
+msgstr "官方公告与新闻稿\n"
 
 #. type: Plain text
 msgid ""
@@ -37,7 +37,7 @@ msgid ""
 "email or by RSS feed on [[Tails News|news]].  They are mainly meant for "
 "Tails users."
 msgstr ""
-"一般的宣布事项我们会透过电子邮件或官网RSS 推送[[Tails 消息|news]]。它们主要是"
+"一般的公告事项我们会透过电子邮件或官网RSS 推送[[Tails 消息|news]]。它们主要是"
 "为了用户而整理的资讯。"
 
 #. type: Plain text
@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "我们会不定时地发布新闻稿，但它们并未好好在整理在网站上。如果你有任何媒体询问"
 "或是希望收到未来的新闻稿，请寄信到 [[tails-press@boum.org|about/"
-"contact#tails-press]]"
+"contact#tails-press]]。"
 
 #. type: Plain text
 msgid ""
@@ -73,8 +73,8 @@ msgid ""
 "</p>\n"
 msgstr ""
 "<p>\n"
-"提醒你最好加密你的新闻询问，利用 [[我们的 OpenPGP\n"
-"公开金钥|doc/about/openpgp_keys#press]].\n"
+"提醒你最好加密你的新闻查询，利用 [[我们的 OpenPGP\n"
+"公钥|doc/about/openpgp_keys#press]].\n"
 "</p>\n"
 
 #. type: Plain text
@@ -85,7 +85,7 @@ msgstr "</div>\n"
 #. type: Title =
 #, no-wrap
 msgid "Quick links to better understand Tails\n"
-msgstr "更佳了解Tails的快速连结\n"
+msgstr "更佳了解Tails的快速链接\n"
 
 #. type: Bullet: '* '
 msgid "[[About Tails|about]] for a quick overview"
@@ -99,15 +99,14 @@ msgstr "[Tor 总览](https://www.torproject.org/about/overview.html.en)"
 msgid ""
 "More details about the [[features and software|doc/about/features]] included "
 "in Tails"
-msgstr "更多关于 Tails的 [[功能与软体|doc/about/features]]"
+msgstr "更多关于 Tails的 [[功能与软件|doc/about/features]] "
 
 #. type: Bullet: '* '
 msgid ""
 "Our [[design document|contribute/design]] about Tails specification, threat "
 "model and implementation"
 msgstr ""
-"我们的 [[设计文件|contribute/design]] 说明 Tails 的特色、威胁模型和执行等资"
-"料。"
+"我们的 [[设计文件|contribute/design]] 说明 Tails 的特性、威胁模型和执行等资料"
 
 #. type: Bullet: '* '
 msgid "Our [[documentation|doc]] explaining in details how to use Tails"
@@ -116,7 +115,7 @@ msgstr "我们的 [[文件|doc]] 详细地解释了如何使用Tails"
 #. type: Title =
 #, no-wrap
 msgid "Media appearances\n"
-msgstr "媒体露出\n"
+msgstr "媒体报导\n"
 
 #. type: Plain text
 msgid ""
@@ -143,7 +142,7 @@ msgid ""
 "Older media appearances\n"
 "----------------------\n"
 msgstr ""
-"更早期的媒体露出整理\n"
+"更早期的媒体报导整理\n"
 "----------------------\n"
 
 #. type: Bullet: '* '
@@ -243,7 +242,7 @@ msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2013\" text=\"\"]]
 #. type: Title -
 #, no-wrap
 msgid "2013\n"
-msgstr ""
+msgstr "2013\n"
 
 #. type: Plain text
 #, no-wrap
@@ -258,7 +257,7 @@ msgstr "[[!toggleable id=\"media_appearances_2012\" text=\"\"\"\n"
 #. type: Plain text
 #, no-wrap
 msgid "<span class=\"hide\">[[!toggle id=\"media_appearances_2012\" text=\"\"]]</span>\n"
-msgstr ""
+msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2012\" text=\"\"]]</span>\n"
 
 #. type: Title -
 #, no-wrap
@@ -283,12 +282,12 @@ msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2011\" text=\"\"]]
 #. type: Title -
 #, no-wrap
 msgid "2011\n"
-msgstr ""
+msgstr "2011\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"press/media_appearances_2011\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
+msgstr "[[!inline pages=\"press/media_appearances_2011\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Title =
 #, no-wrap
@@ -302,12 +301,18 @@ msgid ""
 "partners-program/)  by Mozilla to [[make Tails ISO images build reproducibly|"
 "blueprint/reproducible_builds]]."
 msgstr ""
+"2016-06-22: Tails 获得一个由 Mozilla授予的 [奖项](https://blog.mozilla.org/"
+"blog/2016/06/22/mozilla-awards-385000-to-open-source-projects-as-part-of-"
+"moss-mission-partners-program/)  因 [[可以复现地构建 Tails ISO 镜像|"
+"blueprint/reproducible_builds]]."
 
 #. type: Bullet: '* '
 msgid ""
 "2014-12-01: Tails was awarded the [November 2014 DistroWatch.com donation]"
 "(http://distrowatch.com/weekly.php?issue=20141201#donation)"
 msgstr ""
+"2014-12-01: Tails 获得 [2014 11月 DistroWatch.com 捐赠](http://distrowatch."
+"com/weekly.php?issue=20141201#donation)"
 
 #. type: Bullet: '* '
 msgid ""
@@ -316,6 +321,9 @@ msgid ""
 "the Tails project, for breaking ground in the area of user privacy "
 "protection.\""
 msgstr ""
+"2014-06-06: Tails 获得一个荣誉提名： [APC FLOSS 奖](https://www.apc.org/es/"
+"node/19368): \"特别地，评委团愿特别提及 Tails项目，因他们在用户隐私保护领域做"
+"的开拓性贡献。\""
 
 #. type: Bullet: '* '
 msgid ""
@@ -326,6 +334,11 @@ msgid ""
 "towards tackling the spectrum of user needs -- from usability to security -- "
 "in high-risk environments\"."
 msgstr ""
+"2014-03-11: Tails 赢得了 [2014 Access Innovation Prize](https://www."
+"accessnow.org/blog/2014/03/11/2014-access-innovation-prize-winners-announced-"
+"at-rightscon), 为其在终端安全上做的贡献。 Access 报告说 “Tails 汇集了 来自开"
+"发者、 培训师、 安全专业人士成功的协作，以解决用户不同层面的需求——从易用性到"
+"安全性——在高风险环境下”。"
 
 #. type: Title =
 #, no-wrap
@@ -429,7 +442,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Books, booklets, and guide\n"
-msgstr "书, 书简,和相关指南 \n"
+msgstr "书, 手册,和相关指南 \n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -504,7 +517,7 @@ msgid ""
 "incognito-live-systemhtml.html)  from Reporters Without Borders."
 msgstr ""
 "无边界记者组织的[We Fight Censorship](http://www.wefightcensorship.org/"
-"article/tails-amnesic-incognito-live-systemhtml.html)  "
+"article/tails-amnesic-incognito-live-systemhtml.html)  项目。"
 
 #. type: Bullet: '* '
 msgid "[CryptoParty handbook](https://www.cryptoparty.in/tails)."
