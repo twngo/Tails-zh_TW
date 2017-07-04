@@ -64,7 +64,6 @@ for example:
   the corresponding teams
 * keep systems up-to-date, reboot them as needed
 * keep backups up-to-date
-* keep Puppet modules up-to-date wrt. upstream changes
 * keep Jenkins plugins up-to-date, by upgrading any plugin that satisfies
   at least one of these conditions:
    - only brings security fixes
@@ -76,6 +75,8 @@ for example:
   on the upstream bug tracker and on our own one)
 * act as the de facto interface between Tails and the servers hosting
   our services (boum.org, immerda.ch) for non-trivial requests
+* when a sysadmin shift includes the beginning of a yearly quarter, ensure that
+  sysadmin shifts are filled and agreed on for the next two quarters
 
 <a id="tools"></a>
 
