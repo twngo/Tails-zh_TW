@@ -1,0 +1,316 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails\n"
+"POT-Creation-Date: 2016-04-29 13:53+0000\n"
+"PO-Revision-Date: 2017-07-04 12:32+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"Language-Team: Tails localization discussion <tails-l10n@boum.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Upgrading a Tails USB stick or SD card\"]]\n"
+msgstr "[[!meta title=\"使用USB隨身碟或 SD 卡來更新 Tails\"]]\n"
+
+#. type: Plain text
+msgid ""
+"Tails includes an automatic mechanism to upgrade a USB stick to a newer "
+"version. In some cases, it is impossible to do an **automatic upgrade** and "
+"you might have to do a **manual upgrade**. This page describes both "
+"techniques."
+msgstr ""
+"Tails 包括了一個自動機制自 USB 隨身磁來更新昇級。在某些情況下，它可能不會 **"
+"自動昇級** 因此你必須透過 **手動昇級**。本頁會介紹這兩種方法。"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"caution\">\n"
+msgstr "<div class=\"caution\">\n"
+
+#. type: Plain text
+msgid ""
+"Our upgrades always fix important security issues so it is important to do "
+"them as soon as possible."
+msgstr "我們的昇級版本會修復重大的安全問題，因此最好即時進行更新。"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Both techniques only work if the upgraded device, USB stick or SD card, was\n"
+"installed using <span class=\"application\">Tails Installer</span>. **The\n"
+"persistent storage on the device will be preserved.**\n"
+msgstr ""
+"這二種方式只有在透過USB 隨身碟或 SD 卡利用\n"
+"<span class=\"application\">Tails Installer</span>進行安裝才能行。 **\n"
+"設備上的永久磁區會被保留**\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"note\">\n"
+msgstr "<div class=\"note\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>If you use Tails from a DVD, you need to [[burn a new DVD|install/dvd]].</p>\n"
+msgstr "如果你是使用DVD來執行 Tails, 你必需要 [[燒錄一個全新的DVD|install/dvd]].</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>If you use Tails from a USB stick installed from Mac OS X using the\n"
+"command line, you need to [[reinstall|install/mac/usb/overview]].</p>\n"
+msgstr ""
+"<p>如果你是在 Mac OS X 底下使用文字指令來設置\n"
+"USB  隨身碟，你需要[[重新安裝|install/mac/usb/overview]].</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a name=\"automatic\"></a>\n"
+msgstr "<a name=\"automatic\"></a>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Automatic upgrade using <span class=\"application\">Tails Upgrader</span>\n"
+msgstr "自動使用<span class=\"application\">Tails Upgrader</span>進行昇級\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"After starting Tails and connecting to Tor, <span class=\"application\">Tails\n"
+"Upgrader</span> automatically checks if upgrades are available and then\n"
+"proposes you to upgrade your device. The upgrades are checked for and downloaded\n"
+"through Tor.\n"
+msgstr ""
+"在啟動Tails並連接上Tor之後, <span class=\"application\">Tails\n"
+"Upgrader</span>會自動檢查是否有新版的更新可用，然後\n"
+"建議你的設備進行更新。這個更新檢查和下載\n"
+"都是透過 Tor.\n"
+
+#. type: Plain text
+msgid "The advantages of this technique are the following:"
+msgstr "這個方式有以下的優點："
+
+#. type: Bullet: '  - '
+msgid ""
+"You only need a single Tails device. The upgrade is done on the fly from a "
+"running Tails. After upgrading, you can restart and use the new version."
+msgstr ""
+"你只需要一個 Tails 設備即可。在執行 Tails 要進行昇級很快速。昇級之後，你可以"
+"重啟後使用新的版本。"
+
+#. type: Bullet: '  - '
+msgid "The upgrade is much smaller to download than a full ISO image."
+msgstr "這個昇級會比下載完整的映像檔小許多。"
+
+#. type: Bullet: '  - '
+msgid ""
+"The upgrade mechanism includes cryptographic verification of the upgrade.  "
+"You don't have to verify the ISO image yourself anymore."
+msgstr "這個昇級機制包含了密語查核。你自身不必再核驗這個ISO 映像檔。"
+
+#. type: Plain text
+msgid "Requirements:"
+msgstr "需求："
+
+#. type: Bullet: '  - '
+msgid ""
+"A Tails device, USB stick or SD card, installed using <span class="
+"\"application\">Tails Installer</span>."
+msgstr ""
+"Tails 設備, USB 隨身磁或 SD 卡，使用<span class=\"application\">Tails "
+"Installer</span>進行安裝。"
+
+#. type: Bullet: '  - '
+msgid "An Internet connection."
+msgstr "網路連線。"
+
+#. type: Plain text
+msgid ""
+"After connecting to Tor, if an upgrade is available, a dialog box appears "
+"and proposes you to upgrade your device."
+msgstr ""
+"在連上 Tor 之後，如果有可用的更新版本，會出現一個對話視窗來建議你昇級該設備。"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img upgrader.png link=no]]\n"
+msgstr "[[!img upgrader.png link=no]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<ul>\n"
+"<li>It is recommended to close all the open applications during the\n"
+"upgrade.</li>\n"
+"<li>Downloading the upgrade might take a long time, from several minutes to a\n"
+"few hours.</li>\n"
+"<li>The networking will be disabled after downloading the upgrade.</li>\n"
+"</ul>\n"
+msgstr ""
+"<ul>\n"
+"<li>建議在昇級時，先關閉所有的應用程式</li>\n"
+"<li>下載昇級可能會花上一點時間，從幾分鐘到數小時</li>\n"
+"<li>在完成下載昇級軟體後，網路會自動關閉</li>\n"
+"</ul>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"If you decide to do the upgrade, click on <span\n"
+"class=\"guilabel\">Upgrade now</span>,\n"
+"and follow the assistant through the upgrade process.\n"
+msgstr ""
+"如果要進行昇級，請點擊 <span\n"
+"class=\"guilabel\">立即昇級</span>,\n"
+"然後依照昇級過程的指示操作\n"
+
+#. type: Plain text
+msgid ""
+"If you missed an upgrade, each upgrade will be installed one after the "
+"other. For exemple, if you have a Tails 1.3 and the current version is "
+"1.3.2, then the upgrade to 1.3.1 will be installed, and after you restart "
+"Tails, the upgrade to 1.3.2 will be installed."
+msgstr ""
+"如果你錯失了昇級，每一個版本會一個接一個地安裝。舉例來說， 如果你目前使用的"
+"是 Tails 1.3 而最新版為 1.3.2, 那麼就會先昇級到 1.3.1。然後重啟Tails之後，再"
+"繼續昇級到 1.3.2 版的安裝。"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"tip\">\n"
+msgstr "<div class=\"tip\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>If you cannot upgrade at startup (for example if you have no network\n"
+"connection by then), you can start <span class=\"application\">Tails\n"
+"Upgrader</span> later by opening a terminal and executing the following\n"
+"command:</p>\n"
+msgstr ""
+"<p>如果你無法自啟動時更新 (例如在離線的狀況下\n"
+"), 你可以在終端器下打開 <span class=\"application\">Tails\n"
+"Upgrader</span> ，然後執行以下指令：</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<pre>tails-upgrade-frontend-wrapper</pre>\n"
+msgstr "<pre>tails-upgrade-frontend-wrapper</pre>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/first_steps/upgrade/release_notes.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"doc/first_steps/upgrade/release_notes.inline\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+msgid ""
+"If an error occurs, the assistant proposes you to read one of the following "
+"pages:"
+msgstr "如果出錯，我們建議你可以參考以下的協助頁面："
+
+#. type: Bullet: '  - '
+msgid ""
+"If an error occurs while checking for available upgrades:<br/> [[file:///usr/"
+"share/doc/tails/website/doc/upgrade/error/check.en.html|upgrade/error/check]]"
+msgstr ""
+"如果在檢查是否有可用昇級版本時發生錯誤:<br/> [[file:///usr/share/doc/tails/"
+"website/doc/upgrade/error/check.en.html|upgrade/error/check]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"If an error occurs while download the upgrade:<br/> [[file:///usr/share/doc/"
+"tails/website/doc/upgrade/error/download.en.html|upgrade/error/download]]"
+msgstr ""
+"如果在下載更新版時發生錯誤：<br/> [[file:///usr/share/doc/tails/website/doc/"
+"upgrade/error/download.en.html|upgrade/error/download]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"If an error occurs while installing the upgrade:<br/> [[file:///usr/share/"
+"doc/tails/website/doc/upgrade/error/install.en.html|upgrade/error/install]]"
+msgstr ""
+"如果在安裝更新時發生錯誤：<br/> [[file:///usr/share/doc/tails/website/doc/"
+"upgrade/error/install.en.html|upgrade/error/install]]"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a name=\"manual\"></a>\n"
+msgstr "<a name=\"manual\"></a>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Manual upgrade using <span class=\"application\">Tails Installer</span>\n"
+msgstr "使用 <span class=\"application\">Tails Installers</span>進行手動昇級\n"
+
+#. type: Plain text
+msgid ""
+"It might not always be possible to do an automatic upgrade as described "
+"above.  For example, when:"
+msgstr "有時候並不能成功地如上所述地自動完成更新，例如當："
+
+#. type: Bullet: '  - '
+msgid "No automatic upgrade is available from our website for this version."
+msgstr "我們的網站上並未提供此版本的自動昇級更新。"
+
+#. type: Bullet: '  - '
+msgid ""
+"The automatic upgrade is impossible for technical reasons (not enough "
+"memory, not enough free space on the device, etc.)."
+msgstr "因技術問題無法更新 (無足夠的記憶體、空間不足等等因素)。"
+
+#. type: Bullet: '  - '
+msgid ""
+"You want to upgrade from another Tails device which already has a newer "
+"version installed, for example when working offline."
+msgstr "如果要從另一個已裝好新版本的Tails 設備來進行昇級，例如透過離線安裝。"
+
+#. type: Bullet: '  - '
+msgid "The automatic upgrade failed and you need to repair a Tails device."
+msgstr "自動昇級失敗，你需要修復 Tails 設備。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"In this case, <span class=\"application\">Tails Installer</span> allows you to\n"
+"manually upgrade a USB stick or SD card to a newer version of Tails.\n"
+"To do so, follow our [[manual upgrade instructions|/upgrade]].\n"
+msgstr ""
+"在此情況下，<span class=\"application\">Tails Installer</span> 可讓你\n"
+"手動利用 SB 隨身磁 或 SD卡來昇級新版的 Tails。\n"
+"請依照 [[手動昇級指示|/upgrade]]操作\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"To know your version of Tails, choose\n"
+"<span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">About Tails</span>\n"
+"</span>\n"
+msgstr ""
+"要知道目前所用的 Tails 版本, 請到\n"
+"<span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">應用程式</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">About Tails</span>\n"
+"</span>\n"

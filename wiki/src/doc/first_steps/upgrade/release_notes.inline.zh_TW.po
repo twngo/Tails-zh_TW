@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails l10n\n"
+"POT-Creation-Date: 2017-05-28 00:10+0800\n"
+"PO-Revision-Date: 2017-07-03 16:56+0800\n"
+"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
+"Language-Team: Tails l10n\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Content of: <div><p>
+msgid ""
+"We recommend you read the [[!inline pages=\"inc/stable_i386_release_notes\" "
+"raw=\"yes\" sort=\"age\"]] for the latest version. They document all the "
+"changes in this new version:"
+msgstr ""
+"我們建議你看最新版的 [[!inline pages=\"inc/stable_i386_release_notes\" raw="
+"\"yes\" sort=\"age\"]]。它記載了這個新版本的全部變動："
+
+#. type: Content of: <div><ul><li>
+msgid "new features"
+msgstr "新功能"
+
+#. type: Content of: <div><ul><li>
+msgid "problems that were solved"
+msgstr "已決解的問題"
+
+#. type: Content of: <div><ul><li>
+msgid "known issues that have already been identified"
+msgstr "已知的問題已經被認出"
+
+#. type: Content of: <div><p>
+msgid ""
+"They might also contain <strong>special instructions for upgrading</strong>."
+msgstr "它們可能包括<strong>更新的特別指示</strong>."

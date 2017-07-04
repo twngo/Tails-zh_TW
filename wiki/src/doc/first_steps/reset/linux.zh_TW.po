@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails\n"
+"POT-Creation-Date: 2017-01-12 22:25+0100\n"
+"PO-Revision-Date: 2017-07-04 11:31+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"Language-Team: Tails localization <tails-l10n@boum.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Resetting a USB stick or SD card using Linux\"]]\n"
+msgstr "[[!meta title=\"使用 Linux 來重置 USB隨身磁或 SD卡\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/first_steps/reset.intro\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"doc/first_steps/reset.intro.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=1]]\n"
+msgstr "[[!toc levels=1]]\n"
+
+#. type: Plain text
+#, no-wrap
+#| msgid "<a id=\"disk_utility\"></a>\n"
+msgid "<a id=\"disks\"></a>\n"
+msgstr "<a id=\"磁碟\"></a>\n"
+
+#. type: Title =
+#, no-wrap
+#| msgid "Using <span class=\"application\">GNOME Disk Utility</span>\n"
+msgid "Using <span class=\"application\">GNOME Disks</span>\n"
+msgstr "使用<span class=\"application\">GNOME 磁碟</span>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"caution\">\n"
+msgstr "<div class=\"caution\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<strong>You might overwrite any hard disk on the computer.</strong> If at some\n"
+"point you are not sure about which device to choose, stop proceeding.\n"
+msgstr ""
+"<strong>你可能會覆寫掉電腦上的任何一顆硬碟</strong>如果在這個\n"
+"狀況下你無法確認要選擇哪個設備，請停止操作\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Bullet: '1.  '
+msgid ""
+"Make sure that the USB stick or SD card that you want to reset is unplugged."
+msgstr "確認這個欲用於重置的 USB 隨身碟或 SD 卡尚未插上。"
+
+#. type: Plain text
+#, no-wrap
+#| msgid ""
+#| "2.  Choose\n"
+#| "    <span class=\"menuchoice\">\n"
+#| "      <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+#| "      <span class=\"guisubmenu\">Accessories</span>&nbsp;▸\n"
+#| "      <span class=\"guimenuitem\">Disk Utility</span>\n"
+#| "    </span>\n"
+#| "    to start <span class=\"application\">GNOME Disk Utility</span>.\n"
+msgid ""
+"1.  Choose\n"
+"    <span class=\"menuchoice\">\n"
+"      <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"      <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
+"      <span class=\"guimenuitem\">Disks</span>\n"
+"    </span>\n"
+"    to start <span class=\"application\">GNOME Disks</span>.\n"
+msgstr ""
+"2.  選擇\n"
+"    <span class=\"menuchoice\">\n"
+"      <span class=\"guimenu\">應用程式</span>&nbsp;▸\n"
+"      <span class=\"guisubmenu\">效能工具</span>&nbsp;▸\n"
+"      <span class=\"guimenuitem\">磁碟</span>\n"
+"    </span>\n"
+"    以啟動 <span class=\"application\">GNOME 磁碟/span>。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    A list of all the storage devices on the computer appears in the left pane\n"
+"    of the window.\n"
+msgstr ""
+"    在視窗左側面板上\n"
+"    會出現一個電腦上所有儲存設備的清單\n"
+
+#. type: Bullet: '1.  '
+msgid "Plug the USB stick or SD card that you want to reset."
+msgstr "請插入欲重置的 USB 隨身碟或SD 卡。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    A new device appears in the list of storage devices. This new device\n"
+"    corresponds to the USB stick or SD card that you plugged in. Click on it.\n"
+msgstr ""
+"   在儲存設備清單上會出現一個新設備，這個新設備\n"
+"   對應為你所連接的USB隨身碟或 SD 卡，請點擊它\n"
+
+#. type: Bullet: '1.  '
+msgid ""
+"In the right pane of the window, verify that the device corresponds to the "
+"device that you want to reset, its brand, its size, etc."
+msgstr "在視窗的右側面板中，核實所要重置的設備，其品牌、大小等資訊。"
+
+#. type: Bullet: '1.  '
+msgid ""
+"To reset the device, click on the <span class=\"guimenu\">[[!img lib/emblem-"
+"system.png alt=\"System\" class=symbolic link=no]]</span> button in the "
+"titlebar and choose <span class=\"guilabel\">Format…</span>."
+msgstr ""
+"要重置設備，請點擊<span class=\"guimenu\">[[!img lib/emblem-system.png alt="
+"\"System\" class=symbolic link=no]]</span>標題列的按鍵然後選擇<span class="
+"\"guilabel\">格式化…</span>."
+
+#. type: Bullet: '1.  '
+msgid "In the <span class=\"guilabel\">Format Disk</span> dialog:"
+msgstr "在<span class=\"guilabel\">格式磁碟</span> 對話視窗中:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    a. If you want to erase all data securely, choose to\n"
+"    <span class=\"guilabel\">Overwrite existing data with zeroes</span> in the\n"
+"    <span class=\"guilabel\">Erase</span> drop-down list.\n"
+msgstr ""
+"    a. 如果要安全地清除所有資料，選擇\n"
+"    下拉式選單的<span class=\"guilabel\">清除</span>選項\n"
+"    當中的<span class=\"guilabel\">以零覆寫珼有的資料</span>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    a. Choose <span class=\"guilabel\">Compatible with all\n"
+"    systems and devices (MBR/DOS)</span> in the <span class=\"guilabel\">Partitioning</span>\n"
+"    drop-down list.\n"
+msgstr ""
+"    a. 選擇<span class=\"guilabel\">相容所有作業\n"
+"    系統和設備 (MBR/DOS)</span>，其位於 <span class=\"guilabel\">分割磁區</span>\n"
+"    的下拉式選單中\n"
+
+#. type: Plain text
+#, no-wrap
+#| msgid "To reset the device, click on the <span class=\"button\">Format Drive</span> button."
+msgid "    Then click on the <span class=\"button\">Format…</span> button.\n"
+msgstr "然後點擊<span class=\"button\">格式化</span> 按鍵。\n"
+
+#. type: Bullet: '1.  '
+msgid ""
+"In the confirmation dialog, click on the <span class=\"button\">Format</"
+"span> button to confirm."
+msgstr ""
+"在確認的對話視窗中，點擊<span class=\"button\">格式化</span>按鍵以確認。"
+
+#. type: Bullet: '1.  '
+#| msgid ""
+#| "To make sure that all the changes are written to the device, click on the "
+#| "<span class=\"button\">Safe Removal</span> button in the right pane."
+msgid ""
+"To make sure that all the changes are written to the device, click on the "
+"<span class=\"guimenu\">[[!img lib/media-eject.png alt=\"Eject\" "
+"class=symbolic link=no]]</span> button in the titlebar."
+msgstr ""
+"確認所有的變更有寫入到設備上，點擊標題列上方的<span class=\"guimenu\">[[!img "
+"lib/media-eject.png alt=\"Eject\" class=symbolic link=no]]</span> 按鍵。"
+
+#. type: Title =
+#, no-wrap
+msgid "Resetting a Tails device from itself\n"
+msgstr "自設備本身來重置Tails\n"
+
+#. type: Plain text
+msgid ""
+"If Tails is your only Linux system, you can generally reset a Tails USB "
+"stick or SD card directly from that device while running Tails."
+msgstr ""
+"如果 Tails 是你唯一使用的 Linux-作業系統,你可以在執行Tails 的時候來直接重置它"
+"的 USB 隨身碟或 SD 卡。"
+
+#. type: Bullet: '1.  '
+#| msgid ""
+#| "When starting Tails, add the <span class=\"command\">toram</span> boot "
+#| "option in the <span class=\"application\">boot menu</span>. For detailed "
+#| "instructions, see the documentation on [[using the <span class="
+#| "\"application\">boot menu</span>|startup_options#boot_menu]]."
+msgid ""
+"When starting Tails, add the <span class=\"command\">toram</span> boot "
+"option in the <span class=\"application\">Boot Loader Menu</span>. For "
+"detailed instructions, see the documentation on [[using the <span class="
+"\"application\">Boot Loader Menu</span>|startup_options#boot_loader_menu]]."
+msgstr ""
+"在啟動Tails 時，新增 <span class=\"command\">toram</span> 開機選項在 <span "
+"class=\"application\">開機載入選單Boot Loader Menu</span>。 詳細的指示，請參"
+"見[[<span class=\"application\">Boot Loader Menu</span>|"
+"startup_options#boot_menu]]文件。"
+
+#. type: Bullet: '2.  '
+#| msgid ""
+#| "If Tails starts as usual, follow the instructions for [[resetting a USB "
+#| "stick or SD card using <span class=\"application\">Disk Utility</span>|"
+#| "linux#disk_utility]]."
+msgid ""
+"If Tails starts as usual, follow the instructions for [[resetting a USB "
+"stick or SD card using <span class=\"application\">GNOME Disks</span>|"
+"linux#disks]]."
+msgstr ""
+"如果 Tails 啟動如常,依照 [[使用 <span class=\"application\">>GNOME 磁碟</"
+"span>來重置 USB隨身磁或 SD卡|linux#disk_utility]]指示進行。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    **If the system fails to start**, that means that the computer does not have\n"
+"    enough memory for this operation mode. Try with another computer, or find\n"
+"    another Linux system, such as another Tails device, to do the reset from.\n"
+msgstr ""
+"**如果系統啟動失敗** 它表示電腦並沒有\n"
+"足夠的記憶體來執行這個操作模式。請試試不同的電腦或是\n"
+"找尋其它的 Linux系統，例如另一個 Tails 設備，利用它來進行重置。\n"
+
+#~ msgid ""
+#~ "In the popup window, choose <span class=\"guilabel\">Master Boot Record</"
+#~ "span> from the <span class=\"guilabel\">Scheme</span> drop-down list. "
+#~ "Then click on the <span class=\"button\">Format</span> button."
+#~ msgstr ""
+#~ "Wählen Sie in dem Pop-Up Fenster <span class=\"guilabel\">Master Boot "
+#~ "Record</span> aus der <span class=\"guilabel\">Schema</span> Auswahlliste "
+#~ "aus.\n"
+#~ "Klicken Sie anschließend auf die <span class=\"button\">Formatieren</"
+#~ "span> Schaltfläche."

@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails l10n\n"
+"POT-Creation-Date: 2015-11-18 09:10+0100\n"
+"PO-Revision-Date: 2017-07-03 16:51+0800\n"
+"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
+"Language-Team: Tails l10n\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Uninstalling Tails or resetting a USB stick or SD card\"]]\n"
+msgstr "[[!meta title=\"卸除  Tails 或是重新用USB 隨身碟 或 SD 卡進行設定\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/first_steps/reset.intro\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"doc/first_steps/reset.intro.de\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Bullet: '  - '
+msgid ""
+"[[Instructions for Linux with GNOME: Ubuntu, Debian, Tails, etc.|reset/"
+"linux]]"
+msgstr ""
+"[[Linux  使用 GNOME: Ubuntu, Debian, Tails, 等等的指示|reset/linux]]指示文件"
+
+#. type: Bullet: '  - '
+msgid "[[Instructions for Windows|reset/windows]]"
+msgstr "[[Windows指示文件|reset/windows]]指示文件"
+
+#. type: Bullet: '  - '
+msgid "[[Instructions for Mac OS X|reset/mac]]"
+msgstr "[[Mac OS X 指示文件|reset/mac]]"

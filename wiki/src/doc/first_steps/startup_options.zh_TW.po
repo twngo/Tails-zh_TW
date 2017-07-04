@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-04-27 10:59+0000\n"
+"PO-Revision-Date: 2017-06-30 15:59+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Startup options\"]]\n"
+msgstr "[[!meta title=\"啟動選項\"]]\n"
+
+#. type: Plain text
+msgid ""
+"When starting Tails, you can specify startup options to alter some of its "
+"basic functioning. The two ways of specifying startup options are the "
+"following:"
+msgstr ""
+"當啟動  Tails， 用戶可指定選項來改變它的基本功能。有二種基本的啟動指定選項方"
+"式："
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=1]]\n"
+msgstr "[[!toc levels=1]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<a id=\"boot_loader_menu\"></a>\n"
+"<a id=\"boot_menu\"></a> <!-- for backward compatibility -->\n"
+msgstr ""
+"<a id=\"boot_loader_menu\"></a>\n"
+"<a id=\"boot_menu\"></a> <!-- for backward compatibility -->\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Using the <span class=\"application\">Boot Loader Menu</span>\n"
+msgstr "使用 <span class=\"application\">開機載入選單</span>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"The <span class=\"application\">Boot Loader Menu</span> is the first screen to appear\n"
+"when Tails starts.\n"
+msgstr ""
+"這個 <span class=\"application\">開機載入選單</span> 是進入 Tails 啟動後\n"
+"第一個會看到的畫面。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"tip\">\n"
+msgstr "<div class=\"tip\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>The <span class=\"guilabel\">Troubleshooting Mode</span> disables some features of the\n"
+"Linux kernel and might work better on some computers. You can try this option if you\n"
+"think you are experiencing errors related to hardware compatibility while\n"
+"starting Tails.</p>\n"
+msgstr ""
+"這個 <span class=\"guilabel\">故障排除</span>-模式取消了某些Linux 核心\n"
+"的功能，也許能在某些電腦上運行更順暢。你可以試試這個選項\n"
+"尤其在使用啟動 Tails 上面遇到一些和可能和硬體相容性有關的錯誤。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Bullet: '1.  '
+msgid ""
+"To add a boot option, press <span class=\"keycap\">Tab</span> when the <span "
+"class=\"application\">Boot Loader Menu</span> appears. A list of boot "
+"options appears at the bottom of the screen."
+msgstr ""
+"要新增開機選項，當出現<span class=\"application\">Bootmenü</span>，請按<span "
+"class=\"keycap\">Tab</span>鍵。此時螢幕下方會出現一個 開機選項清單。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img boot-menu-with-options.png link=no alt=\"Black screen with Tails\n"
+"artwork. Boot Loader Menu with two options 'Tails' and 'Tails (Troubleshooting Mode)'.\n"
+"At the bottom, a list of options ending with 'vsyscall=none quiet_'\"]]\n"
+msgstr ""
+"[[!img boot-menu-with-options.png link=no alt=\"Tails 全黑畫面。\n"
+" 開機載入選單有二個選項, 'Tails' 和 'Tails (故障排除模式)'。在底部\n"
+"有一份選項列表，其以''vsyscall=none quiet_作結尾“]]\n"
+
+#. type: Bullet: '2.  '
+msgid ""
+"Press <span class=\"keycap\">Space</span>, and type the boot option that you "
+"want to add."
+msgstr "按 <span class=\"keycap\">空白鍵</span>，並輸入要加入的開機選項。"
+
+#. type: Bullet: '3.  '
+msgid ""
+"If you want to add more than one boot option, type them one after the other, "
+"and separate them by a <span class=\"keycap\">Space</span>."
+msgstr ""
+"如果要加入一個以上的開機選項, 一個一個輸入，並用<span class=\"keycap\">空白鍵"
+"</span>作劃分。"
+
+#. type: Bullet: '4.  '
+msgid "Then press <span class=\"keycap\">Enter</span> to start Tails."
+msgstr "然後按 <span class=\"keycap\">Enter</span>來啟動 Tails."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<a id=\"greeter\"></a>\n"
+"<a id=\"tails_greeter\"></a>\n"
+msgstr ""
+"<a id=\"greeter\"></a>\n"
+"<a id=\"tails_greeter\"></a>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Using <span class=\"application\">Tails Greeter</span>\n"
+msgstr "使用 <span class=\"application\">Tails Greeter</span>\n"
+
+#. type: Plain text
+#, no-wrap
+#| msgid ""
+#| "<span class=\"application\">Tails Greeter</span> is the set of dialogs that\n"
+#| "appear after the <span class=\"application\">Boot Loader Menu</span>, but before the\n"
+#| "<span class=\"application\">GNOME Desktop</span> appears. This is how to first\n"
+#| "screen of <span class=\"application\">Tails Greeter</span> looks like:\n"
+msgid ""
+"<span class=\"application\">Tails Greeter</span> is the set of dialogs that\n"
+"appear after the <span class=\"application\">Boot Loader Menu</span>, but before the\n"
+"<span class=\"application\">GNOME Desktop</span> appears. This is how the first\n"
+"screen of <span class=\"application\">Tails Greeter</span> looks like:\n"
+msgstr ""
+"<span class=\"application\">Tails Greeter</span>是出現在<span class=\"application\">開機選項</span>之後,\n"
+"進入<span class=\"application\">GNOME-桌面環境</span>之前，會出現的一組對話視窗。\n"
+"這是首次進入<span class=\"application\">Tails Greeter</span>的畫面模樣。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img tails-greeter-welcome-to-tails.png link=no alt=\"Welcome to Tails. More\n"
+"options? Yes, and No toggle button, and Login button.\"]]\n"
+msgstr ""
+"[[!img tails-greeter-welcome-to-tails.png link=no alt=\"歡迎來到 Tails 更多\n"
+"選項？ 是和否的調整按鍵以及登錄按鍵。\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"**To start Tails without options**, click on the\n"
+"<span class=\"button\">Login</span> button, or just press\n"
+"<span class=\"keycap\">Enter</span>.\n"
+msgstr ""
+"**啟用  Tails 不帶選項**, 點擊\n"
+"<span class=\"button\">登錄鍵</span>-或是按\n"
+"<span class=\"keycap\">Enter</span>鍵。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"**To start Tails in languages other than English**, select the one you\n"
+"want from the menu at the bottom of the screen. You can also adapt\n"
+"your country and keyboard layout. When you do that, <span class=\"application\">Tails Greeter</span> itself\n"
+"switches language.\n"
+msgstr ""
+"**Um Tails in einer anderen Sprache als Englisch zu starten**, wählen Sie die\n"
+"Gewünschte aus dem Menü am unteren Bildschirmrand aus. Sie können auch\n"
+"Ihr Land sowie die Tastaturbelegung anpassen. Wenn Sie dies tun, wird der\n"
+"<span class=\"application\">Tails Greeter</span> selbst die Sprache wechseln.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"**To set more options**, click on the <span class=\"button\">Yes</span> button.\n"
+"Then click on the <span class=\"button\">Forward</span> button.\n"
+msgstr ""
+"**欲設定更多選項**, 擊選 <span class=\"button\">是</span>-按鍵。\n"
+"然後再點擊<span class=\"button\">前進</span>-按鍵。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Here is a list of options that you can set using <span class=\"application\">Tails\n"
+"Greeter</span>:\n"
+msgstr ""
+"這裏有一份清單選項，可以來設定<span class=\"application\">Tails\n"
+"Greeter</span> 使用:\n"
+
+#. type: Bullet: '  - '
+msgid "[[Administration password|administration_password]]"
+msgstr "[[管理密碼|administration_password]]"
+
+#. type: Bullet: '  - '
+msgid "[[MAC address spoofing|mac_spoofing]]"
+msgstr "[[MAC-地址欺騙|mac_spoofing]]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  - [[Network configuration|network_configuration]]\n"
+"    - [[Tor bridge mode|bridge_mode]]\n"
+"    - [[Disabling all networking (offline_mode)|offline_mode]]\n"
+"  - [[Encrypted persistence|doc/first_steps/persistence/use]]\n"
+msgstr ""
+"  - [[網路設定|network_configuration]]\n"
+"    - [[Tor 橋接模式|bridge_mode]]\n"
+"    - [[取消所有網路連線 (離線模式)|offline_mode]]\n"
+"  - [[加密永久磁區|doc/first_steps/persistence/use]]\n"
