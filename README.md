@@ -2,7 +2,7 @@
 website of TAILS (l10n project for Traditional Chinese)
 ### TAILS 網站中文化
 
-[TAILS 網站](https://tails.boum.org/)的正體中文翻譯計
+[TAILS 網站](https://tails.boum.org/)的正體中文翻譯計畫
 
 目前只完成（tails/wiki/src/） 底下第一層的檔案，初步資料先放在這裏，歡迎任意取用
 

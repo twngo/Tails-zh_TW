@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n Team\n"
 "POT-Creation-Date: 2017-05-28 00:10+0800\n"
-"PO-Revision-Date: 2017-05-28 11:03+0800\n"
+"PO-Revision-Date: 2017-07-01 04:26+0000\n"
 "Last-Translator: mdrights\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 2.0.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -44,12 +44,11 @@ msgstr "</div>\n"
 msgid ""
 "Read about how you can help [[improving Tails documentation|/contribute/how/"
 "documentation]]."
-msgstr ""
-"了解如何提供协助 [[改进 Tails的文件档案|/contribute/how/documentation]]."
+msgstr "了解如何提供协助 [[改进 Tails的文档|/contribute/how/documentation]]."
 
 #. type: Plain text
 msgid "- [[Introduction to this documentation|introduction]]"
-msgstr "- [[文件介绍|introduction]]"
+msgstr "- [[文档介绍|introduction]]"
 
 #. type: Title #
 #, no-wrap
@@ -81,15 +80,15 @@ msgstr "[[自Windows安装|install/win/usb/overview]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Debian, Ubuntu, or Mint|install/debian/usb/overview]]"
-msgstr "[[从Debian， Ubuntu 或 Mint　安装|install/debian/usb/overview]]"
+msgstr "[[从Debian， Ubuntu 或 Mint 安装|install/debian/usb/overview]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Install from Debian, Ubuntu, or Mint using the command line and GnuPG|"
 "install/expert/usb/overview]]"
 msgstr ""
-"[[从 Debian，Ubuntu 或 Mint 使用文字指令列与 GnuPG 来进行安装|install/expert/"
-"usb/overview]]"
+"[[从 Debian，Ubuntu 或 Mint 使用命令行和 GnuPG 来进行安装|install/expert/usb/"
+"overview]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from other Linux distributions|install/linux/usb/overview]]"
@@ -102,7 +101,7 @@ msgstr "[[先在Mac OS X 苹果电脑上烧录DVD 再行安装|install/mac/dvd/o
 
 #. type: Bullet: '  - '
 msgid "[[Install from Mac OS X and the command line|install/mac/usb/overview]]"
-msgstr "[[利用Mac 苹果电脑的文字指令列进行安装|install/mac/usb/overview]]"
+msgstr "[[利用Mac 苹果电脑的命令行进行安装|install/mac/usb/overview]]"
 
 #. type: Bullet: '  - '
 msgid "[[Burn a DVD|install/dvd]]"
@@ -119,7 +118,7 @@ msgstr "[[下载并透过OpenPGP进行认证|install/download/openpgp]]"
 #. type: Title #
 #, no-wrap
 msgid "First steps with Tails"
-msgstr "使用 Tails　的第一步"
+msgstr "使用 Tails 的第一步"
 
 #. type: Plain text
 #, no-wrap
@@ -149,7 +148,7 @@ msgstr "[[!inline pages=\"doc/encryption_and_privacy.index.de\" raw=\"yes\" sort
 #. type: Title #
 #, no-wrap
 msgid "Work on sensitive documents"
-msgstr "敏感文件的作业"
+msgstr "敏感文件的操作"
 
 #. type: Plain text
 #, no-wrap
