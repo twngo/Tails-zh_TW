@@ -1,0 +1,354 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails l10n\n"
+"POT-Creation-Date: 2016-09-22 14:33+0300\n"
+"PO-Revision-Date: 2017-07-13 15:37+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"Language-Team: Tails l10n <jxt@twngo.xyz>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Plain text
+#, no-wrap
+#| msgid "[[!meta title=\"Installing Tails on a USB stick from Mac using the command line\"]]\n"
+msgid "[[!meta title=\"Install from Mac using the command line\"]]\n"
+msgstr "[[!meta title=\"在Mac系統下以命令列安裝 Tails\"]]\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "[[!meta stylesheet=\"bootstrap\" rel=\"stylesheet\" title=\"\"]]\n"
+msgid "[[!meta stylesheet=\"bootstrap.min\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr "[[!meta stylesheet=\"bootstrap\" rel=\"stylesheet\" title=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta stylesheet=\"inc/stylesheets/assistant\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr "[[!meta stylesheet=\"inc/stylesheets/assistant\" rel=\"stylesheet\" title=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta stylesheet=\"inc/stylesheets/dave\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr "[[!meta stylesheet=\"inc/stylesheets/dave\" rel=\"stylesheet\" title=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta stylesheet=\"inc/stylesheets/steps\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr "[[!meta stylesheet=\"inc/stylesheets/steps\" rel=\"stylesheet\" title=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta stylesheet=\"inc/stylesheets/mac-usb\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr "[[!meta stylesheet=\"inc/stylesheets/mac-usb\" rel=\"stylesheet\" title=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta script=\"install/inc/js/dave\"]]\n"
+msgstr "[[!meta script=\"install/inc/js/dave\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"step-image\">[[!img install/inc/infography/os-mac.png link=\"no\" alt=\"\"]]</div>\n"
+msgstr "<div class=\"step-image\">[[!img install/inc/infography/os-mac.png link=\"no\" alt=\"\"]]</div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p class=\"start\">Start in Mac OS X.</p>\n"
+msgstr "<p class=\"start\">啟動 Mac OS X.</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/tails-installation-assistant.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/tails-installation-assistant.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/download.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/download.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/install_intermediary_intro.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/install_intermediary_intro.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  1. Open <span class=\"application\">Terminal</span> from\n"
+"     <span class=\"menuchoice\">\n"
+"       <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"       <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
+"       <span class=\"guimenuitem\">Terminal.app</span></span>.\n"
+msgstr ""
+"  1.  自<span class=\"menuchoice\">\n"
+"       打開 <span class=\"application\">Terminal</span>\n"
+"       <span class=\"guimenu\">應用程式</span>&nbsp;▸\n"
+"       <span class=\"guisubmenu\">工具</span>&nbsp;▸\n"
+"       <span class=\"guimenuitem\">Terminal.app</span></span>.\n"
+
+#. type: Bullet: '  1. '
+msgid "Execute the following command:"
+msgstr "執行下列指令:"
+
+#. type: Plain text
+#, no-wrap
+msgid "        diskutil list\n"
+msgstr "         diskutil list\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "     It returns a list of the storage devices on the system. For example:\n"
+msgstr "     它會傳回系統上的儲存設備清單，例如：\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        $ diskutil list\n"
+"        /dev/disk0\n"
+"          #:                     TYPE NAME         SIZE      IDENTIFIER\n"
+"          0:    GUID_partition_scheme             *500.1 GB  disk0\n"
+"          1:                      EFI              209.7 MB  disk0s1\n"
+"          2:                Apple_HFS MacDrive     250.0 GB  disk0s2\n"
+"          3:                      EFI              134.1 GB  disk0s3\n"
+"          4:     Microsoft Basic Data BOOTCAMP     115.5 GB  disk0s4\n"
+msgstr ""
+"         $ diskutil list\n"
+"         /dev/disk0\n"
+"           #:                     TYPE NAME         SIZE      IDENTIFIER\n"
+"           0:    GUID_partition_scheme             *500.1 GB  disk0\n"
+"           1:                      EFI              209.7 MB  disk0s1\n"
+"           2:                Apple_HFS MacDrive     250.0 GB  disk0s2\n"
+"           3:                      EFI              134.1 GB  disk0s3\n"
+"           4:     Microsoft Basic Data BOOTCAMP     115.5 GB  disk0s4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "     <div class=\"step-image\">[[!img install/inc/infography/plug-first-usb.png link=\"no\" alt=\"\"]]</div>\n"
+msgstr "     <div class=\"step-image\">[[!img install/inc/infography/plug-first-usb.png link=\"no\" alt=\"\"]]</div>\n"
+
+#. type: Bullet: '  1. '
+msgid "Plug the first USB stick in the computer."
+msgstr "將 USB 隨身碟接上電腦。"
+
+#. type: Bullet: '  1. '
+msgid "Execute again the same command:"
+msgstr "再次執行同樣的指令:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"     Your USB stick appears as a new device in the list. Check\n"
+"     that its size corresponds to the size of your USB stick.\n"
+msgstr ""
+"     新接上的 USB 隨身碟應會出珼在清單列表，檢查\n"
+"     其容量大小是否符合所用的隨身碟。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        $ diskutil list\n"
+"        /dev/disk0\n"
+"          #:                     TYPE NAME         SIZE      IDENTIFIER\n"
+"          0:    GUID_partition_scheme             *500.1 GB  disk0\n"
+"          1:                      EFI              209.7 MB  disk0s1\n"
+"          2:                Apple_HFS MacDrive     250.0 GB  disk0s2\n"
+"          3:                      EFI              134.1 GB  disk0s3\n"
+"          4:     Microsoft Basic Data BOOTCAMP     115.5 GB  disk0s4\n"
+"        /dev/disk1\n"
+"          #:                     TYPE NAME         SIZE      IDENTIFIER\n"
+"          0:   FDisk_partition_scheme             *4.0 GB    disk1\n"
+"          1:                Apple_HFS Untitled 1   4.0 GB    disk1s1\n"
+msgstr ""
+"         $ diskutil list\n"
+"         /dev/disk0\n"
+"           #:                     TYPE NAME         SIZE      IDENTIFIER\n"
+"           0:    GUID_partition_scheme             *500.1 GB  disk0\n"
+"           1:                      EFI              209.7 MB  disk0s1\n"
+"           2:                Apple_HFS MacDrive     250.0 GB  disk0s2\n"
+"           3:                      EFI              134.1 GB  disk0s3\n"
+"           4:     Microsoft Basic Data BOOTCAMP     115.5 GB  disk0s4\n"
+"         /dev/disk1\n"
+"           #:                     TYPE NAME         SIZE      IDENTIFIER\n"
+"           0:   FDisk_partition_scheme             *4.0 GB    disk1\n"
+"           1:                Apple_HFS Untitled 1   4.0 GB    disk1s1\n"
+
+#. type: Bullet: '  1. '
+msgid ""
+"Take note of the *device name* of your USB stick.  In this example, the USB "
+"stick is 4.0 GB and its device name is <span class=\"code\">/dev/disk1</"
+"span>.  Yours might be different."
+msgstr ""
+"記下 USB 隨身碟的*設備名稱*。在本例中，使用的 USB 隨身碟是 4.0 GB 它的名稱為"
+"<span class=\"code\">/dev/disk1</span>。當然每個人的情況可能稍有不同。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"     <div class=\"caution\">\n"
+"     <p>If you are unsure about the device name, you should stop proceeding or\n"
+"     <strong>you risk overwriting any hard disk on the system</strong>.</p>\n"
+"     </div>\n"
+msgstr ""
+"     <div class=\"caution\">\n"
+"     <p>如果不確定設備的名稱，最好立即停止 否則將有\n"
+"     <strong>覆寫掉系統上任何一個硬碟的風險。</strong>.</p>\n"
+"     </div>\n"
+
+#. type: Bullet: '  1. '
+msgid ""
+"Execute the following command to safely remove the USB stick. Replace <span "
+"class=\"code\">[device]</span> with the device name found in step 5."
+msgstr ""
+"執行以下指令以安全地移除 USB-隨身碟。在<span class=\"code\">[gerätename]</"
+"span>地方，請用稍早步驟5查出的設備名稱取代。 "
+
+#. type: Plain text
+#, no-wrap
+msgid "        diskutil unmountDisk [device]\n"
+msgstr "        diskutil unmountDisk [gerätename]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "     <div class=\"step-image\">[[!img install/inc/infography/install-intermediary-tails.png link=\"no\" alt=\"\"]]</div>\n"
+msgstr "     <div class=\"step-image\">[[!img install/inc/infography/install-intermediary-tails.png link=\"no\" alt=\"\"]]</div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  1. Execute the following command to copy the ISO image that you\n"
+"downloaded earlier to the USB stick. Replace:\n"
+msgstr ""
+"  1. 執行以下指令以將稍早下載的 ISO-映像檔\n"
+" 複製到這個 USB 隨身碟上：\n"
+
+#. type: Bullet: '     - '
+msgid "<span class=\"code\">[tails.iso]</span> with the path to the ISO image"
+msgstr "<span class=\"code\">[tails.iso]</span>與這個  ISO 映像檔的存放路徑。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"       <div class=\"tip\">\n"
+"       <p>If you are unsure about the path to the ISO image, you can insert the\n"
+"       correct path by dragging and dropping the icon of the ISO image from\n"
+"       <span class=\"application\">Finder</span> onto <span class=\"application\">\n"
+"       Terminal</span>.</p>\n"
+"       </div>\n"
+msgstr ""
+"       <div class=\"tip\">\n"
+"       <p>如果不確定 ISO-映像檔的存放路徑, 可以透過\n"
+"       從<span class=\"application\">Finder</span>下拖迤與放入  ISO檔案至<span class=\"application\">\n"
+"       Terminal</span> 底下來插入正確的路徑。</p>\n"
+"       </div>\n"
+
+#. type: Bullet: '     - '
+msgid ""
+"<span class=\"code\">[device]</span> with the device name found in step 5"
+msgstr "<span class=\"code\">[設備名稱]</span> 在步驟 5 查到的資訊 "
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"       <div class=\"tip\">\n"
+"       <p>You can try adding <span class=\"code\">r</span> before <span class=\"code\">disk</span> to make the installation faster.</p>\n"
+"       </div>\n"
+msgstr ""
+"       <div class=\"tip\">\n"
+"       <p>可以試著在<span class=\"code\">disk</span>之前加上<span class=\"code\">r</span>，好讓安裝過程更快速。</p>\n"
+"       </div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "     <pre>dd if=[tails.iso] of=[device] bs=16m && sync</pre>\n"
+msgstr "     <pre>dd if=[tails.iso] of=[gerätename] bs=16m && sync</pre>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "     You should get something like this:\n"
+msgstr "     應該會得到像這樣的東西：\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "      dd if=/Users/me/tails-amd64-3.0.iso of=/dev/rdisk9 bs=16m && sync\n"
+msgstr "      dd if=/Users/me/tails-amd64-3.0.iso of=/dev/rdisk9 bs=16m && sync\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"     If no error message is returned, Tails is being copied on the USB\n"
+"     stick. The copy takes some time, generally a few minutes.\n"
+msgstr ""
+"     如果出現錯誤訊息， Tails 會被複制到 USB-隨身碟上\n"
+"     這段複制過程通常要花幾分鐘的時間。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"     <div class=\"note\">\n"
+"     <p>If you get a <span class=\"guilabel\">Permission denied</span> error, try\n"
+"     adding <code>sudo</code> at the beginning of the command:</p>\n"
+msgstr ""
+"     <div class=\"tip\">\n"
+"     <p>Wenn Sie eine <span class=\"guilabel\">Permission denied</span> Fehlermeldung erhalten, versuchen Sie\n"
+"     <code>sudo</code> vor den Beginn des Befehls hinzuzufügen:</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "     <pre>sudo dd if=[tails.iso] of=[device] bs=16m && sync</pre>\n"
+msgstr "     <pre>sudo dd if=[tails.iso] of=[gerätename] bs=16m && sync</pre>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"     <p>If you get an <span class=\"guilabel\">invalid number ‘16m’</span> error, try\n"
+"     using <code>16M</code> instead:</p>\n"
+msgstr ""
+"     <p>如果看到返回<span class=\"guilabel\">invalid number ‘16m’</span>的錯誤訊息, 試試\n"
+"     使用 <code>16M</code>替代：</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "     <pre>dd if=[tails.iso] of=[device] bs=16M && sync</pre>\n"
+msgstr "     <pre>dd if=[tails.iso] of=[device] bs=16M && sync</pre>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "     </div>\n"
+msgstr "     </div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "     The installation is complete once the command prompt reappeared.\n"
+msgstr "   一旦安裝完成，命令列會再次彈出。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/install_intermediary_outro.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/install_intermediary_outro.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/restart_first_time.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/restart_first_time.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/install_final.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/install_final.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/restart_second_time.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/restart_second_time.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/create_persistence.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/create_persistence.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"

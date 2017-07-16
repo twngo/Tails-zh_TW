@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-09 18:52+0100\n"
+"PO-Revision-Date: 2017-07-11 14:58+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Content of: outside any tag (error?)
+#| msgid ""
+#| "[[!meta title=\"Manually upgrade inside Tails\"]] [[!meta stylesheet="
+#| "\"bootstrap\" rel=\"stylesheet\" title=\"\"]] [[!meta stylesheet="
+#| "\"install/inc/stylesheets/assistant\" rel=\"stylesheet\" title=\"\"]] [[!"
+#| "meta stylesheet=\"install/inc/stylesheets/overview\" rel=\"stylesheet\" "
+#| "title=\"\"]] [[!meta stylesheet=\"install/inc/stylesheets/upgrade-tails\" "
+#| "rel=\"stylesheet\" title=\"\"]] [[!inline pages=\"install/inc/tails-"
+#| "installation-assistant.inline\" raw=\"yes\"]] [[<span class=\"back"
+#| "\">Back</span>|upgrade]]"
+msgid ""
+"[[!meta title=\"Manually upgrade inside Tails\"]] [[!meta stylesheet="
+"\"bootstrap.min\" rel=\"stylesheet\" title=\"\"]] [[!meta stylesheet="
+"\"install/inc/stylesheets/assistant\" rel=\"stylesheet\" title=\"\"]] [[!"
+"meta stylesheet=\"install/inc/stylesheets/overview\" rel=\"stylesheet\" "
+"title=\"\"]] [[!meta stylesheet=\"install/inc/stylesheets/upgrade-tails\" "
+"rel=\"stylesheet\" title=\"\"]] [[!inline pages=\"install/inc/tails-"
+"installation-assistant.inline\" raw=\"yes\" sort=\"age\"]] [[<span class="
+"\"back\">Back</span>|upgrade]]"
+msgstr ""
+"[[!meta title=\"在原有的 Tails 底下手動昇級\"]] [[!meta stylesheet="
+"\"bootstrap\" rel=\"stylesheet\" title=\"\"]] [[!meta stylesheet=\"install/"
+"inc/stylesheets/assistant\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"stylesheet=\"install/inc/stylesheets/overview\" rel=\"stylesheet\" title="
+"\"\"]] [[!meta stylesheet=\"install/inc/stylesheets/upgrade-tails\" rel="
+"\"stylesheet\" title=\"\"]] [[!inline pages=\"install/inc/tails-installation-"
+"assistant.inline.zh_TW\" raw=\"yes\"]] [[<span class=\"back\">返回</span>|"
+"upgrade]]"
+
+#. type: Content of: <h1>
+msgid "Manually upgrade <strong>inside</strong> Tails"
+msgstr "在<strong>原有的</strong> Tails 底下手動昇級"
+
+#. type: Content of: outside any tag (error?)
+msgid "[[!inline pages=\"install/inc/overview\" raw=\"yes\" sort=\"age\"]] [["
+msgstr ""
+"[[!inline pages=\"install/inc/overview.de\" raw=\"yes\" sort=\"age\"]] [["
+
+#. type: Content of: <div><div><h3>
+msgid "Let's go!"
+msgstr "開始吧！"
+
+#. type: Content of: outside any tag (error?)
+msgid "|upgrade/tails]]"
+msgstr "|upgrade/tails]]"

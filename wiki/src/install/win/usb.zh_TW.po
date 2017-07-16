@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails l10n\n"
+"POT-Creation-Date: 2017-05-16 16:29+0300\n"
+"PO-Revision-Date: 2017-07-13 15:36+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"Language-Team: Tails l10n <jxt@twngo.xyz>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Plain text
+#, no-wrap
+#| msgid "[[!meta title=\"Installing Tails on a USB stick from Windows\"]]\n"
+msgid "[[!meta title=\"Install from Windows\"]]\n"
+msgstr "[[!meta title=\"自 Windows 底下安裝\"]]\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "[[!meta stylesheet=\"bootstrap\" rel=\"stylesheet\" title=\"\"]]\n"
+msgid "[[!meta stylesheet=\"bootstrap.min\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr "[[!meta stylesheet=\"bootstrap\" rel=\"stylesheet\" title=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta stylesheet=\"inc/stylesheets/assistant\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr "[[!meta stylesheet=\"inc/stylesheets/assistant\" rel=\"stylesheet\" title=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta stylesheet=\"inc/stylesheets/dave\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr "[[!meta stylesheet=\"inc/stylesheets/dave\" rel=\"stylesheet\" title=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta stylesheet=\"inc/stylesheets/steps\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr "[[!meta stylesheet=\"inc/stylesheets/steps\" rel=\"stylesheet\" title=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta stylesheet=\"inc/stylesheets/windows\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr "[[!meta stylesheet=\"inc/stylesheets/windows\" rel=\"stylesheet\" title=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta script=\"install/inc/js/dave\"]]\n"
+msgstr "[[!meta script=\"install/inc/js/dave\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/tails-installation-assistant.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/tails-installation-assistant.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"step-image\">[[!img install/inc/infography/os-windows.png link=\"no\" alt=\"\"]]</div>\n"
+msgstr "<div class=\"step-image\">[[!img install/inc/infography/os-windows.png link=\"no\" alt=\"\"]]</div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p class=\"start\">Start in Windows.</p>\n"
+msgstr "<p class=\"start\">在 Windows 中啟動</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/download.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/download.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/install_intermediary_intro.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/install_intermediary_intro.inline.zh_Tw\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"step-image\">[[!img install/inc/infography/plug-first-usb.png link=\"no\" alt=\"\"]]</div>\n"
+msgstr "<div class=\"step-image\">[[!img install/inc/infography/plug-first-usb.png link=\"no\" alt=\"\"]]</div>\n"
+
+#. type: Bullet: '1. '
+msgid "Plug the first USB stick in the computer."
+msgstr "將 USB 隨身碟接上電腦。"
+
+#. type: Bullet: '1. '
+msgid ""
+"Click on the following link to download <span class=\"application"
+"\">Universal USB Installer</span>:"
+msgstr ""
+"點擊以下連結以下載 <span class=\"application\">Universal USB Installer</"
+"span> ："
+
+#. type: Plain text
+#, no-wrap
+msgid "   <a href='https://git-tails.immerda.ch/uui-binary/plain/Universal-USB-Installer.exe'>Download Universal USB Installer</a>\n"
+msgstr "   <a href='https://git-tails.immerda.ch/uui-binary/plain/Universal-USB-Installer.exe'>Laden Sie den Universal USB Installer herunter</a>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. At the Windows security warning, confirm that you want to\n"
+"run the program.\n"
+msgstr ""
+"1. Windoms 出現安全警告時，確認要\n"
+"繼續執行這個應用程式。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Read the license agreement and click <span class=\"button\">I Agree</span>\n"
+"to continue and start <span class=\"application\">Universal USB Installer</span>.\n"
+msgstr ""
+"1. 閱讀版權條款協議後點擊 <span class=\"button\">同意</span>,\n"
+"以繼續開始<span class=\"application\">Universal USB Installer</span>。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!img install/inc/screenshots/uui.png link=\"no\" alt=\"\"]]\n"
+msgstr "   [[!img install/inc/screenshots/uui.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Bullet: '1. '
+msgid "Select <span class=\"guilabel\">Tails</span> from the drop-down list."
+msgstr "從下拉式選單中挑選<span class=\"guilabel\">Tails</span>。"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!img install/inc/screenshots/uui_tails.png link=\"no\" alt=\"\"]]\n"
+msgstr "   [[!img install/inc/screenshots/uui_tails.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   <div class=\"step-image\">[[!img install/inc/infography/install-intermediary-tails.png link=\"no\" alt=\"\"]]</div>\n"
+msgstr "   <div class=\"step-image\">[[!img install/inc/infography/install-intermediary-tails.png link=\"no\" alt=\"\"]]</div>\n"
+
+#. type: Bullet: '1. '
+msgid ""
+"Click <span class=\"button\">Browse</span> and choose the ISO image that you "
+"downloaded earlier."
+msgstr "點選<span class=\"button\">瀏覽</span> 再選最稍早時下載的 ISO-映像檔。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Use the drop-down list to specify the USB stick on which you want to install\n"
+"the ISO image.\n"
+msgstr ""
+"1. 在下拉式選單中指定所欲把 ISO-映像檔 \n"
+"  安裝的 USB-隨身碟。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   <div class=\"tip\">\n"
+"   <p>If the USB stick does not appear in the drop-down list, make sure\n"
+"   that it is plugged in correctly and restart\n"
+"   <span class=\"application\">Universal USB Installer</span>.</p>\n"
+"   </div>\n"
+msgstr ""
+"   <div class=\"tip\">\n"
+"   <p>如果 USB 隨身碟未出現在下拉選單之中，確認\n"
+"   它有正確地接上兼並重新啟動\n"
+"   <span class=\"application\">Universal USB Installer</span> erneut.</p>\n"
+"   </div>\n"
+
+#. type: Bullet: '1. '
+#| msgid "Select the <span class=\"guilabel\">Format</span> option."
+msgid "Select the <span class=\"guilabel\">Fat32 Format Drive</span> option."
+msgstr "選取 <span class=\"guilabel\">Fat32 格式化磁碟</span> 選項。"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!img install/inc/screenshots/uui_format.png link=\"no\" alt=\"\"]]\n"
+msgstr "   [[!img install/inc/screenshots/uui_format.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Bullet: '1. '
+msgid "Click <span class=\"button\">Create</span>."
+msgstr "點擊<span class=\"button\">創建</span>."
+
+#. type: Bullet: '1. '
+msgid ""
+"A warning appears. Click <span class=\"button\">Yes</span> to start the "
+"installation.  The installation takes a few minutes."
+msgstr ""
+"出現一則警示，點擊<span class=\"button\">是</span>以開始安裝，安裝過程要花幾"
+"分鐘時間。  "
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. After the installation is finished, click <span class=\"button\">Close</span>\n"
+"to quit <span class=\"application\">Universal USB Installer</span>.\n"
+msgstr ""
+"1. 在安裝結束後，點擊<span class=\"button\">關閉</span>,\n"
+"以停止<span class=\"application\">Universal USB Installer</span> zu schließen.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/install_intermediary_outro.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/install_intermediary_outro.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/restart_first_time.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/restart_first_time.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/install_final.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/install_final.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/restart_second_time.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/restart_second_time.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"install/inc/steps/create_persistence.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/create_persistence.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
+
+#~ msgid "[[!inline pages=\"install/inc/steps/switch.inline\" raw=\"yes\"]]\n"
+#~ msgstr ""
+#~ "[[!inline pages=\"install/inc/steps/switch.inline.de\" raw=\"yes\"]]\n"
+
+#~ msgid ""
+#~ "[[!inline pages=\"install/inc/steps/you_are_done.inline\" raw=\"yes\"]]\n"
+#~ msgstr ""
+#~ "[[!inline pages=\"install/inc/steps/you_are_done.inline.de\" raw=\"yes"
+#~ "\"]]\n"
+
+#~ msgid "[[!meta robots=\"noindex\"]]\n"
+#~ msgstr "[[!meta robots=\"noindex\"]]\n"
