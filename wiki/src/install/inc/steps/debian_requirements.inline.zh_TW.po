@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tails L10n\n"
+"POT-Creation-Date: 2017-05-26 12:49+0200\n"
+"PO-Revision-Date: 2017-07-20 11:37+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"Language-Team: tails L10n Chinese <jxt@twngo.xyz>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Plain text
+msgid "These instructions require:"
+msgstr "這些指示需要："
+
+#. type: Bullet: '  - '
+msgid "Debian 8 (Jessie) or later"
+msgstr "Debian 8 (Jessie) 或更新版"
+
+#. type: Bullet: '  - '
+msgid "Ubuntu 16.04 (Xenial Xerus) or later"
+msgstr "Ubuntu 16.04 (Xenial Xerus) 或更新版"
+
+#. type: Bullet: '  - '
+msgid "Linux Mint 18 (Sarah) or later"
+msgstr "Linux Mint 18 (Sarah) 或更新版"
+
+#. type: Plain text
+msgid ""
+"If your version of Debian, Ubuntu, or Linux Mint is not supported, you can "
+"follow the instructions for [[other Linux distributions|install/linux/usb/"
+"overview]] instead. But they are more complicated and require two USB sticks "
+"instead of one."
+msgstr ""
+"如果所用的 Debian, Ubuntu, 或 Linux Mint 版本並不支援，可另參考 [[其它 Linux "
+"傳佈版本|install/linux/usb/overview]] 的指示。但其可能更為複雜且需要用上二支"
+"隨身碟。"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"tip debian\">\n"
+msgstr "<div class=\"tip debian\">\n"
+
+#. type: Plain text
+#, no-wrap
+#| msgid ""
+#| "<p>To know your version of Debian or Ubuntu, open\n"
+#| "<span class=\"application\">Settings</span> and click on\n"
+#| "<span class=\"guilabel\">Details</span>. For Debian, refer to the\n"
+#| "<span class=\"guilabel\">Base system</span> information.</p>\n"
+msgid ""
+"<p>To know your version of Debian or Ubuntu, open\n"
+"<span class=\"application\">System Settings</span> and click on\n"
+"<span class=\"guilabel\">Details</span>. For Debian, refer to the\n"
+"<span class=\"guilabel\">Base system</span> information.</p>\n"
+msgstr ""
+"<p>要知道目前所用的 Debian 或 Ubuntu 版本，打開\n"
+"<span class=\"application\">系統設定</span> 並點擊\n"
+"<span class=\"guilabel\">詳情Details</span>。Debian 環境，請參考\n"
+"<span class=\"guilabel\">基底系統Base system</span>資訊。</p>\n"
+
+#. type: Plain text
+#, no-wrap
+#| msgid ""
+#| "<p>To know your version of Ubuntu, execute\n"
+#| "<span class=\"command\">lsb_release -a</span>.</p>\n"
+msgid ""
+"<p>To know your version of Linux Mint, open the application\n"
+"<span class=\"application\">Welcome Screen</span>.\n"
+msgstr ""
+"<p>要知道所用的 Linux Mint 版本資訊，打開應用程式的\n"
+"<span class=\"application\">歡迎畫面</span>.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"tip expert\">\n"
+msgstr "<div class=\"tip expert\">\n"
+
+#. type: Plain text
+#, no-wrap
+#| msgid ""
+#| "<p>To know your version of Ubuntu, execute\n"
+#| "<span class=\"command\">lsb_release -a</span>.</p>\n"
+msgid "<p>To know your version of Debian, Ubuntu, or Linux Mint, execute:</p>\n"
+msgstr "<p>要找出所用的 Debian, Ubuntu, 或 Linux Mint 版本資訊，請執行：</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<pre><code>lsb_release -a</code></pre>\n"
+msgstr "<pre><code>lsb_release -a</code></pre>\n"
+
+#~ msgid ""
+#~ "<h1 id=\"install-installer\">Install <span class=\"application\">Tails "
+#~ "Installer</span></h1>\n"
+#~ msgstr ""
+#~ "<h1 id=\"install-installer\">Installation des <span class=\"application"
+#~ "\">Tails Installers</span></h1>\n"
+
+#~ msgid "<div class=\"tip\">\n"
+#~ msgstr "<div class=\"tip\">\n"
+
+#~ msgid ""
+#~ "<p>If it is impossible to install <span class=\"application\">Tails\n"
+#~ "Installer</span> in your version of Ubuntu or Debian, you can [[install "
+#~ "Tails using\n"
+#~ "<span class=\"application\">GNOME Disks</span>|install/linux/usb/"
+#~ "overview]]\n"
+#~ "instead. But it is more complicated and requires two USB sticks instead "
+#~ "of\n"
+#~ "one.</span></p>\n"
+#~ msgstr ""
+#~ "<p>Falls es unmöglich ist, den <span class=\"application\">Tails\n"
+#~ "Installer</span> unter Ihrer Version von Ubuntu oder Debian zu "
+#~ "installieren, können Sie\n"
+#~ "stattdessen [[Tails unter der Nutzung von <span class=\"application"
+#~ "\">GNOME Disks</span>\n"
+#~ "installieren|install/linux/usb/overview]]. Dies ist aber komplizierter "
+#~ "und benötigt zwei statt\n"
+#~ "einem USB-Stick.</span></p>\n"

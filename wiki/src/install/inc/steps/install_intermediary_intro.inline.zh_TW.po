@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails l10n\n"
+"POT-Creation-Date: 2016-04-28 14:22+0000\n"
+"PO-Revision-Date: 2017-07-19 13:07+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"Language-Team: Tails l10n Chinese <jxt@twngo.xyz>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"install-intermediary\">Install an intermediary Tails</h1>\n"
+msgstr "<h1 id=\"install-intermediary\">透過 Tails 中介進行安裝</h1>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"In this step, you will install an intermediary Tails by copying the Tails ISO image on a first USB\n"
+"stick using\n"
+"<span class=\"windows\">a program called <span class=\"application\">Universal USB Installer</span>.</span>\n"
+"<span class=\"mac\">the command line.</span>\n"
+"<span class=\"linux\">a program called <span class=\"application\">GNOME Disks</span>.</span>\n"
+msgstr ""
+"本步驟中, 要藉由複製 ISO 映像檔到第一支隨身碟上來安裝一個 Tails 中介。\n"
+"使用\n"
+"<span class=\"windows\">一個叫作 <span class=\"application\">Universal USB Installer</span>的應用程式</span>\n"
+"<span class=\"mac\">在文字指令列下</span>\n"
+"<span class=\"linux\"><span class=\"application\">GNOME Disks</span>程式</span>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"note\">\n"
+msgstr "<div class=\"note\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>On\n"
+"this intermediary Tails you won't benefit from important features like\n"
+"automatic security upgrades or the possibility to store some of your\n"
+"documents and configuration in an encrypted storage.</p>\n"
+msgstr ""
+"<p>在\n"
+"這個中介 Tails 沒有可受惠的重要功能\n"
+"例如自動的安全昇級或能夠存放一些個人的\n"
+"文件與設定一個加密的儲存空間。</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"caution\">\n"
+msgstr "<div class=\"caution\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>All the data on this USB stick will be lost.</p>\n"
+msgstr "<p>　USB-隨身碟上的資料會全部消失</p>\n"

@@ -1,0 +1,658 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails l10n\n"
+"POT-Creation-Date: 2017-02-09 18:52+0100\n"
+"PO-Revision-Date: 2017-07-19 12:51+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"Language-Team: Tails l10n <jxt@twngo.xyz>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Download and verify using OpenPGP\"]]\n"
+msgstr "[[!meta title=\"下載並利用 OpenPGP 查證\"]]\n"
+
+#. type: Plain text
+msgid ""
+"These instructions are for people who are already familiar with basic usage "
+"of OpenPGP and have *GPG* installed but might need guidance on performing "
+"the verification."
+msgstr ""
+"這些指示是給那些已熟知基本的 OpenPGP 使用，並已安裝了*GPG* ，但還是需要一些指"
+"南來完成查證手續。"
+
+#. type: Bullet: '1. '
+msgid ""
+"Download the <a href='[[!inline pages=\"inc/stable_amd64_iso_url\" raw=\"yes"
+"\" sort=\"age\"]]' class=\"use-mirror-pool\"> Tails [[!inline pages=\"inc/"
+"stable_amd64_version\" raw=\"yes\" sort=\"age\"]] ISO image</a> (<span class="
+"\"remove-extra-space\">[[!inline pages=\"inc/stable_amd64_iso_size\" raw="
+"\"yes\" sort=\"age\"]]</span>)."
+msgstr ""
+"下載 <a href='[[!inline pages=\"inc/stable_amd64_iso_url\" raw=\"yes\" sort="
+"\"age\"]]' class=\"use-mirror-pool\"> Tails [[!inline pages=\"inc/"
+"stable_amd64_version\" raw=\"yes\" sort=\"age\"]] ISO 映像檔</a> (<span "
+"class=\"remove-extra-space\">[[!inline pages=\"inc/stable_amd64_iso_size\" "
+"raw=\"yes\" sort=\"age\"]]</span>)."
+
+#. type: Bullet: '1. '
+msgid ""
+"Download the <a href='[[!inline pages=\"inc/stable_amd64_iso_sig_url\" raw="
+"\"yes\" sort=\"age\"]]'> Tails [[!inline pages=\"inc/stable_amd64_version\" "
+"raw=\"yes\" sort=\"age\"]] OpenPGP signature</a> of the latest Tails ISO "
+"image and save it to the same folder where you saved the ISO image."
+msgstr ""
+"下載最新版的 <a href='[[!inline pages=\"inc/stable_amd64_iso_sig_url\" raw="
+"\"yes\" sort=\"age\"]]'> Tails [[!inline pages=\"inc/stable_amd64_version\" "
+"raw=\"yes\" sort=\"age\"]] OpenPGP 簽名</a> ，並將之存放於 ISO 映像檔同一個資"
+"料夾。"
+
+#. type: Bullet: '1. '
+msgid ""
+"If you are doing the verification for the first time, download the [[Tails "
+"signing key|tails-signing.key]] and import it in your keyring.  If you are "
+"working from Tails, the signing key is already included."
+msgstr ""
+"如果是第一次進行驗證，下載[[Tails 簽名密鑰|tails-signing.key]] 並將其滙入到自"
+"己的密鑰圈之中。如果是在 Tails　的環境中，其簽名密鑰已包含在裏面了。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   All our ISO images are signed with the same signing key, so you only\n"
+"   have to import it once. Still, you have to verify the ISO image every\n"
+"   time you download a new one.\n"
+msgstr ""
+"   我們所有的 ISO 映像檔都是使用同一個簽名密鑰，因此\n"
+"   用戶只需滙入一之。然而若每當下載一個新的 ISO 映像檔\n"
+"   則還是要再進行一次驗證。 \n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   <div class=\"tip\">\n"
+"   <p>This download of the Tails signing key is protected using HTTPS.\n"
+"   But you could still download a malicious signing key if our website is\n"
+"   compromised or if you are victim of a [[man-in-the-middle\n"
+"   attack|doc/about/warning#man-in-the-middle]].</p>\n"
+msgstr ""
+"   <div class=\"tip\">\n"
+"   <p>Tails 簽名密鑰的下載是透過使用 HTTPS　以進行保護。\n"
+"   但如果官網受到破壤或是用戶成了\n"
+"   [[中間人攻擊|doc/about/warning#man-in-the-middle]]的受害者\n"
+"　　　 則還是有可能下戴到惡意錯誤的簽名密鑰</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   <p>For additional verification, you can <a href=\"#wot\">authenticate\n"
+"   the signing key through the OpenPGP Web of Trust</a>.</p>\n"
+"   </div>\n"
+msgstr ""
+"   <p>要進行其它的查證，可以 <a href=\"#wot\">\n"
+"   t利用 OpenPGP Web of Trust 進行驗核</a>。</p>\n"
+"   </div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"note\">\n"
+msgstr "<div class=\"note\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>Tails [[transitioned to a new signing\n"
+"key|news/signing_key_transition]] in March 2015.\n"
+"If you had the previous signing key, make sure\n"
+"to [[import and verify the new signing\n"
+"key|news/signing_key_transition#index1h1]].</p>\n"
+msgstr ""
+"<p>2015年3月 Tails [[轉變到新的簽名\n"
+"密鑰|news/signing_key_transition]] \n"
+"如果使用的是之前的簽名密鑰，請確認\n"
+"[[滙入與認證新的簽名\n"
+"密鑰|news/signing_key_transition#index1h1]].</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Verify the ISO image\n"
+msgstr "查證 ISO 映像檔\n"
+
+#. type: Plain text
+msgid "This section provides simplified instructions:"
+msgstr "這裏提供簡化的指引："
+
+#. type: Bullet: '  - '
+msgid ""
+"<a href=\"#windows\">In Windows with <span class=\"application\">Gpg4win</"
+"span></a>"
+msgstr ""
+"<a href=\"#windows\"> Windows 下利用 <span class=\"application\">Gpg4win</"
+"span></a>"
+
+#. type: Bullet: '  - '
+msgid ""
+"<a href=\"#mac\">In Mac OS X with <span class=\"application\">GPGTools</"
+"span></a>"
+msgstr ""
+"<a href=\"#mac\">Mac OS X 利用<span class=\"application\">GPGTools</span></a>"
+
+#. type: Bullet: '  - '
+msgid "<a href=\"#tails\">In Tails</a>"
+msgstr "<a href=\"#tails\">In Tails</a>"
+
+#. type: Bullet: '  - '
+msgid "<a href=\"#command-line\">Using the command line</span></a>"
+msgstr "<a href=\"#command-line\">使用文字指令列</span></a>"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"caution\">\n"
+msgstr "<div class=\"caution\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>As explained above in step 3, this simple OpenPGP verification\n"
+"provides a level of verification equivalent to HTTPS, like the [[Firefox\n"
+"extension or BitTorrent|install/download]], unless you also\n"
+"<a href=\"#wot\">authenticate the signing key through the OpenPGP Web of Trust</a>.</p>\n"
+msgstr ""
+"<p>如同在上面步驟3的說明，簡單的 OpenPGP 查證\n"
+"提供了等同於 HTTPS 的查核等級, 就像 [[Firefox\n"
+"延申元件或 BitTorrent|install/download]]，除非還想要\n"
+"<a href=\"#wot\">利用 OpenPGP Web of Trust　進行查證。</a></p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"windows\"></a>\n"
+msgstr "<a id=\"windows\"></a>\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "In Windows with <span class=\"application\">Gpg4win</span>"
+msgstr "在 Windows 下使用 <span class=\"application\">Gpg4win</span>"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"See the [[<span class=\"application\">Gpg4win</span> documentation on\n"
+"verifying signatures|http://www.gpg4win.org/doc/en/gpg4win-compendium_24.html#id4]].\n"
+msgstr ""
+"請參見 [[<span class=\"application\">Gpg4win</span> 文件有關\n"
+"查驗簽名|http://www.gpg4win.org/doc/en/gpg4win-compendium_24.html#id4]]的部份。\n"
+
+#. type: Plain text
+msgid ""
+"Verify the date of the signature to make sure that you downloaded the latest "
+"version."
+msgstr "核實簽名的日期以確保下戴的是最新版本。"
+
+#. type: Plain text
+msgid "If the following warning appears:"
+msgstr "如果出現以下警告訊息："
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<pre>\n"
+"Not enough information to check the signature validity.\n"
+"Signed on ... by tails@boum.org (Key ID: 0x58ACD84F\n"
+"The validity of the signature cannot be verified.\n"
+"</pre>\n"
+msgstr ""
+"<pre>\n"
+"Not enough information to check the signature validity.\n"
+"Signed on ... by tails@boum.org (Key ID: 0x58ACD84F\n"
+"The validity of the signature cannot be verified.\n"
+"</pre>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Then the ISO image is still correct according to the signing key that you\n"
+"downloaded. To remove this warning you need to <a href=\"#wot\">authenticate the\n"
+"signing key through the OpenPGP Web of Trust</a>.\n"
+msgstr ""
+"如果依據所下載的簽名密鑰顯示該 ISO 映像為正確\n"
+"要移除警告則需要 <a href=\"#wot\">\n"
+"透過 OpenPGP Web of Trust　來認證簽名密鑰。</a>.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"mac\"></a>\n"
+msgstr "<a id=\"mac\"></a>\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "In Mac OS X using <span class=\"application\">GPGTools</span>"
+msgstr " Mac OS X 利用 <span class=\"application\">GPGTools</span>"
+
+#. type: Bullet: '1. '
+msgid ""
+"Open <span class=\"application\">Finder</span> and navigate to the folder "
+"where you saved the ISO image and the signature."
+msgstr ""
+"閧啟<span class=\"application\">Finder</span> 並找到存放 ISO 映像檔和簽名的位"
+"置。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Right-click on the ISO image and choose\n"
+"   <span class=\"guimenuchoice\">\n"
+"     <span class=\"guisubmenu\">Services</span> ▸\n"
+"     <span class=\"guimenuitem\">OpenPGP: Verify Signature of File</span></span>.\n"
+msgstr ""
+"1. 用滑鼠右鍵點擊 ISO 映像檔並選取\n"
+"   <span class=\"guimenuchoice\">\n"
+"     <span class=\"guisubmenu\">Services</span> ▸\n"
+"     <span class=\"guimenuitem\">OpenPGP: Verify Signature of File</span></span>.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"tails\"></a>\n"
+msgstr "<a id=\"tails\"></a>\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "In Tails"
+msgstr "Tails　之下"
+
+#. type: Bullet: '1. '
+msgid ""
+"Open the file browser and navigate to the folder where you saved the ISO "
+"image and the signature."
+msgstr "開啟檔案瀏覽器並導航到儲存 ISO 映像檔和簽名的位置。"
+
+#. type: Bullet: '1. '
+msgid ""
+"Right-click on the signature and choose <span class=\"guimenuitem\">Open "
+"With Verify Signature</span>."
+msgstr ""
+"滑鼠右鍵點擊簽名 signature 並選取 <span class=\"guimenuitem\">Open With "
+"Verify Signature</span>."
+
+#. type: Bullet: '1. '
+msgid "The verification of the ISO image starts automatically:"
+msgstr "ISO 映像檔會自動開始查證工具："
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]\n"
+msgstr "   [[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]\n"
+
+#. type: Bullet: '1. '
+msgid ""
+"After the verification finishes, click on the notification counter in the "
+"bottom-right corner and on the notification with a transparent background on "
+"the right of the notification area:"
+msgstr "完成驗證後， 點擊右下方的通知計數器，在通知區右方為透明背景的通知："
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!img install/inc/screenshots/notification_in_tails.png link=\"no\"]]\n"
+msgstr "   [[!img install/inc/screenshots/notification_in_tails.png link=\"no\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   Verify the date of the signature to make sure that you downloaded the latest version.\n"
+msgstr "   查核簽名的日期以確認下載了最新版。\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"command-line\"></a>\n"
+msgstr "<a id=\"command-line\"></a>\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Using the command line"
+msgstr "使用文字指令列"
+
+#. type: Bullet: '1. '
+msgid ""
+"Open a terminal and navigate to the folder where you saved the ISO image and "
+"the signature."
+msgstr "打開 terminal 並找出存放 ISO 映像檔和簽名密鑰的位置。"
+
+#. type: Bullet: '1. '
+msgid "Execute:"
+msgstr "執行："
+
+#. type: Plain text
+#, no-wrap
+msgid "   <p class=\"pre\">[[!inline pages=\"inc/stable_amd64_gpg_verify\" raw=\"yes\" sort=\"age\"]]</p>\n"
+msgstr "   <p class=\"pre\">[[!inline pages=\"inc/stable_amd64_gpg_verify\" raw=\"yes\" sort=\"age\"]]</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   The output of this command should be the following:\n"
+msgstr "   該指令應會產出如下的結果:\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   <p class=\"pre\">[[!inline pages=\"inc/stable_amd64_gpg_signature_output\" raw=\"yes\" sort=\"age\"]]</p>\n"
+msgstr "   <p class=\"pre\">[[!inline pages=\"inc/stable_amd64_gpg_signature_output\" raw=\"yes\" sort=\"age\"]]</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   If the output also includes:\n"
+msgstr "    如果其出現的結果還包括：\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   <pre>\n"
+"   gpg: WARNING: This key is not certified with a trusted signature!\n"
+"   gpg:          There is no indication that the signature belongs to the owner.</pre>\n"
+msgstr ""
+"   <pre>\n"
+"   gpg: WARNING: This key is not certified with a trusted signature!\n"
+"   gpg:          There is no indication that the signature belongs to the owner.</pre>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   Then the ISO image is still correct according to the signing key that you\n"
+"   downloaded. To remove this warning you need to <a href=\"#wot\">authenticate\n"
+"   the signing key through the OpenPGP Web of Trust</a>.\n"
+msgstr ""
+"   而 ISO 映像檔依據所下載的簽名密鑰，仍是正確的。\n"
+"   要移除這些警告，需要 <a href=\"#wot\">透過\n"
+"   OpenPGP Web of Trust　來認證該簽名密鑰。</a>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"wot\"></a>\n"
+msgstr "<a id=\"wot\"></a>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Authenticate the signing key through the OpenPGP Web of Trust\n"
+msgstr "透過 OpenPGP Web of Trust 授權簽名密鑰。\n"
+
+#. type: Plain text
+msgid ""
+"The verification techniques presented until now ([[Firefox extension, "
+"BitTorrent|install/download]], or OpenPGP verification) all rely on some "
+"information being securely downloaded using HTTPS from our website:"
+msgstr ""
+"這裏介紹的驗證技巧目前為止都要自 Tails 官網使用 HTTPS　安裝地下載([[Firefox "
+"extension, BitTorrent|install/download]], 或 OpenPGP 查證) 。"
+
+#. type: Bullet: '  - '
+msgid "The *checksum* for the Firefox extension"
+msgstr "*檢驗和* 用於 Firefox 延申元件"
+
+#. type: Bullet: '  - '
+msgid "The *Torrent file* for BitTorrent"
+msgstr "*Torrent file* for BitTorrent"
+
+#. type: Bullet: '  - '
+msgid "The *Tails signing key* for the OpenPGP verification"
+msgstr " *Tails 簽名密鑰* 用於 OpenPGP 查證"
+
+#. type: Plain text
+msgid ""
+"But, while doing so, you could download malicious information if our website "
+"is compromised or if you are victim of a [[man-in-the-middle attack|doc/"
+"about/warning#man-in-the-middle]]."
+msgstr ""
+"但這樣作，如果我們的網站被破壞或是用戶成了中間人攻擊的受害者 [[man-in-the-"
+"middle attack|doc/about/warning#man-in-the-middle]]，可能會下載到惡意的資訊。"
+
+#. type: Plain text
+msgid ""
+"The OpenPGP verification is the only technique that allows you to verify the "
+"ISO image even better by also authenticating the Tails signing key through "
+"the OpenPGP Web of Trust. Relying on the OpenPGP Web of Trust is the only "
+"way to completely protect you from malicious downloads."
+msgstr ""
+" OpenPGP verification 是唯一可以查證 ISO 映像檔的方法，最佳的作法可以透過  "
+"OpenPGP Web of Trust 來認證  Tails 簽名密鑰。利用 OpenPGP Web of Trust 是唯一"
+"可以阻止惡意下載最完整保護。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>If you are verifying an ISO image from inside Tails already, for\n"
+"example to do a manual upgrade, then the Tails signing key is already\n"
+"included in Tails. You can trust this signing key as much as you are trusting your\n"
+"Tails installation already because you are not downloading it.</p>\n"
+msgstr ""
+"<p>如果是從 Tails 環境下已進行了 ISO　映像檔的查證，\n"
+"例如進行手動昇級，那麼 Tails 簽名密鑰已經放入在\n"
+"Tails之中。可以相信這個簽名密鑰以及\n"
+"已安裝的 Tails 因為不必再次地下載。</p>\n"
+
+#. type: Plain text
+msgid ""
+"One of the inherent problems of standard HTTPS is that the trust we usually "
+"put in a website is defined by certificate authorities: a hierarchical and "
+"closed set of companies and governmental institutions approved by your web "
+"browser vendor.  This model of trust has long been criticized and proved "
+"several times to be vulnerable to attacks [[as explained on our warning page|"
+"doc/about/warning#man-in-the-middle]]."
+msgstr ""
+"標準 HTTPS 一個固有的問題，通常我們會信任憑證機構所發佈給網站的證明。CA 是一"
+"群階層化且封閉的公司或政府機構，其取得瀏覽器廠商的核可。這樣的信任模式長久以"
+"來飽受評批且歷經過多次弱點攻擊，請參考[[在警告頁上作的說明 |doc/about/"
+"warning#man-in-the-middle]]。"
+
+#. type: Plain text
+msgid ""
+"We believe that, instead, users should be given the final say when trusting "
+"a website, and that designation of trust should be done on the basis of "
+"human interactions."
+msgstr ""
+"我們深信，當是否要信任一個網站時，用戶有權最後決定。而信任的設計也應基於人與"
+"人之間的互動。"
+
+#. type: Plain text
+msgid ""
+"The OpenPGP [[!wikipedia Web_of_Trust]] is a decentralized trust model based "
+"on OpenPGP keys that can help solving this problem. Let's see this with an "
+"example:"
+msgstr ""
+"OpenPGP [[!wikipedia Web_of_Trust]] 是基於 OpenPGP 密鑰下的一種分散式信任模"
+"型，它可以協助解決此問題，讓我們看看以下的例子："
+
+#. type: Bullet: '1. '
+msgid ""
+"*You are friend with Alice and really trust her way of managing OpenPGP "
+"keys. So you are trusting Alice's key.*"
+msgstr ""
+"*你是 Alice 的朋友，並且真正地信任她管理 OpenPGP 密鑰的方式，因此你也就相信"
+"了 Alice　的密鑰。*"
+
+#. type: Bullet: '1. '
+msgid ""
+"*Furthermore, Alice met Bob, a Tails developer, in a conference and "
+"certified Bob's key. So Alice is trusting Bob's key.*"
+msgstr ""
+"*再者， Alice 在某個會議中遇見 Bob,後者是 Tails developer，她證明了 Bob　的密"
+"鑰，因此 Alice 相信 Bob的密鑰。*"
+
+#. type: Bullet: '1. '
+msgid ""
+"*Bob is a Tails developer who directly owns the Tails signing key. So Bob "
+"fully trusts the Tails signing key.*"
+msgstr ""
+"*Bob 是 Tails 開發人員，他直接握有 Tails 簽名密鑰，因此Bob 可以完全地信任這"
+"把 Tails 簽名密鑰。*"
+
+#. type: Plain text
+msgid ""
+"In this scenario, Alice found a path to trust the Tails signing key without "
+"the need to rely on certificate authorities."
+msgstr ""
+"在此情況下, Alice 不需要依靠憑證授權者就可以找到可信任的 Tails 簽名密鑰路徑。"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"tip\">\n"
+msgstr "<div class=\"tip\">\n"
+
+#. type: Plain text
+#, no-wrap
+#| msgid ""
+#| "<p>If you are on Debian or Ubuntu, you can install the\n"
+#| "<code>debian-keyring</code> package which contains the OpenPGP keys of\n"
+#| "all Debian developers. Some Debian developers have certified the Tails\n"
+#| "signing key and you can use these certifications to build a trust path.\n"
+#| "This technique is explained in detail in our instructions on\n"
+#| "[[installing Tails from Debian or Ubuntu using the command\n"
+#| "line|install/expert/usb]].</p>\n"
+msgid ""
+"<p>If you are on Debian, Ubuntu, or Linux Mint, you can install the\n"
+"<code>debian-keyring</code> package which contains the OpenPGP keys of\n"
+"all Debian developers. Some Debian developers have certified the Tails\n"
+"signing key and you can use these certifications to build a trust path.\n"
+"This technique is explained in detail in our instructions on\n"
+"[[installing Tails from Debian, Ubuntu, or Linux Mint using the command\n"
+"line|install/expert/usb]].</p>\n"
+msgstr ""
+"<p>如果使用的是 Debian, Ubuntu, 或 Linux Mint，可以安裝 \n"
+"<code>debian-keyring</code> 包，其中已包含了所有 Debian 開發者的\n"
+"OpenPGP　密鑰。有些 Debian 開發人員已證明了 Tails\n"
+"的簽名密鑰，用戶可利用這些證明來建立信任路徑。\n"
+"詳細的技巧會在這篇\n"
+"[[利用文字指令在 Debian, Ubuntu, 或 Linux Mint 環境安裝\n"
+"Tails|install/expert/usb]]予以指示說明</p>\n"
+
+#. type: Plain text
+msgid ""
+"Relying on the Web of Trust requires both caution and intelligent "
+"supervision by the users. The technical details are outside of the scope of "
+"this document."
+msgstr ""
+"依靠 Web of Trust 需要用戶小心和與情資上的監控，但其相關的技術細節將越出本文"
+"件可以討論的範疇。"
+
+#. type: Plain text
+msgid ""
+"Since the Web of Trust is actually based on human relationships and real-"
+"life interactions, the best is to get in touch with people knowledgeable "
+"about OpenPGP and build trust relationships in order to find your own trust "
+"path to the Tails signing key."
+msgstr ""
+"因為 Web of Trust 事實上仍基本人與人之間現實中的互動關係，最好的方法是接觸一"
+"些了解 OpenPGP 知識的人並與其建立信任關係以找到自己信任的 Tails 簽名密鑰路"
+"徑。　"
+
+#. type: Plain text
+msgid ""
+"For example, you can start by contacting a local [[!wikipedia "
+"Linux_User_Group]], [[an organization offering Tails training|support/"
+"learn]], or other Tails enthusiasts near you and exchange about their "
+"OpenPGP practices."
+msgstr ""
+"例如，可以透過聯繫 [[!wikipedia Linux_User_Group]], [[當地的 Linux 使用者提"
+"供 Tails 訓練|support/learn]], 或其它認識的 Tails 狂熱提倡者來交流其操作 "
+"OpenPGP 的經驗。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>After you built a trust path, you can certify the Tails signing key by\n"
+"signing it with your own key to get rid of some warnings during the\n"
+"verification process.</p>\n"
+msgstr ""
+"<p>建立完信任路徑後，可以用自己的密鑰來證明 \n"
+"Tails 的簽名密鑰，以省去在查證過程中\n"
+"會出現的一些警示麻煩。</p>\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Further reading on OpenPGP"
+msgstr "進一步了解 OpenPGP"
+
+#. type: Bullet: '- '
+msgid "[[!wikipedia GnuPG desc=\"Wikipedia: %s\"]], a free OpenPGP software"
+msgstr "[[!wikipedia_zh GnuPG desc=\"Wikipedia: %s\"]], 自由的 OpenPGP 軟體"
+
+#. type: Bullet: '- '
+msgid "[[Apache: How To OpenPGP|http://www.apache.org/dev/openpgp.html]]"
+msgstr "[[Apache: How To OpenPGP|http://www.apache.org/dev/openpgp.html]]"
+
+#. type: Bullet: '- '
+msgid ""
+"[[Debian: Keysigning|http://www.debian.org/events/keysigning]], a tutorial "
+"on signing keys of other people"
+msgstr ""
+"[[Debian: 密鑰簽名|http://www.debian.org/events/keysigning.]], 如何簽署其它人"
+"密鑰的教學"
+
+#. type: Bullet: '- '
+msgid ""
+"[[rubin.ch: Explanation of the web of trust of PGP|http://www.rubin.ch/pgp/"
+"weboftrust.en.html]]"
+msgstr ""
+"[[rubin.ch: 解釋 PGP Web of Trust|http://www.rubin.ch/pgp/weboftrust.en."
+"html]]"
+
+#. type: Bullet: '- '
+msgid ""
+"[[Gpg4win: Certificate inspection|http://www.gpg4win.org/doc/en/gpg4win-"
+"compendium_16.html]], instructions to manage key trust with Gpg4win"
+msgstr ""
+"[[Gpg4win: Zertifikatsprüfung|http://www.gpg4win.org/doc/de/gpg4win-"
+"compendium_16.html]], 如何利用 Gpg4win　來管理密鑰信任的指引。"
+
+#~ msgid ""
+#~ "We also acknowledge that not everybody might be able to create good trust "
+#~ "path to Tails signing key since it based on a network of direct human "
+#~ "relationships and the knowledge of quite complex tools such as OpenPGP."
+#~ msgstr ""
+#~ "Wir gestehen auch ein, dass nicht alle Menschen in der Lage sein könnten, "
+#~ "einen zuverlässigen Vertrauenspfad zum Signaturschlüssel von Tails "
+#~ "aufzubauen, da es auf einem Netzwerk von direkten menschlichen "
+#~ "Beziehungen und dem Fachwissen über recht komplexe Werkzeuge wie OpenPGP "
+#~ "basiert."
+
+#~ msgid ""
+#~ "Note that since all Tails releases are signed with the same key, you will "
+#~ "not have to verify the key every time and the trust you might "
+#~ "progressively build in it will be built once and for all. Still, you will "
+#~ "have to check the ISO image every time you download a new one!"
+#~ msgstr ""
+#~ "Bitte beachten Sie, dass alle Versionen von Tails mit dem gleichen "
+#~ "Schlüssel signiert sind, weshalb Sie den Schlüssel nicht jedes Mal aufs "
+#~ "Neue verifizieren müssen und Sie das Vertrauen, welches Sie "
+#~ "möglicherweise zunehmend in ihn aufbauen, ein für alle Mal tun. Dennoch "
+#~ "werden Sie das ISO-Image jedes Mal, wenn Sie ein neues herunterladen, "
+#~ "überprüfen müssen."
+
+#~ msgid ""
+#~ "If you want to be extra cautious and really authenticate Tails signing "
+#~ "key in a stronger way than what standard HTTPS offers you, you will need "
+#~ "to use the OpenPGP Web of Trust."
+#~ msgstr ""
+#~ "Wenn Sie besonders vorsichtig sein und den Tails Signaturschlüssel "
+#~ "wirklich auf eine sicherere Weise verifizieren wollen, als es Ihnen "
+#~ "übliches HTTPS bietet, möchten, wird es nötig sein, dass Sie das OpenPGP "
+#~ "Web of Trust nutzen."
+
+#~ msgid ""
+#~ "We will present you three techniques from the easiest to the safest. "
+#~ "Again, none of them is a perfect and magic solution. Feel free to explore "
+#~ "them according to your possibilities and technical skills."
+#~ msgstr ""
+#~ "Wir werden Ihnen drei Vorgehensweisen, von der einfachsten bis zur "
+#~ "sichersten, vorstellen. Nochmals, keine von diesen ist eine magische "
+#~ "Komplettlösung. Zögern Sie nicht, sie entsprechend Ihrer Möglichkeiten "
+#~ "und technischer Kenntnisse kennenzulernen."
