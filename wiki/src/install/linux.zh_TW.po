@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tails Transaltors\n"
-"POT-Creation-Date: 2017-02-09 18:52+0100\n"
+"POT-Creation-Date: 2017-07-28 23:41+0800\n"
 "PO-Revision-Date: 2017-07-12 11:57+0800\n"
 "Last-Translator: jxtsai <me@jxtsai.info>\n"
 "Language-Team: Tails l10n  <jxt@twngo.xyz>\n"
@@ -37,7 +37,6 @@ msgid "[[Back|install/os]]"
 msgstr "[[返回|install/os]]"
 
 #. type: Content of: <h1>
-#| msgid "<strong>Other Linux</strong> <small>(Red Hat, Fedora, etc.)</small>"
 msgid "Other <strong>Linux</strong> <small>(Red Hat, Fedora, etc.)</small>"
 msgstr ""
 "<strong> 其它 Linux 作業系統</strong> <small>(Red Hat, Fedora, 等等)</small>"

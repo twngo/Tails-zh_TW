@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n\n"
-"POT-Creation-Date: 2017-02-09 18:52+0100\n"
-"PO-Revision-Date: 2017-07-18 11:32+0800\n"
-"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"POT-Creation-Date: 2017-07-28 23:41+0800\n"
+"PO-Revision-Date: 2017-07-28 23:29+0800\n"
+"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
 "Language-Team: Tails l10n <jxt@twngo.xyz>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,6 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 
 #. type: Content of: <div><h3>
-#| msgid "You need"
 msgid "You will need"
 msgstr "需要"
 
@@ -58,7 +57,6 @@ msgid "<small>4 GB minimum</small>"
 msgstr "<small>至少 4 GB</small>"
 
 #. type: Content of: <div><div><div><div><div><h4><small>
-#| msgid "<small>All data will be lost!</small>"
 msgid "<small>All data will be lost!"
 msgstr "<small>所有資料將會遺失!</small>"
 
@@ -73,8 +71,8 @@ msgid ""
 "\"age\"]] \"\"\"]]"
 msgstr ""
 "[[!toggleable id=\"why_two\" text=\"\"\" [[!toggle id=\"why_two\" text=\"X"
-"\"]] [[!inline pages=\"install/inc/router/why_two.inline\" raw=\"yes\" sort="
-"\"age\"]] \"\"\"]]"
+"\"]] [[!inline pages=\"install/inc/router/why_two.inline.zh_TW\" raw=\"yes\" "
+"sort=\"age\"]] \"\"\"]]"
 
 #. type: Content of: <div><div><div><div><div><h4>
 msgid "1 USB stick"
@@ -95,8 +93,8 @@ msgid ""
 "sort=\"age\"]] \"\"\"]]"
 msgstr ""
 "[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" text="
-"\"X\"]] [[!inline pages=\"install/inc/router/why_extra.inline\" raw=\"yes\" "
-"sort=\"age\"]] \"\"\"]]"
+"\"X\"]] [[!inline pages=\"install/inc/router/why_extra.inline.zh_TW\" raw="
+"\"yes\" sort=\"age\"]] \"\"\"]]"
 
 #. type: Content of: <div><div><div><div>
 #, fuzzy

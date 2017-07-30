@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n Team\n"
-"POT-Creation-Date: 2017-05-27 23:41+0800\n"
+"POT-Creation-Date: 2017-07-26 16:33+0800\n"
 "PO-Revision-Date: 2017-05-28 12:20+0800\n"
 "Last-Translator: jxtsai <jxt@twngo.xyz>\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
@@ -27,10 +27,13 @@ msgid "[[!toc levels=3]]\n"
 msgstr "[[!toc levels=3]]\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "[[!inline pages=\"page(security/*) and !security/audits and !security/audits.* and !security/audits/* and currentlang()\"\n"
+#| "actions=no archive=yes feedonly=yes show=10 sort=\"age\"]]\n"
 msgid ""
 "[[!inline pages=\"page(security/*) and !security/audits and !security/audits.* and !security/audits/* and currentlang()\"\n"
-"actions=no archive=yes feedonly=yes show=10 sort=\"age\"]]\n"
+"actions=no archive=yes feedonly=yes show=10 sort=\"-meta(date) age -path\"]]\n"
 msgstr ""
 "[[!inline pages=\"page(security/*) and !security/audits and !security/audits.* and !security/audits/* and currentlang()\"\n"
 "actions=no archive=yes feedonly=yes show=10 sort=\"age\"]]\n"
@@ -81,12 +84,17 @@ msgid "Current holes"
 msgstr "目前的漏洞"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "[[!inline pages=\"page(security/*) and ! tagged(security/probable)\n"
+#| "and !security/audits and !security/audits.* and !security/audits/*\n"
+#| "and ! tagged(security/fixed) and currentlang() and created_after(security/Numerous_security_holes_in_1.2)\"\n"
+#| "actions=no archive=yes feeds=no show=0 sort=\"age\"]]\n"
 msgid ""
 "[[!inline pages=\"page(security/*) and ! tagged(security/probable)\n"
 "and !security/audits and !security/audits.* and !security/audits/*\n"
 "and ! tagged(security/fixed) and currentlang() and created_after(security/Numerous_security_holes_in_1.2)\"\n"
-"actions=no archive=yes feeds=no show=0 sort=\"age\"]]\n"
+"actions=no archive=yes feeds=no show=0 sort=\"-meta(date) age -path\"]]\n"
 msgstr ""
 "[[!inline pages=\"page(security/*) and ! tagged(security/probable)\n"
 "and !security/audits and !security/audits.* and !security/audits/*\n"
@@ -108,10 +116,13 @@ msgstr ""
 "式, 協議層級的資訊洩露被認為是− 非常不可能。"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "[[!inline pages=\"page(security/*) and tagged(security/probable) and currentlang()\"\n"
+#| "actions=no archive=yes feeds=no show=0 sort=\"age\"]]\n"
 msgid ""
 "[[!inline pages=\"page(security/*) and tagged(security/probable) and currentlang()\"\n"
-"actions=no archive=yes feeds=no show=0 sort=\"age\"]]\n"
+"actions=no archive=yes feeds=no show=0 sort=\"-meta(date) age -path\"]]\n"
 msgstr ""
 "[[!inline pages=\"page(security/*) and tagged(security/probable) and currentlang()\"\n"
 "actions=no archive=yes feeds=no show=0 sort=\"age\"]]\n"
@@ -131,10 +142,13 @@ msgstr ""
 "請仔細讀以下 \"Affected versions\" 部份。\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "[[!inline pages=\"page(security/*) and tagged(security/fixed) and (currentlang() or security/Numerous_security_holes_in_0*)\"\n"
+#| "actions=no archive=yes feeds=no show=0 sort=\"age\"]]\n"
 msgid ""
-"[[!inline pages=\"page(security/*) and tagged(security/fixed) and (currentlang() or security/Numerous_security_holes_in_0*)\"\n"
-"actions=no archive=yes feeds=no show=0 sort=\"age\"]]\n"
+"[[!inline pages=\"page(security/*) and tagged(security/fixed) and (currentlang() or security/Numerous_security_holes_in_0* or security/Numerous_security_holes_in_1*)\"\n"
+"actions=no archive=yes feeds=no show=0 sort=\"-meta(date) age -path\"]]\n"
 msgstr ""
 "[[!inline pages=\"page(security/*) and tagged(security/fixed) and (currentlang() or security/Numerous_security_holes_in_0*)\"\n"
 "actions=no archive=yes feeds=no show=0 sort=\"age\"]]\n"

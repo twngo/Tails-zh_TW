@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n Teams\n"
 "POT-Creation-Date: 2017-05-27 23:41+0800\n"
-"PO-Revision-Date: 2017-05-28 11:22+0800\n"
+"PO-Revision-Date: 2017-07-30 10:08+0800\n"
 "Last-Translator: jxtsai <jxt@twngo.xyz>\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
 "Language: zh\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Getting started…\"]]\n"
-msgstr "[!meta title=\"準備開始…\"]]\n"
+msgstr "[[!meta title=\"準備開始…\"]]\n"
 
 #. type: Title -
 #, no-wrap
@@ -93,9 +93,9 @@ msgstr ""
 #. type: Title -
 #, no-wrap
 msgid "Get in touch with us\n"
-msgstr "Get in touch with us\n"
+msgstr "與我們保持聯絡\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"support/talk\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"support/talk\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"support/talk.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"

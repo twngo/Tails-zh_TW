@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n\n"
-"POT-Creation-Date: 2017-02-09 18:52+0100\n"
+"POT-Creation-Date: 2017-07-28 23:40+0800\n"
 "PO-Revision-Date: 2017-07-18 12:32+0800\n"
 "Last-Translator: jxtsai <me@jxtsai.info>\n"
 "Language-Team: Tails l10n <jxt@twngo.xyz>\n"
@@ -18,7 +18,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "[[!meta title=\"Installing Tails on a USB stick from Debian or Ubuntu using the command line\"]]\n"
 msgid "[[!meta title=\"Install from Debian, Ubuntu, or Mint using the command line and GnuPG\"]]\n"
 msgstr "[[!meta title=\"自Debian, Ubuntu, 或 Mint 環境底下使指令列與 GnuPG 來安裝 Tails\"]]\n"
 
@@ -38,7 +37,6 @@ msgid "[[!meta stylesheet=\"inc/stylesheets/expert\" rel=\"stylesheet\" title=\"
 msgstr "[[!meta stylesheet=\"inc/stylesheets/expert\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Plain text
-#| msgid "Start in Debian or Ubuntu."
 msgid "Start in Debian, Ubuntu, or Linux Mint."
 msgstr "啟動 Debian, Ubuntu, 或 Linux Mint。"
 
@@ -383,9 +381,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "   b. Ubuntu, execute the following command to add the\n"
-#| "   PPA repository to your system:\n"
 msgid ""
 "   b. Ubuntu or Linux Mint, execute the following commands to add the\n"
 "   *universe* repository and our PPA to your system:\n"
@@ -395,7 +390,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "         sudo add-apt-repository ppa:tails-team/tails-installer\n"
 msgid ""
 "         sudo add-apt-repository universe\n"
 "         sudo add-apt-repository ppa:tails-team/tails-installer\n"

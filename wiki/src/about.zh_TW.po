@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n Team\n"
-"POT-Creation-Date: 2017-05-28 00:10+0800\n"
-"PO-Revision-Date: 2017-05-28 14:44+0800\n"
-"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
+"POT-Creation-Date: 2017-07-28 23:40+0800\n"
+"PO-Revision-Date: 2017-07-28 16:22+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
@@ -256,10 +256,16 @@ msgid ""
 msgstr "Tails 也預載了一些工具選項以利用強大的加密功能來保護用戶的資料:"
 
 #. type: Bullet: '  - '
+#, fuzzy
+#| msgid ""
+#| "[[Encrypt your USB sticks or external hard-disks|doc/"
+#| "encryption_and_privacy/encrypted_volumes]] using <span class=\"definition"
+#| "\">[[!wikipedia LUKS]]</span>, the Linux standard for disk-encryption."
 msgid ""
 "[[Encrypt your USB sticks or external hard-disks|doc/encryption_and_privacy/"
-"encrypted_volumes]] using <span class=\"definition\">[[!wikipedia LUKS]]</"
-"span>, the Linux standard for disk-encryption."
+"encrypted_volumes]] using <span class=\"definition\">[[!wikipedia "
+"Linux_Unified_Key_Setup desc=\"LUKS\"]]</span>, the Linux standard for disk-"
+"encryption."
 msgstr ""
 "[[加密USB隨身碟或是外接硬碟|doc/encryption_and_privacy/encrypted_volumes]] 可"
 "使用 <span class=\"definition\">[[!wikipedia　LUKS]]</span>, 它是Linux上的磁"
@@ -277,10 +283,16 @@ msgstr ""
 "Electronic Frontier Foundation](https://www.eff.org) 所開發。"
 
 #. type: Bullet: '  - '
+#, fuzzy
+#| msgid ""
+#| "Encrypt and sign your emails and documents using the *de facto* standard "
+#| "<span class=\"definition\">[[!wikipedia OpenPGP]]</span> either from "
+#| "Tails email client, text editor or file browser."
 msgid ""
 "Encrypt and sign your emails and documents using the *de facto* standard "
-"<span class=\"definition\">[[!wikipedia OpenPGP]]</span> either from Tails "
-"email client, text editor or file browser."
+"<span class=\"definition\">[[!wikipedia Pretty_Good_Privacy#OpenPGP desc="
+"\"OpenPGP\"]]</span> either from Tails email client, text editor or file "
+"browser."
 msgstr ""
 "使用*實質* 標準的 <span class=\"definition\">[[!wikipedia_de OpenPGP]]</span>"
 "來加密和簽署電子郵件和文檔,不管是透過Tails上面的E-Mail客戶端軟體, 文件編輯程"
@@ -367,6 +379,16 @@ msgstr "新聞與媒體\n"
 #. type: Plain text
 msgid "See [[Press and media information|press]]."
 msgstr "請見[[新聞與媒體資訊|press]]."
+
+#. type: Title =
+#, no-wrap
+msgid "Social Contract\n"
+msgstr "社會契約\n"
+
+#. type: Plain text
+msgid ""
+"Read our [[Social Contract|contribute/working_together/social_contract]]."
+msgstr "諘看我們的 [[社會契ˋ約|contribute/working_together/social_contract]]."
 
 #. type: Title =
 #, no-wrap

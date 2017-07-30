@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails\n"
+"POT-Creation-Date: 2017-07-26 16:33+0800\n"
+"PO-Revision-Date: 2017-07-28 22:37+0800\n"
+"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
+"Language-Team: Tails Translators <tails-l10n@boum.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Content of: outside any tag (error?)
+msgid "[[!meta title=\"Get in touch with us\"]]"
+msgstr "[[!meta title=\"保持聯絡\"]]"
+
+#. type: Content of: <div><h3>
+msgid "Email"
+msgstr "E-Mail"
+
+#. type: Content of: <div>
+msgid "[[!img lib/email.png link=no]]"
+msgstr "[[!img lib/email.png link=no]]"
+
+#. type: Content of: <div><p>
+msgid "Mail us on our private mailing list:"
+msgstr "在私密郵件群組中寄信給我們："
+
+#. type: Content of: <div><p>
+msgid "[[tails-support-private@boum.org|about/contact#tails-support-private]]"
+msgstr "[[tails-support-private@boum.org|about/contact#tails-support-private]]"
+
+#. type: Content of: <div>
+msgid "[[!inline pages=\"support/talk/languages.inline\" raw=\"yes\"]]"
+msgstr ""
+"[[!inline pages=\"support/talk/languages.inline.zh_TW\" raw=\"yes\" sort="
+"\"age\"]]"
+
+#. type: Content of: <div><p>
+msgid ""
+"Encrypting your emails with our [[OpenPGP key|doc/about/"
+"openpgp_keys#support]] is the only way to achieve end-to-end encryption."
+msgstr ""
+"使用我們的 [[OpenPGP-密鑰|doc/about/openpgp_keys#support]] 來加密電郵，這是唯"
+"一可以達到端對端安全通訊的方式。 "
+
+#. type: Content of: <div><h3>
+msgid "Chat"
+msgstr "聊天"
+
+#. type: Content of: <div>
+msgid "[[!img lib/chat.png link=no]]"
+msgstr "[[!img lib/chat.png link=no]]"
+
+#. type: Content of: <div><p>
+msgid "Join our XMPP chat room to talk to contributors and users."
+msgstr "加入 XMPP 聊天室和其它貢獻者或使用者聊聊。 "
+
+#. type: Content of: <div><ul><li>
+msgid "server: <code>conference.riseup.net</code>"
+msgstr "server: <code>conference.riseup.net</code>"
+
+#. type: Content of: <div><ul><li>
+msgid "room: <code>tails</code>"
+msgstr "room: <code>tails</code>"
+
+#. type: Content of: <div><ul><li>
+msgid "use TLS/SSL to connect!"
+msgstr "使用 TLS/SSL 連線!"
+
+#~ msgid "Public support list"
+#~ msgstr "Öffentliche Support-Liste"
+
+#~ msgid "[[!img lib/list.png link=no]]"
+#~ msgstr "[[!img lib/list.png link=no]]"
+
+#~ msgid "Subscribe to our [[user support mailing list|tails-support]]."
+#~ msgstr "Unsere [[Benutzer-Support Mailingliste|tails-support]] abonnieren."
+
+#~ msgid ""
+#~ "This is a public mailing list, so <strong>be careful with what you are "
+#~ "sending</strong>. Give only the necessary informations about yourself, "
+#~ "and if possible use Tails or [[<span class=\"application\">Tor Browser</"
+#~ "span>|https://torproject.org/torbrowser/]] to hide your IP address."
+#~ msgstr ""
+#~ "Dies ist eine öffentliche Mailingliste, <strong>seien Sie also vorsichtig "
+#~ "mit dem was Sie senden</strong>. Teilen Sie nur die nötigsten "
+#~ "Informationen über sich selbst mit und nutzen Sie möglichst Tails oder "
+#~ "den [[<span class=\"application\">Tor Browser</span>|https://torproject."
+#~ "org/torbrowser/]] um Ihre IP-Adresse zu verbergen."
+
+#~ msgid "port: <code>6697</code>"
+#~ msgstr "Port: <code>6697</code>"
+
+#~ msgid ""
+#~ "If you are using Tails, read [[the chat documentation|doc/"
+#~ "anonymous_internet/pidgin]]. Else, you can use [[Pidgin|http://www.pidgin."
+#~ "im/]], an Instant Messaging client for Windows, GNU/Linux and Mac OS X."
+#~ msgstr ""
+#~ "Sollten Sie Tails nutzen, lesen Sie bitte [[die Chat-Dokumentation|doc/"
+#~ "anonymous_internet/pidgin]]. Anderenfalls können Sie [[Pidgin|http://www."
+#~ "pidgin.im/]] nutzen, ein Programm zum Nachrichtensofortversand für "
+#~ "Windows, GNU/Linux und Mac OS X."

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n\n"
 "POT-Creation-Date: 2016-09-22 14:33+0300\n"
-"PO-Revision-Date: 2017-07-11 14:51+0800\n"
-"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"PO-Revision-Date: 2017-07-30 11:15+0800\n"
+"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
 "Language-Team: Tails l10n <jxt@twngo.xyz>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "[[!meta script=\"install/inc/js/dave\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"install/inc/tails-installation-assistant.inline\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"install/inc/tails-installation-assistant.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/tails-installation-assistant.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -65,12 +65,12 @@ msgstr "<div class=\"step-image\">[[!img install/inc/infography/os-tails.png lin
 #. type: Plain text
 #, no-wrap
 msgid "<p class=\"start\">Start in Tails.</p>\n"
-msgstr "<p class=\"start\">啟動 Tails.</p>\n"
+msgstr "<p class=\"start\">啟動 Tails</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"install/inc/steps/download.inline\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"install/inc/steps/download.inline.de\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/download.inline.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Title =
 #, no-wrap
@@ -83,7 +83,7 @@ msgid ""
 "In this step, you will install an intermediary Tails by cloning your\n"
 "outdated Tails on another USB stick using <span class=\"application\">Tails Installer</span>.\n"
 msgstr ""
-"在本步驟中， 透過覆制原有的<span class=\"application\">Tails 安裝器</span>\n"
+"在本步驟中， 透過複制原有的<span class=\"application\">Tails 安裝器</span>\n"
 "到另一支隨身碟作成中介 Tails。\n"
 
 #. type: Plain text
@@ -145,7 +145,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Click on the <span class=\"button\">Install by cloning</span> button."
-msgstr "點搫 <span class=\"button\">透過覆製安裝</span>的按鍵。"
+msgstr "點搫 <span class=\"button\">透過複製安裝</span>的按鍵。"
 
 #. type: Plain text
 #, no-wrap
@@ -266,8 +266,8 @@ msgid ""
 "Read the warning message in the pop-up window. Click on the <span class="
 "\"button\">Yes</span> button to confirm."
 msgstr ""
-"仔細閱讀彈出視窗中的警告訊息，點擊Klicken Sie auf <span class=\"button\">是</"
-"span>, 以作確定。"
+"仔細閱讀彈出視窗中的警告訊息，點擊 <span class=\"button\">是</span>, 以作確"
+"定。"
 
 #. type: Plain text
 #, no-wrap

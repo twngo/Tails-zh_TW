@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tails L10n\n"
-"POT-Creation-Date: 2017-05-26 12:49+0200\n"
+"POT-Creation-Date: 2017-07-28 23:41+0800\n"
 "PO-Revision-Date: 2017-07-20 11:37+0800\n"
 "Last-Translator: jxtsai <me@jxtsai.info>\n"
 "Language-Team: tails L10n Chinese <jxt@twngo.xyz>\n"
@@ -50,11 +50,6 @@ msgstr "<div class=\"tip debian\">\n"
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "<p>To know your version of Debian or Ubuntu, open\n"
-#| "<span class=\"application\">Settings</span> and click on\n"
-#| "<span class=\"guilabel\">Details</span>. For Debian, refer to the\n"
-#| "<span class=\"guilabel\">Base system</span> information.</p>\n"
 msgid ""
 "<p>To know your version of Debian or Ubuntu, open\n"
 "<span class=\"application\">System Settings</span> and click on\n"
@@ -68,9 +63,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "<p>To know your version of Ubuntu, execute\n"
-#| "<span class=\"command\">lsb_release -a</span>.</p>\n"
 msgid ""
 "<p>To know your version of Linux Mint, open the application\n"
 "<span class=\"application\">Welcome Screen</span>.\n"
@@ -90,9 +82,6 @@ msgstr "<div class=\"tip expert\">\n"
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "<p>To know your version of Ubuntu, execute\n"
-#| "<span class=\"command\">lsb_release -a</span>.</p>\n"
 msgid "<p>To know your version of Debian, Ubuntu, or Linux Mint, execute:</p>\n"
 msgstr "<p>要找出所用的 Debian, Ubuntu, 或 Linux Mint 版本資訊，請執行：</p>\n"
 

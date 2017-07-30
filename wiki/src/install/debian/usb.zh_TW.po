@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n translator\n"
-"POT-Creation-Date: 2017-05-26 12:49+0200\n"
+"POT-Creation-Date: 2017-07-28 23:40+0800\n"
 "PO-Revision-Date: 2017-07-16 15:01+0800\n"
 "Last-Translator: jxtsai <me@jxtsai.info>\n"
 "Language-Team: Tails l10n translator <jxt@twngo.xyz>\n"
@@ -18,13 +18,11 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "[[!meta title=\"Installing Tails on a USB stick from Debian or Ubuntu\"]]\n"
 msgid "[[!meta title=\"Install from Debian, Ubuntu, or Mint\"]]\n"
 msgstr "[[!meta title=\"在Debian, Ubuntu, 或 Mint底下進行安裝\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-#| msgid "[[!meta stylesheet=\"bootstrap\" rel=\"stylesheet\" title=\"\"]]\n"
 msgid "[[!meta stylesheet=\"bootstrap.min\" rel=\"stylesheet\" title=\"\"]]\n"
 msgstr "[[!meta stylesheet=\"bootstrap.min\" rel=\"stylesheet\" title=\"\"]]\n"
 
@@ -64,7 +62,6 @@ msgid "<div class=\"step-image\">[[!img install/inc/infography/os-debian-ubuntu.
 msgstr "<div class=\"step-image\">[[!img install/inc/infography/os-debian-ubuntu.png link=\"no\" alt=\"\"]]</div>\n"
 
 #. type: Plain text
-#| msgid "Start in Debian or Ubuntu."
 msgid "Start in Debian, Ubuntu, or Linux Mint."
 msgstr "啟動 Debian, Ubuntu, or Linux Mint."
 
@@ -135,13 +132,11 @@ msgstr "依用戶的Debian 版本，可能會出現二種不同的對話框："
 
 #. type: Plain text
 #, no-wrap
-#| msgid "Close the <span class=\"guilabel\">Software & Updates</span> dialog."
 msgid "   a. If the dialog is titled <span class=\"guilabel\">Software & Updates</span> and has tabs:\n"
 msgstr "   a. 如果出現的對話框標題為<span class=\"guilabel\">軟體 & 更新</span>且有標籤分頁s:\n"
 
 #. type: Plain text
 #, no-wrap
-#| msgid "Open the <span class=\"guilabel\">Other Software</span> tab, and click on the <span class=\"button\">Add&hellip;</span> button."
 msgid ""
 "      Open the <span class=\"guilabel\">Other Software</span> tab, and click on\n"
 "      the <span class=\"button\">Add&hellip;</span> button.\n"
@@ -151,7 +146,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "Close the <span class=\"guilabel\">Software & Updates</span> dialog."
 msgid "      In the <span class=\"guilabel\">APT line</span> field, specify:\n"
 msgstr "     在<span class=\"guilabel\">APT line</span> 欄位中，指定：\n"
 
@@ -173,24 +167,19 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "Close the <span class=\"guilabel\">Software & Updates</span> dialog."
 msgid "   a. If the dialog is titled <span class=\"guilabel\">Repositories</span> and has no tabs:\n"
 msgstr "   a. 如果對話框的標題是<span class=\"guilabel\">資源庫</span>且沒有標籤頁：\n"
 
 #. type: Plain text
 #, no-wrap
-#| msgid "Click <span class=\"button\">Ok</span>."
 msgid "      Click <span class=\"button\">New</span> and specify:\n"
 msgstr "    點擊<span class=\"button\">新增</span>然後指定：\n"
 
 #. type: Bullet: '      * '
-#| msgid ""
-#| "<span class=\"guilabel\">URI</span>: *http://http.debian.net/debian/*"
 msgid "<span class=\"guilabel\">URI</span>: `http://http.debian.net/debian/`"
 msgstr "<span class=\"guilabel\">URI</span>: `http://http.debian.net/debian/`"
 
 #. type: Bullet: '      * '
-#| msgid "<span class=\"guilabel\">Distributions</span>: *jessie-backports*"
 msgid ""
 "If you are running Debian 8 (Jessie), <span class=\"guilabel\">Distribution</"
 "span>: `jessie-backports`"
@@ -199,7 +188,6 @@ msgstr ""
 "`jessie-backports`"
 
 #. type: Bullet: '      * '
-#| msgid "<span class=\"guilabel\">Distributions</span>: *jessie-backports*"
 msgid ""
 "If you are running Debian 9 (Stretch), <span class=\"guilabel"
 "\">Distribution</span>: `stretch-backports`"
@@ -208,17 +196,14 @@ msgstr ""
 "backports`"
 
 #. type: Bullet: '      * '
-#| msgid "<span class=\"guilabel\">Section(s)</span>: *main*"
 msgid "<span class=\"guilabel\">Section(s)</span>: `main`"
 msgstr "<span class=\"guilabel\">Section(s)</span>: `main`"
 
 #. type: Bullet: '1. '
-#| msgid "Click <span class=\"button\">Ok</span>."
 msgid "Click the <span class=\"button\">Add Source</span> button."
 msgstr "點擊<span class=\"button\">新增來源</span>按鈕。"
 
 #. type: Bullet: '1. '
-#| msgid "Click <span class=\"button\">Ok</span>."
 msgid ""
 "Click <span class=\"button\">Close</span> or <span class=\"button\">Ok</"
 "span>."
@@ -235,7 +220,6 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-#| msgid "Start <span class=\"application\">Ubuntu Software Center</span>."
 msgid "Install <span class=\"application\">Tails Installer</span>"
 msgstr "安裝<span class=\"application\">Tails Installer</span>"
 
@@ -330,22 +314,15 @@ msgstr "       apt install tails-installer\n"
 
 #. type: Title -
 #, no-wrap
-#| msgid "If you are running Ubuntu\n"
 msgid "If you are running Linux Mint\n"
 msgstr "如果使用的是 Linux Mint\n"
 
 #. type: Bullet: '1. '
-#| msgid "Start <span class=\"application\">Ubuntu Software Center</span>."
 msgid "Start <span class=\"application\">Software Manager</span>."
 msgstr "啟動<span class=\"application\">軟體管理員</span>。"
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "1. Choose\n"
-#| "   <span class=\"guimenupath\">\n"
-#| "     <span class=\"guimenu\">Edit</span>&nbsp;▸\n"
-#| "     <span class=\"guimenuitem\">Software Sources&hellip;</span></span>\n"
 msgid ""
 "1. Choose\n"
 "   <span class=\"guimenupath\">\n"
@@ -358,9 +335,6 @@ msgstr ""
 "     <span class=\"guimenuitem\">軟體來源</span></span>.\n"
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "Open the <span class=\"guilabel\">Other Software</span> tab, and click on "
-#| "the <span class=\"button\">Add&hellip;</span> button."
 msgid ""
 "Click on the <span class=\"guilabel\">PPAs</span> button and then choose to "
 "<span class=\"button\">Add a new PPA&hellip;</span>."
@@ -369,10 +343,6 @@ msgstr ""
 "新的 PPA&hellip;</span>."
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "In the <span class=\"guilabel\">APT line</span> field, specify `ppa:tails-"
-#| "team/tails-installer` and click the <span class=\"button\">Add Source</"
-#| "span> button."
 msgid ""
 "In the dialog, specify `ppa:tails-team/tails-installer` and click <span "
 "class=\"button\">Ok</span>."
@@ -381,16 +351,12 @@ msgstr ""
 "\"button\">Ok</span>。"
 
 #. type: Bullet: '1. '
-#| msgid "Click <span class=\"button\">Ok</span>."
 msgid ""
 "Click <span class=\"button\">Ok</span> again to close the description of the "
 "PPA."
 msgstr "再次點擊<span class=\"button\">Ok</span>以關閉 PPA的描述。"
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "In the confirmation dialog, click <span class=\"guilabel\">Reload</span> "
-#| "and wait for the download of the package information to finish."
 msgid ""
 "In the <span class=\"guilabel\">Software Sources</span> window, click on the "
 "<span class=\"button\">Update the cache</span> button and wait for the "
@@ -400,21 +366,16 @@ msgstr ""
 "\">更新快取</span>按鈕並等候軟體包資訊下載完畢。　"
 
 #. type: Bullet: '1. '
-#| msgid "Close the <span class=\"guilabel\">Software & Updates</span> dialog."
 msgid "Close the <span class=\"guilabel\">Software Sources</span> dialog."
 msgstr "關閉<span class=\"guilabel\">軟體來源</span>對話框。"
 
 #. type: Bullet: '1. '
-#| msgid "Start <span class=\"application\">Ubuntu Software Center</span>."
 msgid ""
 "Wait a few seconds until <span class=\"application\">Software Manager</span> "
 "reappears."
 msgstr "稍等幾秒鐘後會再次出現<span class=\"application\">軟體管理員</span>。"
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "In the main windows of <span class=\"application\">Ubuntu Software "
-#| "Center</span>, search for `tails-installer`."
 msgid ""
 "In the main window of <span class=\"application\">Software Manager</span>, "
 "search for `tails-installer` and double-click on <span class=\"guilabel"
@@ -433,9 +394,6 @@ msgstr ""
 "\"button\">安裝</span>。"
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "After `tails-installer` is installed, close <span class=\"application"
-#| "\">Ubuntu Software Center</span>."
 msgid ""
 "After <span class=\"application\">Tails Installer</span> is installed, close "
 "<span class=\"application\">Software Manager</span>."

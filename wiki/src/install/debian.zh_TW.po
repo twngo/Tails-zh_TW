@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tails l10n\n"
-"POT-Creation-Date: 2017-02-09 18:52+0100\n"
+"POT-Creation-Date: 2017-07-28 23:40+0800\n"
 "PO-Revision-Date: 2017-07-12 11:42+0800\n"
 "Last-Translator: jxtsai <me@jxtsai.info>\n"
 "Language-Team: tails l10n <jxt@twngo.xyz>\n"
@@ -35,7 +35,6 @@ msgid "[[Back|install/os]]"
 msgstr "[[返回|install/os]]"
 
 #. type: Content of: <h1>
-#| msgid "<strong>Debian or Ubuntu</strong>"
 msgid ""
 "<strong>Debian</strong>, <strong>Ubuntu</strong>, or <strong>Mint</strong>"
 msgstr "<strong>Debian， Ubuntu</strong>或是 <strong>Mint</strong>"
@@ -100,7 +99,6 @@ msgid "<small>Install from Debian, Ubuntu, or Mint using"
 msgstr "<small>Von Debian oder Ubuntu aus unter der Nutzung der</small>"
 
 #. type: Content of: <div><div><div><div><h3>
-#| msgid "command line <small> and </small> GnuPG"
 msgid "the</small> command line <small>and</small> GnuPG"
 msgstr "文字指令列<small>和</small> GnuPG"
 

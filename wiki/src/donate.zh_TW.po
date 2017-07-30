@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tails i10n Team\n"
-"POT-Creation-Date: 2017-05-27 23:41+0800\n"
-"PO-Revision-Date: 2017-05-28 11:04+0800\n"
-"Last-Translator: jxtsai <jxt@twngo.xyz>\n"
+"POT-Creation-Date: 2017-07-28 23:41+0800\n"
+"PO-Revision-Date: 2017-07-28 16:37+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
-"Language: zh\n"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
@@ -76,12 +76,12 @@ msgstr "請考慮捐款給Tails來維護與保障它的生存。"
 msgid "Thanks!"
 msgstr "謝謝！"
 
-#. HTML Variables for PayPal Payments Standard:
-#. https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/Appx_websitestandard_htmlvariables/
-#. Note for translators: adapt the URLs to return to the page in your language.
-#. Note for translators: adapt the value of 'lc' to your language.
-#. For recurring donations only.
-#. For one-time donation only.
+#.  HTML Variables for PayPal Payments Standard:
+#.        https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/Appx_websitestandard_htmlvariables/ 
+#.  Note for translators: adapt the URLs to return to the page in your language. 
+#.  Note for translators: adapt the value of 'lc' to your language. 
+#.  For recurring donations only. 
+#.  For one-time donation only. 
 #. type: Content of: <div><div><div><form>
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\" id=\"cmd"
@@ -270,8 +270,8 @@ msgstr "美元捐款"
 msgid "Recurring donation"
 msgstr "定期捐款"
 
-#. Note for translators: adapt the URLs to return to the page in your language.
-#. Note for translators: adapt the value of 'lc' to your language.
+#.  Note for translators: adapt the URLs to return to the page in your language. 
+#.  Note for translators: adapt the value of 'lc' to your language. 
 #. type: Content of: <div><div><div><div><form>
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\"/> <input "
@@ -339,10 +339,10 @@ msgid "One-time donation"
 msgstr "單次捐款"
 
 #
-#. Note for translators: the following parts need to be translated:
-#. - https://tails.boum.org/donate/thanks
-#. - https://tails.boum.org/donate/canceled
-#. - US
+#.  Note for translators: the following parts need to be translated:
+#.          - https://tails.boum.org/donate/thanks
+#.          - https://tails.boum.org/donate/canceled
+#.          - US 
 #. type: Content of: <div><div><div><div><form>
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_donations\"/> <input type="
@@ -390,10 +390,10 @@ msgid "Donate in euros"
 msgstr "歐元捐款"
 
 #
-#. Note for translators: the following parts need to be translated:
-#. - https://tails.boum.org/donate/thanks
-#. - https://tails.boum.org/donate/canceled
-#. - US
+#.  Note for translators: the following parts need to be translated:
+#.          - https://tails.boum.org/donate/thanks
+#.          - https://tails.boum.org/donate/canceled
+#.          - US 
 #. type: Content of: <div><div><div><div><form>
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\"/> <input "
@@ -439,10 +439,10 @@ msgstr ""
 "\"sub500\">500€</label>"
 
 #
-#. Note for translators: the following parts need to be translated:
-#. - https://tails.boum.org/donate/thanks
-#. - https://tails.boum.org/donate/canceled
-#. - US
+#.  Note for translators: the following parts need to be translated:
+#.          - https://tails.boum.org/donate/thanks
+#.          - https://tails.boum.org/donate/canceled
+#.          - US 
 #. type: Content of: <div><div><div><div><form>
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_donations\"/> <input type="
@@ -532,6 +532,10 @@ msgid "<em>BIC</em>: GENODEM1GLS"
 msgstr "<em>BIC</em>: GENODEM1GLS"
 
 #. type: Content of: <div><div>
+msgid "<em>Purpose of transfer</em>: Donation to Tails"
+msgstr "<em>轉帳目的</em>：捐款給 Tails"
+
+#. type: Content of: <div><div>
 msgid "<em>Bank</em>: GLS Gemeinschaftsbank eG"
 msgstr "<em>銀行</em>: GLS Gemeinschaftsbank eG"
 
@@ -557,4 +561,18 @@ msgstr "[[!img expenses.png link=\"no\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "Our financial records are available [[here|doc/about/finances]]."
-msgstr "我們的財務記錄報告在此 [[here|doc/about/finances]]."
+msgstr "我們的財務記錄報告 [[在此|doc/about/finances]]."
+
+#. type: Content of: <div><div><h3>
+msgid "Our partners"
+msgstr "我們的合伙人"
+
+#. type: Content of: <div><div><p>
+msgid ""
+"Tails also receives grants, awards, corporate donations, and substantial "
+"donations from individuals."
+msgstr "Tails 也接受獎助、獎金、企業捐助以及來自個人的捐款。"
+
+#. type: Content of: <div><div><p>
+msgid "Meet our [[partners|partners]] or [[become a partner|partners/become]]!"
+msgstr "見見我們的[[伙伴|partners]] 或是 [[成為我們的伙伴|partners/become]]!"

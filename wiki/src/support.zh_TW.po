@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n Teams\n"
-"POT-Creation-Date: 2017-05-27 23:41+0800\n"
-"PO-Revision-Date: 2017-05-28 12:37+0800\n"
+"POT-Creation-Date: 2017-07-28 23:40+0800\n"
+"PO-Revision-Date: 2017-07-30 10:37+0800\n"
 "Last-Translator: jxtsai <jxt@twngo.xyz>\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
 "Language: zh\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Support\"]]\n"
-msgstr "[[!meta title=\"Support\"]]\n"
+msgstr "[[!meta title=\"使用者支援\"]]\n"
 
 #. type: Title =
 #, no-wrap
@@ -107,13 +107,8 @@ msgstr " [[!tails_redmine desc=\"rest of our open tickets on Redmine\"]]"
 
 #. type: Plain text
 #, no-wrap
-msgid "<div id=\"page-found_a_problem\">\n"
-msgstr "<div id=\"page-found_a_problem\">\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "<div id=\"bugs\">\n"
-msgstr "<div id=\"bugs\">\n"
+msgid "<div id=\"bugs\" class=\"blocks two-blocks\">\n"
+msgstr "<div id=\"bugs\" class=\"blocks two-blocks\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -140,13 +135,13 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "</div> <!-- #bugs -->\n"
-msgstr "<div id=\"talk\">\n"
+msgid "</div>\n"
+msgstr "</div>\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "<div id=\"wishlist\">\n"
-msgstr "<div id=\"wishlist\">\n"
+msgid "<div id=\"wishlist\" class=\"blocks two-blocks\">\n"
+msgstr "<div id=\"wishlist\" class=\"blocks two-blocks\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -154,11 +149,15 @@ msgid "  <h1>Request a feature</h1>\n"
 msgstr "  <h1>建議新功能</h1>\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "  If you would like to see a new feature in Tails,\n"
+#| "  search the [[!tails_redmine desc=\"open tickets in Redmine\"]] first,\n"
+#| "  and file a new ticket in there if no existing one matches your needs.\n"
 msgid ""
-"  If you would like to see a new feature in Tails,\n"
+"  <p>If you would like to see a new feature in Tails,\n"
 "  search the [[!tails_redmine desc=\"open tickets in Redmine\"]] first,\n"
-"  and file a new ticket in there if no existing one matches your needs.\n"
+"  and file a new ticket in there if no existing one matches your needs.</p>\n"
 msgstr ""
 "如果你希望 Tails有新功能,\n"
 "先找找 [[!tails_redmine desc=\"open tickets in Redmine\"]] 是否已有人提過\n"
@@ -167,12 +166,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "</div> <!-- #wishlist -->\n"
-msgstr "<div id=\"talk\">\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "</div> <!-- #page-found_a_problem -->\n"
-msgstr "<div id=\"talk\">\n"
+msgstr "</div> <!-- #wishlist -->\n"
 
 #. type: Plain text
 #, no-wrap
@@ -187,9 +181,19 @@ msgstr "  <h1>保持聯絡</h1>\n"
 #. type: Plain text
 #, no-wrap
 msgid "  [[!inline pages=\"support/talk\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "  [[!inline pages=\"support/talk\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "  [[!inline pages=\"support/talk.zh_TW\" raw=\"yes\" sort=\"age\"]]\n"
 
-#. type: Plain text
-#, no-wrap
-msgid "</div> <!-- #talk -->\n"
-msgstr "</div> <!-- #talk -->\n"
+#~ msgid "<div id=\"page-found_a_problem\">\n"
+#~ msgstr "<div id=\"page-found_a_problem\">\n"
+
+#~ msgid "<div id=\"bugs\">\n"
+#~ msgstr "<div id=\"bugs\">\n"
+
+#~ msgid "</div> <!-- #bugs -->\n"
+#~ msgstr "<div id=\"talk\">\n"
+
+#~ msgid "</div> <!-- #page-found_a_problem -->\n"
+#~ msgstr "<div id=\"talk\">\n"
+
+#~ msgid "</div> <!-- #talk -->\n"
+#~ msgstr "</div> <!-- #talk -->\n"
