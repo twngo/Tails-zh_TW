@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails Translation\n"
+"POT-Creation-Date: 2017-07-26 16:33+0800\n"
+"PO-Revision-Date: 2017-08-01 16:17+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"Language-Team: Tails l10n Chinese <jxt@twngo.xyz>\n"
+"Language: l10n\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"next\">\n"
+msgstr "<div class=\"next\">\n"
+
+#. type: Plain text
+msgid ""
+"To learn how to save your working documents encrypted in your Tails device, "
+"read our documentation on [[persistence|first_steps/persistence]]."
+msgstr ""
+"學習如何儲存工作檔案加密放入Tails 設備，請閱讀關於[[永久磁區|first_steps/"
+"persistence]]的文件。"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"

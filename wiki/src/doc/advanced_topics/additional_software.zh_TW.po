@@ -1,0 +1,275 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails Translation\n"
+"POT-Creation-Date: 2017-07-26 16:33+0800\n"
+"PO-Revision-Date: 2017-08-03 15:36+0800\n"
+"Last-Translator: jxtsai <me@jxtsai.info>\n"
+"Language-Team: Tails l10n Chinese <jxt@twngo.xyz>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Install additional software\"]]\n"
+msgstr "[[!meta title=\"安裝其它軟體\"]]\n"
+
+#. type: Plain text
+msgid ""
+"Tails includes a [[coherent but limited set of applications|doc/about/"
+"features]]. More applications can be installed as on any Debian system. Only "
+"applications that are packaged for Debian can be installed. To know if an "
+"application is packaged for Debian, and to find the name of the "
+"corresponding software packages, you can search for it in the [[Debian "
+"package directory|https://www.debian.org/distrib/packages]]."
+msgstr ""
+"Tails 包括[[coherent but limited set of applications|doc/about/features]]。可"
+"以安裝更多能執行於 Debian 的應用程式。Tails 能安裝 Debian 套件。某應用程式是"
+"否為 Debian 可用，請在[[Debian 套件目錄|https://www.debian.org/distrib/"
+"packages]]找找其相應的套件名稱。"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Installing additional software packages\n"
+msgstr "安裝其它軟體套件\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"caution\">\n"
+msgstr "<div class=\"caution\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>The packages included in Tails are carefully tested for security.\n"
+"Installing additional packages might break the security built in Tails.\n"
+"Be careful with what you install.</p>\n"
+msgstr ""
+"p> Tails 內含的軟體套件經過了仔細的安全測試。\n"
+"安裝其它的軟體可能會破壞 Tails 的安全。\n"
+"對軟體安裝請謹慎以待。</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Since Tails is amnesic, any additional software package needs to be reinstalled in each working\n"
+"session. To install the same software packages automatically at the beginning of every working session use the\n"
+"[[<span class=\"guilabel\">Additional software packages</span> persistence feature|doc/first_steps/persistence/configure#additional_software]] instead.\n"
+msgstr ""
+"既然 Tails 會失憶，其它的軟體套件會需要在每一次工作期間裏\n"
+"重新安裝。若欲在每次工作期間之初自動安裝相同的軟體套件組 \n"
+"請另外使用[[<span class=\"guilabel\">Additional software packages</span>持久功能|doc/first_steps/persistence/configure#additional_software]] \n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"tip\">\n"
+msgstr "<div class=\"tip\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>Packages that use the network need to be configured to go through Tor. They are otherwise blocked from accessing the network.</p>\n"
+msgstr "<p>使用網路的套件必須要透過 Tor 來設定，否則其將會被封鎖而無法接取網路。</p>\n"
+
+#. type: Plain text
+msgid "To install additional software packages:"
+msgstr "欲安裝其它軟體套件："
+
+#. type: Bullet: '1. '
+msgid ""
+"[[Set up an administration password|doc/first_steps/startup_options/"
+"administration_password]]."
+msgstr ""
+"[[設定管理員密碼|doc/first_steps/startup_options/administration_password]]."
+
+#. type: Bullet: '2. '
+msgid ""
+"Open a [[root terminal|doc/first_steps/startup_options/"
+"administration_password#open_root_terminal]]."
+msgstr ""
+"開啟 [[root terminal|doc/first_steps/startup_options/"
+"administration_password#open_root_terminal]]."
+
+#. type: Bullet: '3. '
+msgid ""
+"Execute the following command to update the lists of available packages:"
+msgstr "執行以下指令以更新可用的軟體套件列表："
+
+#. type: Plain text
+#, no-wrap
+msgid "       apt-get update\n"
+msgstr "       apt-get update\n"
+
+#. type: Bullet: '3. '
+msgid ""
+"To install an additional package, execute the following command, replacing "
+"`[package]` with the name of the package that you want to install:"
+msgstr ""
+"要安裝其它軟體套件，請執行以下的指令，但記得`[package]`要改成所欲安裝的套件名"
+"稱： 　"
+
+#. type: Plain text
+#, no-wrap
+msgid "       apt-get install [package]\n"
+msgstr "       apt-get install [package]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   For example, to install the package `ikiwiki`, execute:\n"
+msgstr "   例如要安裝「ikiwiki」套件，請執行：\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "       apt-get install ikiwiki\n"
+msgstr "       apt-get install ikiwiki\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   <div class=\"note\">\n"
+msgstr "   <div class=\"note\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   <p>You can also write multiple package names to install several packages at the same\n"
+"   time. If a package has dependencies, those will be installed\n"
+"   automatically.</p>\n"
+msgstr ""
+"   <p>可以寫入多個套件名稱一次同時\n"
+"   安裝。如果套件需用到相依套件，其會自動地\n"
+"   予以安裝。</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   </div>\n"
+msgstr "   </div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"repository\"></a>\n"
+msgstr "<a id=\"repository\"></a>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Configuring additional APT repositories\n"
+msgstr "設定其它的 APT 資源庫\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>The packages included in Tails are carefully tested for security.\n"
+"Configuring additional APT repositories might break the security built in Tails.\n"
+"Be careful with what you install.</p>\n"
+msgstr ""
+"<p> Tails 內含的軟體套件經過了仔細的安全測試。\n"
+"安裝其它的 APT 資源庫可能會破壞 Tails 的安全。\n"
+"請謹慎看待所安裝的東西。</p>\n"
+
+#. type: Plain text
+msgid ""
+"Sometimes, you might need to configure additional APT repositories. For "
+"example, to install packages from the `non-free` section of Debian. To do so:"
+msgstr ""
+"有時需要設定其它的 APT 資源庫，例如 Debian 底下的 `non-free` 區，為此請："
+
+#. type: Bullet: '1. '
+msgid ""
+"Create a <span class=\"filename\">apt-sources.list.d</span> folder in your "
+"persistent volume:"
+msgstr ""
+"在永久磁區中新建一個 <span class=\"filename\">apt-sources.list.d</span> 資料"
+"夾："
+
+#. type: Plain text
+#, no-wrap
+msgid "       sudo install -d -m 755 /live/persistence/TailsData_unlocked/apt-sources.list.d\n"
+msgstr "       sudo install -d -m 755 /live/persistence/TailsData_unlocked/apt-sources.list.d\n"
+
+#. type: Bullet: '1. '
+msgid ""
+"Edit <span class=\"filename\">/live/persistence/TailsData_unlocked/"
+"persistence.conf</span>, the configuration of the persistent volume, as root "
+"and add the <span class=\"filename\">apt-sources.list.d</span> folder as a "
+"persistence feature of type `link`:"
+msgstr ""
+"以 root　身份修改 <span class=\"filename\">/live/persistence/"
+"TailsData_unlocked/persistence.conf</span>　檔案來進行永久磁區的設定，並添加 "
+"<span class=\"filename\">apt-sources.list.d</span>　資料夾為`link`類型旳持久"
+"功能："
+
+#. type: Plain text
+#, no-wrap
+msgid "       /etc/apt/sources.list.d\tsource=apt-sources.list.d,link\n"
+msgstr "       /etc/apt/sources.list.d\tsource=apt-sources.list.d,link\n"
+
+#. type: Bullet: '1. '
+msgid ""
+"Write your additional `sources.list` files in the <span class=\"filename"
+"\">apt-sources.list.d</span> folder. For example, to add the `non-free` "
+"sections of Debian Jessie, backports, and security updates, you can create a "
+"file named <span class=\"filename\">/live/persistence/TailsData_unlocked/apt-"
+"sources.list.d/non-free.list</span> with the following content:"
+msgstr ""
+"在<span class=\"filename\">apt-sources.list.d</span>資料來內寫入其它的"
+"`sources.list` 。例如要新增Debian Jessie`non-free` 部份的 backports, 和安全更"
+"新，可以新增一個檔名為<span class=\"filename\">/live/persistence/"
+"TailsData_unlocked/apt-sources.list.d/non-free.list</span>檔案，其內容如下："
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"       deb tor+http://ftp.us.debian.org/debian/ jessie non-free\n"
+"       deb tor+http://ftp.us.debian.org/debian/ jessie-backports non-free\n"
+"       deb tor+http://security.debian.org/ jessie/updates non-free\n"
+msgstr ""
+"       deb tor+http://ftp.us.debian.org/debian/ jessie non-free\n"
+"       deb tor+http://ftp.us.debian.org/debian/ jessie-backports non-free\n"
+"       deb tor+http://security.debian.org/ jessie/updates non-free\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   File names must end with\n"
+"   <span class=\"filename\">.list</span> and may only contain the following\n"
+"   characters: letters, digits, underscore, hyphen, and period.\n"
+msgstr ""
+"   檔案名必須以\n"
+"   <span class=\"filename\">.list</span>為結尾，其可能包含下列\n"
+"   字符：字母、數字、下劃底線、連字符號和句點。\n"
+
+#. type: Bullet: '1. '
+msgid ""
+"Correct the ownership and permissions of your additional `sources.list` "
+"files to be owned by `root` and only readable by others. For example:"
+msgstr ""
+"把`sources.list` 檔案的所有者和許可權限改成由`root`所有，其它人僅可唯讀 ，例"
+"如："
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"       chown root:root /live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list\n"
+"       chmod 644 /live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list\n"
+msgstr ""
+"       chown root:root /live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list\n"
+"       chmod 644 /live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list\n"
+
+#. type: Bullet: '1. '
+msgid "Restart Tails to apply the changes."
+msgstr "重啟 Tails 好進行變更。"
