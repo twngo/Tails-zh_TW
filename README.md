@@ -13,5 +13,6 @@ TAILS官方[在地翻譯指示操作文件：Translate Tails and its website usi
 [已完成中文翻譯初稿的網頁清單](https://github.com/twngo/Tails-zh_TW/wiki/core_to_translate)
 
 這將是一個中長期的投入計畫，歡迎任何有心的朋友一起捲袖加入。
+
 加入方式與新手入手介紹，請參考本文[Tails 官網中文推廣翻譯計畫介紹說明](https://blog.jxtsai.info/2017/08/04/about-tails-l10n/)
 
